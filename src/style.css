@@ -1,0 +1,1748 @@
+/*MENOS DE 640*/
+@media (max-width: 640px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html{
+        color: black;
+        background-color: black;
+        font-size: 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    p{
+        color: white;
+    }
+
+    .App{
+        margin: -1rem 0rem 2rem 0rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    .introduction{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        height: 75vh;
+        margin-bottom: 1rem;
+    }
+
+    .left{ 
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;   
+    }
+
+    .right{
+        background-color: #F5AF31;
+        width: 100%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        height: 40vh;
+    }
+
+    .introduction img{
+        height: 40vh;
+        width: auto;
+        position: absolute;
+        z-index: 110;
+        transform: translateX(-35%);
+    }
+
+    .hello{
+        margin-left: 0rem;
+        font-size: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .developer{
+        font-size: 0.6rem;
+        margin: 0 0 1rem 0rem;
+    }
+
+    h1{
+        color: #F5AF31;
+        margin-left: 0rem;
+        font-size: 0.8rem;
+    }
+
+    .left h3{
+        border: 1px solid #F5AF31;
+        border-radius: 0.0125rem;
+        color: white;
+        width: 4.5rem;
+        font-size: 0.5rem;
+    }
+
+    .left a{
+        width: 4.5rem;
+        margin-left: 0rem;
+        align-self: center;
+    }
+
+    .fab{
+        color: #4BC858;
+    }
+
+    .spanish{
+        color: white;
+        border: 1px solid white;
+        border-radius: 0.0125rem;
+        width: 3rem;
+        height: 1.3rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin: 0 0 3rem 4rem;
+        -webkit-box-shadow: 9px 10px 1px -1px rgba(0,0,0,0.75);
+        -moz-box-shadow: 9px 10px 1px -1px rgba(0,0,0,0.75);
+        box-shadow: 9px 10px 1px -1px rgba(0,0,0,0.75);
+        position: absolute;
+        top: 6.2rem;
+        left: 1rem;
+    }
+
+    .spanish p{
+        font-size: 0.3rem;
+    }
+
+    .spanish h3{
+        font-size: 0.4rem;   
+    }
+
+    .spanish a{
+        color: white;
+    }
+
+    .translateButton{
+        cursor: pointer;
+    }
+
+
+    .about h2{
+        color: #F5AF31;
+        font-size: 0.8rem;
+        z-index: 5;
+    }
+
+    .about{
+        width: 100%;
+        margin: 0rem 0 1rem 0rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about p{
+        margin: 0 0 0.5rem 0;
+        font-size: 0.4rem;
+    }
+
+    .left2{
+        width: 100%;
+        justify-content: left;   
+        z-index: 100;
+    }
+
+    .left2 p{
+        padding: 0.6rem;
+        text-align: justify;
+    }
+
+    .right2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        margin-left: 0rem;
+        margin-top: 0rem;
+    }
+
+    .info{
+        display: flex;
+        text-align: left;
+        justify-content: right;
+        margin-top: 0.5rem;
+        margin-left: 0rem;
+        z-index: 1;
+    }
+
+    .info p{
+        margin-bottom: 0.3rem;
+    }
+
+    .column2{
+        margin-left: 0.5rem;
+    }
+
+    .softSkills{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: right;
+        margin-top: 0.5rem;
+        z-index: 1;
+    }
+
+    .softSkills li{
+        font-size: 0.4rem;
+        margin-bottom: 0.3rem;
+        margin-left: 0.9rem;
+        margin-right: 0.5rem;
+        text-align: justify;
+    }
+
+    .softSkills h2{
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .cvEn a{
+        color: white;
+    }
+    
+    .cvEn{
+        border: 1px solid #F5AF31;
+        border-radius: 0.0125rem;
+        color: white;
+        width: 5rem;
+        font-size: 0.4rem;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0.1rem 0.2rem;
+    }
+
+    .right2 a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .shape{
+        position: absolute;
+        z-index: -110;
+        transform: translate(-160%, -80%);
+    }
+
+    .shape img{
+        width: 4rem;
+        height: auto;
+        z-index: -300;
+        transform: translate(75%, -10%);
+    }
+
+    .projectSection{
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .projectSection h2{
+        color: #F5AF31;
+        font-size: 0.8rem;  
+        margin: 0.5rem 0 0.8rem 0;  
+    }
+
+    .project{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .projectSection h3{
+        color: white;
+        font-size: 0.6rem;
+        background-color: rgba(245, 175, 49, 0.9);
+        margin-top: 2rem;
+        border-radius: 0.25rem;
+    }
+
+    .projectSection p{
+        font-size: 0.4rem;
+        width: 8rem; 
+        margin: 2.5rem -1.5rem;    
+        text-align: justify;   
+    }
+
+    .projectSection a{
+        font-weight: bold;
+        color: white;
+    }
+
+    .portfolioReact{
+        width: 5rem;
+        background-image: url(./Images/logo_1.png);
+        background-size: 140%;
+        background-position-x: -0.8rem;
+        background-position-y: -0.75rem;
+        height: 5rem;
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;    
+        border: solid 2px #F5AF31;
+        margin-bottom: 3rem;
+    }
+
+    .content{
+        width: 5rem;
+        background-image: url(./Images/sentado.png);
+        background-size: 100%;
+        height: 5rem;
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;    
+        border: solid 2px #F5AF31;
+        margin-bottom: 3rem;
+    }
+
+    .alto{
+        width: 5rem;
+        background-image: url(./Images/logo.png);
+        background-size: 100%;
+        height: 5rem;
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;    
+        border: solid 2px #F5AF31;
+        margin-bottom: 2.5rem;
+    }
+
+    .contactSection{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactSection h2{
+        color: #F5AF31;
+        font-size: 0.8rem;  
+        margin: 1rem 0 0.7rem 0;  
+    }
+
+    .data{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input{
+        border: 0.05rem solid white;
+        border-radius: 0.125rem;
+        color: white;
+        background-color: #F5AF31;
+        width: 7.5rem;
+        font-size: 0.4rem;
+        text-align: left;
+        margin: 0rem 0 0.5rem 0;
+    }
+
+    input::placeholder{
+        color: white;
+        padding-left: 0.2rem;
+    }
+
+    textarea{
+        border: 2px solid white;
+        border-radius: 0.125rem;
+        color: white;
+        background-color: #F5AF31;
+        font-size: 0.4rem;
+        width: 7.5rem;
+        height: 3rem;
+        text-align: left;
+        margin-bottom: 0.3rem;
+    }
+
+    textarea::placeholder{
+        color: white;
+        padding-left: 0.2rem;
+    }
+
+    button{
+        border: 0.05rem solid white;
+        border-radius: 0.125rem;
+        color: white;
+        background-color: #F5AF31;
+        font-size: 0.5rem;
+        width: 3rem;
+        height: 1rem;
+        text-align: center;
+        margin-bottom: 0rem;
+    }
+
+    button:hover{
+        cursor: pointer;
+    }
+
+    .error{
+        font-size: 0.5rem;
+        color: white;
+        
+    }
+
+    #contact{
+        animation-duration: 3s;
+        animation-name: contact;
+        animation-iteration-count: infinite;
+    }
+
+    
+    input:invalid {
+        border: 0.05rem solid red;
+    }
+
+    input:invalid:required {
+        border: 0.05rem solid red;
+    }
+
+    #email:invalid {
+        border: 0.05rem solid red;
+    }
+
+    #email:invalid:required {
+        border: 0.05rem solid red;
+    }
+
+    textarea:invalid {
+        border: 0.05rem solid red;
+    }
+
+    textarea:invalid:required {
+        border: 0.05rem solid red;
+    }
+
+
+    .th h1{
+        font-size: 0.6rem;
+        margin: 1rem 0.5rem 0 0.5rem;
+    }
+
+    .thanks{
+        font-size: 0.4rem;
+        margin: 1rem 0.5rem 0 0.5rem;
+    }
+
+    .th a{
+        text-decoration: none;
+        color: #F5AF31;
+    }
+
+    .th h3{
+        margin: 1rem 0.5rem 0 0.5rem;
+        font-size: 0.5rem;
+    }
+
+    @keyframes contact {
+        0%, 25%, 45%, 64%, 100%  { 
+            opacity: 1;
+        }
+
+        37%, 56%, 73%, 78%  { 
+            opacity: 0; 
+            
+        }
+    }
+}
+
+
+/*DE 640 A 768*/
+@media (min-width: 640px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html{
+        color: black;
+        background-color: black;
+        font-size: 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    p{
+        color: white;
+    }
+
+    .App{
+        margin: -1rem 1rem 2rem 1rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    .introduction{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 50vh;
+        margin-bottom: 1rem;
+    }
+
+    .left{ 
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;   
+    }
+
+    .right{
+        background-color: #F5AF31;
+        width: 40%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        height: 50vh;
+    }
+
+    .introduction img{
+        height: 50vh;
+        width: auto;
+        position: absolute;
+        z-index: 110;
+        transform: translateX(-80%);
+    }
+
+    .hello{
+        margin-left: 0rem;
+        font-size: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .developer{
+        font-size: 0.6rem;
+        margin: 0 0 1rem 0rem;
+    }
+
+    
+    .fab{
+        color: #4BC858;
+    }
+
+    h1{
+        color: #F5AF31;
+        margin-left: 0rem;
+        font-size: 0.8rem;
+    }
+
+    .left h3{
+        border: 1px solid #F5AF31;
+        border-radius: 0.0125rem;
+        color: white;
+        width: 4.5rem;
+        font-size: 0.5rem;
+        text-align: center;   
+    }
+
+    .left a{
+        width: 4.5rem;
+        margin-left: 0rem;
+        align-self:unset;
+    }
+
+    .spanish{
+        color: white;
+        border: 1px solid white;
+        border-radius: 0.0125rem;
+        width: 2.8rem;
+        height: 1.1rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin: 0 0 2rem 1.5rem;
+        -webkit-box-shadow: 9px 10px 1px -1px rgba(0,0,0,0.75);
+        -moz-box-shadow: 9px 10px 1px -1px rgba(0,0,0,0.75);
+        box-shadow: 9px 10px 1px -1px rgba(0,0,0,0.75);
+        position: absolute;
+        top: 0.7rem;
+        left: 10rem;
+    }
+
+    .spanish p{
+        font-size: 0.3rem;
+    }
+
+    .spanish h3{
+        font-size: 0.4rem;   
+    }
+
+    .spanish a{
+        color: white;
+    }
+
+
+    .about h2{
+        color: #F5AF31;
+        font-size: 0.8rem;
+        z-index: 5;
+    }
+
+    .about{
+        width: 100%;
+        margin: 0.5rem 0 1rem 0rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about p{
+        margin: 0 0 1rem 0;
+        font-size: 0.5rem;
+    }
+
+    .left2{
+        width: 100%;
+        justify-content: left;   
+        z-index: 100;
+    }
+
+    .left2 p{
+        margin: 0.5rem; 
+        text-align: justify;
+    }
+
+    .right2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        margin-left: 0rem;
+    }
+
+    .info{
+        display: flex;
+        text-align: left;
+        justify-content: right;
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+        z-index: 1;
+    }
+
+    .info p{
+        margin-bottom: 0.4rem;
+    }
+
+    .column2{
+        margin-left: 0.5rem;
+    }
+
+    .softSkills{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: right;
+        margin-top: 0.5rem;
+        z-index: 1;
+    }
+
+    .softSkills li{
+        font-size: 0.5rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .softSkills h2{
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .cvEn a{
+        color: white;
+    }
+
+    .cvEn{
+        border: 1px solid #F5AF31;
+        border-radius: 0.0125rem;
+        color: white;
+        width: 5.5rem;
+        font-size: 0.4rem;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0.1rem 0.2rem;
+    }
+
+    
+    .right2 a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .shape{
+        position: absolute;
+        z-index: -110;
+        transform: translate(-230%, -90%);
+    }
+
+    .shape img{
+        width: 4.5rem;
+        height: auto;
+        z-index: -300;
+        transform: translate(85%, 10%);
+    }
+
+    .projectSection{
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .projectSection h2{
+        color: #F5AF31;
+        font-size: 0.8rem;  
+        margin: 0.5rem 0 1rem 0;  
+    }
+
+    .project{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projectSection h3{
+        color: white;
+        font-size: 0.6rem;
+        background-color: #F5AF31;
+        margin-top: 2rem;
+        border-radius: 0.25rem;
+    }
+
+    .projectSection p{
+        font-size: 0.4rem;
+        width: 14rem; 
+        margin: 2.5rem -4.5rem;       
+    }
+
+    .projectSection a{
+        font-weight: bold;
+        color: white;
+    }
+
+    .portfolioReact{
+        width: 5rem;
+        background-image: url(./Images/logo_1.png);
+        background-size: 140%;
+        background-position-x: -0.8rem;
+        background-position-y: -0.75rem;
+        height: 5rem;
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;    
+        border: solid 2px #F5AF31;
+    }
+
+    .content{
+        width: 5rem;
+        background-image: url(./Images/sentado.png);
+        background-size: 100%;
+        height: 5rem;
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;    
+        border: solid 2px #F5AF31;
+        margin-top: 0rem;
+    }
+
+    .alto{
+        width: 5rem;
+        background-image: url(./Images/logo.png);
+        background-size: 100%;
+        height: 5rem;
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;    
+        border: solid 2px #F5AF31;
+        margin-top: 0rem;
+    }
+
+    .contactSection{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactSection h2{
+        color: #F5AF31;
+        font-size: 0.8rem;  
+        margin: 0rem 0 0.7rem 0;  
+    }
+
+    .data{
+        display: flex;
+        flex-direction: row;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+
+    input{
+        border: 0.05rem solid white;
+        border-radius: 0.125rem;
+        color: white;
+        background-color: #F5AF31;
+        width: 6rem;
+        font-size: 0.5rem;
+        text-align: left;
+        margin: 0 0.2rem 0.5rem 0.2rem;
+    }
+
+    input::placeholder{
+        color: white;
+        padding-left: 0.2rem;
+    }
+
+    textarea{
+        border: 2px solid white;
+        border-radius: 0.125rem;
+        color: white;
+        background-color: #F5AF31;
+        font-size: 0.5rem;
+        width: 12.4rem;
+        height: 4rem;
+        text-align: left;
+        margin-bottom: 0.5rem;
+    }
+
+    textarea::placeholder{
+        color: white;
+        padding-left: 0.2rem;
+    }
+
+    button{
+        border: 0.05rem solid white;
+        border-radius: 0.125rem;
+        color: white;
+        background-color: #F5AF31;
+        font-size: 0.6rem;
+        width: 3.3rem;
+        height: 1.1rem;
+        text-align: center;
+        margin-bottom: 0rem;
+    }
+
+    
+    #contact{
+        animation-duration: 3s;
+        animation-name: contact;
+        animation-iteration-count: infinite;
+    }
+
+
+}
+
+
+/*DE 768 A 840*/
+@media (min-width: 768px) {
+   
+    .App{
+        margin: -1rem 1rem 2rem 1rem;
+    }
+
+    .introduction{
+        width: 100%;
+        height: 40vh;
+        margin-bottom: 1rem;
+    }
+
+    .left{ 
+        width: 60%;
+    }
+
+    .right{
+        width: 40%; 
+        height: 40vh;
+    }
+
+    .introduction img{
+        height: 40vh;
+        transform: translateX(-43%);
+    }
+
+
+    .hello{
+        margin-left: 0rem;
+        font-size: 0.6rem;
+        margin-top: 0rem;
+    }
+
+    .developer{
+        font-size: 0.7rem;
+        margin: 0 0 2.5rem 0rem;
+    }
+
+    h1{
+        margin-left: 0rem;
+        font-size: 0.9rem;
+    }
+
+    .left h3{
+        width: 4.5rem;
+        font-size: 0.6rem;
+    }
+
+    .left a{
+        width: 4.5rem;
+        margin-left: 0rem;
+    }
+
+    .spanish{
+        width: 4rem;
+        height: 1.3rem;
+        margin: 0 0 5.5rem 1.5rem;
+        top: 1.5rem;
+        left: 12rem;
+    }
+
+    .spanish p{
+        font-size: 0.4rem;
+    }
+
+    .spanish h3{
+        font-size: 0.5rem;
+        
+    }
+
+    .about h2{
+        font-size: 1rem;
+        z-index: 5;
+    }
+
+    .about{
+        width: 100%;
+        margin: 1rem 0 1rem 0rem;
+        flex-direction: column;
+    }
+
+    .about p{
+        margin: 0 0 1rem 0;
+        font-size: 0.5rem;
+    }
+
+    .left2{
+        width: 100%;
+        z-index: 100;
+    }
+
+    .left2 p{
+        margin-top: 0.5rem; 
+    }
+
+    .right2{
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    .info{
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+    }
+
+    .info p{
+        margin-bottom: 0.4rem;
+    }
+
+    .column2{
+        margin-left: 0.5rem;
+    }
+
+
+    .softSkills h2{
+        margin: 0.5rem 0;
+    }
+
+    .cvEn{
+        width: 6.5rem;
+        font-size: 0.5rem;
+        margin: 0.5rem auto;
+
+    }
+
+    .shape{
+        transform: translate(-190%, -80%);
+    }
+
+    .shape img{
+        width: 6rem;
+        height: auto;
+        transform: translate(85%, 10%);
+    }
+
+    .projectSection h2{
+        font-size: 1rem;  
+        margin: 0 0 1rem 0;  
+    }
+
+    .project{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .projectSection h3{
+        font-size: 0.6rem;
+        margin-top: 2rem;
+    }
+
+    .projectSection p{
+        font-size: 0.5rem;
+        text-align: justify;
+        padding: 0.1rem;
+        margin: 2.5rem 0 1rem 0;
+        width: 5rem;
+    }
+
+    .contactSection h2{
+        font-size: 1rem;  
+        margin: 10.5rem 0 0.7rem 0;  
+    }
+
+    input{
+        width: 7.1rem;
+        font-size: 0.6rem;
+        margin: 0 0.3rem 0.5rem 0.3rem;
+    }
+
+    textarea{
+        font-size: 0.6rem;
+        width: 14.8rem;
+        height: 4rem;
+        margin-bottom: 0.7rem;
+    }
+
+    button{
+        font-size: 0.6rem;
+        width: 3.8rem;
+        height: 1.1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .th h1{
+        font-size: 1rem;
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    .thanks{
+        font-size: 0.6rem;
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    .th a{
+        text-decoration: none;
+        color: #F5AF31;
+    }
+
+    .th h3{
+        margin: 1rem 1rem 0 1rem;
+        font-size: 0.8rem;
+    }
+
+    @keyframes contact {
+        0%, 25%, 45%, 64%, 100%  { 
+            opacity: 1;
+        }
+
+        37%, 56%, 73%, 78%  { 
+            opacity: 0; 
+            
+        }
+    }
+}
+
+
+/*DE 840 A 1024*/
+@media (min-width: 840px) {
+    .App{
+        margin: -1rem 1.5rem 2rem 1.5rem;
+    }
+
+    .introduction{
+        width: 100%;
+        height: 40vh;
+        margin-bottom: 1rem;
+    }
+
+    .left{ 
+        width: 60%;
+    }
+
+    .right{
+        width: 40%; 
+    }
+
+    .introduction img{
+        height: 40vh;
+        width: auto;
+        transform: translateX(-73%);
+    }
+
+
+    .hello{
+        margin-left: 0rem;
+        font-size: 0.6rem;
+        margin-top: 0.5rem;
+    }
+
+    .developer{
+        font-size: 0.8rem;
+        margin: 0 0 2rem 0rem;
+    }
+
+    h1{
+        margin-left: 0rem;
+        font-size: 1rem;
+    }
+
+    .left h3{
+        width: 4.5rem;
+        font-size: 0.6rem;
+    }
+
+    .left a{
+        width: 4.5rem;
+        margin-left: 0rem;
+    }
+
+    .spanish{
+        width: 4rem;
+        height: 1.3rem;
+        margin: 0 0 3rem 1.5rem;
+        top: 1rem;
+        left: 13.5rem;
+    }
+
+    .spanish p{
+        font-size: 0.4rem;
+    }
+
+    .spanish h3{
+        font-size: 0.5rem;
+        
+    }
+
+    .about h2{
+        font-size: 1rem;
+        z-index: 5;
+    }
+
+    .about{
+        width: 100%;
+        margin: 1rem 0 1rem 0rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about p{
+        margin: 0 0 1rem 0;
+        font-size: 0.5rem;
+    }
+
+    .left2{
+        width: 100%;
+        justify-content: left;   
+        z-index: 100;
+    }
+
+    .left2 p{
+        margin-top: 0.5rem; 
+        text-align: justify;
+    }
+
+    .right2{
+        width: 100%;
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
+
+    .info{
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+    }
+
+    .info p{
+        margin-bottom: 0.5rem;
+    }
+
+    .column2{
+        margin-left: 0.5rem;
+    }
+
+    .softSkills{
+        margin-top: 0.5rem;  
+    }
+
+    .softSkills li{
+        font-size: 0.5rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .softSkills h2{
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .cvEn{
+        width: 6.5rem;
+        font-size: 0.5rem;
+        margin: 1rem auto 0 auto;
+        padding: 0.1rem 0.2rem;
+    }
+
+    .shape{
+        z-index: -110;
+        transform: translate(-190%, -90%);
+    }
+
+    .shape img{
+        width: 6rem;
+        height: auto;
+        transform: translate(85%, 10%);
+    }
+
+    .projectSection{
+        width: 100%;
+        margin: 1rem;
+    }
+
+    .projectSection h2{
+        font-size: 1rem;  
+        margin: 0 0 1rem 0;  
+    }
+
+    .projectSection p{
+        font-size: 0.5rem;
+        margin: 2rem 0 5rem 0;
+    }
+
+    .project{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .projectSection h3{
+        font-size: 0.6rem;
+        margin-top: 2.5rem;
+        border-radius: 0.25rem;
+    }
+
+    .portfolioReact{
+        width: 5rem;
+        background-size: 140%;
+        background-position-x: -0.8rem;
+        background-position-y: -0.8rem;
+        height: 5rem;
+      }
+
+    .content{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .alto{
+        width: 5rem;
+        height: 5rem;
+        }
+
+    .contactSection h2{
+        font-size: 1rem;  
+        margin: 10.5rem 0 0.7rem 0;  
+    }
+
+    input{
+        width: 7.3rem;
+        font-size: 0.6rem;
+        margin: 0 0.3rem 0.5rem 0.3rem;
+    }
+
+    textarea{
+        font-size: 0.6rem;
+        width: 15.2rem;
+        height: 5rem;
+        margin-bottom: 0.7rem;
+    }
+
+    button{
+        font-size: 0.6rem;
+        width: 3.8rem;
+        height: 1.1rem;
+        margin-bottom: 0.5rem;
+    }
+
+}
+
+/*DE 1024 A 1200*/
+@media (min-width: 1024px) {
+   
+    .App{
+        margin: -1rem 2.5rem 2rem 2.5rem;
+        }
+
+    .introduction{
+        width: 100%;
+        height: 50vh;
+        margin-bottom: 1rem;
+    }
+
+    .left{ 
+        width: 60%;
+    
+    }
+
+    .right{
+        width: 40%; 
+        height: 50vh;
+    }
+
+    .introduction img{
+        height: 50vh;
+        width: auto;
+        transform: translateX(-58%);
+    }
+
+
+    .hello{
+        margin-left: 0.5rem;
+        font-size: 0.7rem;
+    }
+
+    .developer{
+        font-size: 0.9rem;
+        margin: 0 0 2rem 0.5rem;
+    }
+
+    h1{
+        margin-left: 0.5rem;
+        font-size: 1.1rem;
+    }
+
+    .left h3{
+        width: 5rem;
+        font-size: 0.6rem; 
+    }
+
+    .left a{
+        width: 5rem;
+        margin-left: 0.5rem;
+    }
+
+    .spanish{
+        width: 5rem;
+        height: 1.5rem;
+        margin: 0 0 5rem 1.5rem;
+        top: 1.5rem;
+        left: 16rem;
+    }
+
+    .spanish p{
+        font-size: 0.5rem;
+    }
+
+    .spanish h3{
+        font-size: 0.6rem;
+        
+    }
+
+    .about h2{
+        font-size: 1.1rem;
+    }
+
+    .about{
+        width: 100%;
+        margin: 2rem 0 1rem 0rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about p{
+        margin: 0;
+        font-size: 0.5rem;
+    }
+
+    .left2{
+        width: 50%;
+    }
+
+    .left2 p{
+        margin-top: 0.5rem; 
+
+    }
+
+    .right2{
+        width: 50%;
+        margin-left: 0.5rem;
+        margin-top: 0;
+    }
+
+    .info{
+        margin-top: 0.5rem;
+        z-index: 1;
+    }
+
+    .info p{
+        margin-bottom: 0.3rem;
+    }
+
+    .column2{
+        margin-left: 0.05rem;
+    }
+
+    .softSkills{
+        margin-top: 0.7rem;
+        z-index: 1;
+    }
+
+    .softSkills li{
+        font-size: 0.5rem;
+        margin-bottom: 0.3rem;
+        margin-left: 1.6rem;
+        text-align: justify;
+    }
+
+    .softSkills h2{
+        margin-bottom: 0.5rem;
+    }
+    
+    .cvEn{
+        width: 5.5rem;
+        font-size: 0.6rem;
+        margin: 1rem auto 0 auto;
+    }
+
+    .shape{
+        transform: translate(-190%, -10%);
+    }
+
+    .shape img{
+        width: 6rem;
+        transform: translate(85%, 10%);
+    }
+
+    .projectSection h2{
+        font-size: 1.1rem;  
+        margin: 1rem 0;  
+    }
+
+    .project{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .projectSection h3{
+        font-size: 0.8rem;
+        margin-top: 2.5rem;
+        border-radius: 0.25rem;
+    }
+
+    .projectSection p{
+        margin: 3rem 0 1rem 0;
+        font-size: 0.6rem;
+        width: 6rem;
+    }
+    .portfolioReact{
+        width: 6rem;
+        background-size: 140%;
+        background-position-x: -1rem;
+        background-position-y: -1rem;
+        height: 6rem;
+    }
+
+    .content{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .alto{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .contactSection{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactSection h2{
+        font-size: 1.1rem;  
+        margin: 11.5rem 0 0.5rem 0;  
+    }
+
+    input{
+        width: 8rem;
+        font-size: 0.6rem;
+        margin: 0.3rem;
+        
+    }
+
+    textarea{
+        font-size: 0.6rem;
+        width: 16.6rem;
+        height: 5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    button{
+        font-size: 0.7rem;
+        width: 4rem;
+        height: 1.2rem;
+    }
+
+    .th h1{
+        font-size: 1.1rem;
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    .thanks{
+        font-size: 0.6rem;
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    .th a{
+        text-decoration: none;
+        color: #F5AF31;
+    }
+
+    .th h3{
+        margin: 1rem 1rem 0 1rem;
+        font-size: 0.8rem;
+    }
+
+}
+
+/********/
+/*MAS DE 1200*/
+@media (min-width: 1200px) {
+    
+    .App{
+        margin: -1rem 3.5rem 2rem 3.5rem;      
+        }
+
+    .introduction{
+        width: 100%;
+        height: 55vh;
+        margin-bottom: 1rem;
+    }
+
+    .left{ 
+        width: 60%;
+        }
+
+    .right{
+        width: 40%; 
+        height: 55vh;
+    }
+
+    .introduction img{
+        height: 55vh;
+        transform: translateX(-78%);
+    }
+
+
+    .hello{
+        margin-left: 2rem;
+        font-size: 0.8rem;
+    }
+
+    .developer{
+        font-size: 1rem;
+        margin: 0 0 1.5rem 2rem;
+    }
+
+    h1{
+        margin-left: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .left h3{
+        width: 5.5rem;
+        font-size: 0.7rem;    
+    }
+
+    .left a{
+        width: 5.5rem;
+        margin-left: 2rem;
+    }
+
+    .spanish{
+        width: 6rem;
+        height: 2rem;
+        margin: 0 0 5rem 3.5rem;
+        top: 2rem;
+        left: 23rem;
+    }
+
+    .spanish p{
+        font-size: 0.6rem;
+    }
+
+    .translateButton{
+        cursor: pointer;
+        font-size: 0.7rem;
+    }
+
+    .about h2{
+        font-size: 1.2rem;
+    }
+
+    .about{
+        width: 100%;
+        margin: 2rem 0 1rem 0rem;
+    }
+
+    .about p{
+        margin: 0 0.5rem;
+        font-size: 0.6rem;
+    }
+
+    .left2{
+        width: 45%;
+    }
+
+    .left2 p{
+        margin-top: 0.5rem; 
+    }
+
+    .right2{
+        width: 55%;
+        margin-left: 1.2rem;
+        padding-right: 1rem;
+    }
+
+    .info{
+        margin-top: 0.5rem;
+    }
+
+    .info p{
+        margin-bottom: 0.5rem;
+    }
+
+    .column2{
+        margin-right: 0.5rem;
+    }
+
+    .cvEn{
+        width: 6.5rem;
+        font-size: 0.7rem;
+        margin-top: 1.5rem;
+    }
+
+    .shape{
+        transform: translate(-190%, -10%);
+    }
+
+    .shape img{
+        width: 9rem;
+        transform: translate(75%, 10%);
+    }
+
+    .projectSection{
+        margin: 1rem;
+    }
+
+    .projectSection h2{
+        font-size: 1.2rem;  
+        margin: 1rem 0;  
+    }
+
+    .projectSection p{
+        margin: 3.8rem 0;
+        font-size: 0.6rem;
+        width: 8REM;
+    }
+
+    .project{
+        margin: 1rem 0 6rem 0;
+    }
+
+    .projectSection h3{
+        font-size: 0.8rem;
+        margin-top: 3.5rem;
+    }
+
+    .content{
+        width: 8rem;
+        height: 8rem;
+       }
+
+    .alto{
+        width: 8rem;
+        height: 8rem;
+       }
+
+    .portfolioReact{
+        width: 8rem;
+        background-size: 130%;
+        background-position-x: -1rem;
+        background-position-y: -0.8rem;
+        height: 8rem;
+       }
+
+    .contactSection h2{
+        color: #F5AF31;
+        font-size: 1.1rem;  
+        margin: 2rem 0 1rem 0;  
+    }
+
+    input{
+        width: 8rem;
+        font-size: 0.6rem;
+        margin: 0.3rem;        
+    }
+
+    textarea{
+        font-size: 0.6rem;
+        width: 16.6rem;
+        height: 5rem; 
+        margin-bottom: 1rem;
+    }
+
+    button{
+        font-size: 0.7rem;
+        width: 4rem;
+        height: 1.2rem;
+    }
+
+}
+

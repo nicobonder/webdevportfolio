@@ -1,8 +1,8 @@
 {
   "name": "portfolio-react",
-  "homepage": "https://nicobonder.github.io/PortfolioReact",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://nicobonder.github.io/webdevportfolio",
   "dependencies": {
     "@formspree/react": "^2.2.4",
     "@testing-library/jest-dom": "^5.16.2",

@@ -1,43 +1,64 @@
-import React from "react";
-import { useForm, Controller } from "react-hook-form";
+// Make sure to run npm install @formspree/react
+// For more help visit https://formspr.ee/react-help
+import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 
-export default function App() {
-    const { register, 
-            handleSubmit,
-            formState: { errors }  
-        } = useForm({
-            defaultValues: {
-                name: "",
-                email: ""
-            }
-        });
-    /*const onSubmit = data => console.log(data);*/
-   
+export default function Contacto() {
+  const [state, handleSubmit] = useForm("mqknqpqg");
+  if (state.succeeded) {
+      return <p>Gracias por contactarte</p>;
+  }
   return (
-    <form onSubmit={handleSubmit((data) => {
-        console.log(data);
-    })}
-    >
-      <input {...register("name", { 
-          required: 'El nombre es necesario',
-          minLength: {value: 4,
-          message: "Por lo menos 4 letras"}
-      })} placeholder="Nombre" />
-      <p>{errors.name?.message}</p>
+      <section className='myForm'>
+        <h2>Escribime</h2>
+        <form onSubmit={handleSubmit}>
+            <div className="data">   
+                <label htmlFor="name"></label>
+                <input
+                    id="name"
+                    type="name" 
+                    name="name"
+                    placeholder='Nombre'
+                    required={true}
+                    minLength= "4"
+                />
 
-      <input {...register("email", { required: 'Por favor un mail' })} 
-      placeholder="Email" />
-      <p>{errors.email?.message}</p>
+                <label htmlFor="email"></label>
+                <input
+                    id="email"
+                    type="email" 
+                    name="email"
+                    placeholder='Email'
+                    required={true}
+                />
+            </div>
+            <ValidationError 
+                prefix="Por favor, escribe tu email" 
+                field="email"
+                errors={state.errors}
+            />
 
-      <input {...register("text", { required: 'Por favor, ingresa un mensaje', 
-      minLength: {
-          value: 20,
-          message: "Por lo menos 20 letras"} 
-        })} 
-      placeholder="Dejame tu mensaje"/>
-      <p>{errors.text?.message}</p>
-
-      <input type="submit" />
-    </form>
+            <textarea
+                id="text"
+                name="text"
+                placeholder='Deja tu mensaja'
+                required={true}
+                minLength= "20"
+            />
+            <ValidationError 
+                prefix="text" 
+                field="text"
+                errors={state.errors}
+            />
+            <button type="submit" disabled={state.submitting}>
+                Enviar
+            </button>
+        </form>
+    </section>
+  );
+}
+function App() {
+  return (
+    <Contacto />
   );
 }

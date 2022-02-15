@@ -1728,7 +1728,8 @@
     input{
         width: 8rem;
         font-size: 0.6rem;
-        margin: 0.3rem;        
+        margin-bottom: 0.3rem;
+                
     }
 
     form label {
@@ -1768,6 +1769,25 @@
         font-size: 14px;
         padding-top: 20px;
         color: #02a802;
+    }
+
+    .myForm{
+        margin-top: 3rem;
+    }
+
+    .myForm{
+        color: #e92b2d;
+    }
+
+    .myForm h2{
+        font-size: 1.2rem;
+        color: #F5AF31;
+    }
+
+    ValidationError{
+        color: #e92b2d;
+        font-size: 1rem;
+        z-index: 2;
     }
 
 }

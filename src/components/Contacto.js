@@ -1,60 +1,25 @@
-import React from "react"
+import React from "react";
+import { useForm, Controller } from "react-hook-form";
 
-export default function Contact(){
-    const[formData, setFormData] = React.useState(
-        {
-            name: "",
-            email: "",
-            text: ""
-        }
-    )
+export default function App() {
+    const { register, formState: { errors }, handleSubmit } = useForm();
+    const onSubmit = data => console.log(data);
+   
+  return (
+    <form onSubmit={handleSubmit((data) => {
+        console.log(data);
+    })}
+    >
+      <input {...register("name", { required: true })} placeholder="Nombre" />
+      {errors.name?.type === 'required' && "Name is required"}
 
-    function handleChange(event) {
-        const {name, value, type} = event.target
-        setFormData(prevFormData => {
-            return{
-                ...prevFormData,
-                [name]: value
-            }
-        })
-    }
+      <input {...register("email", { required: true })} placeholder="Email" />
+      {errors.email?.type === 'required' && "Email is required"}
 
-    function handleSubmit(event){
-        event.preventDefault()
-    }
+      <input {...register("text", { required: true })} placeholder="Dejame tu mensaje"/>
+      {errors.text?.type === 'required' && "Please, enter your message"}
 
-    return(
-        <section className="contactSection">
-            <h2>Contactame</h2>
-            <form onSubmit={handleSubmit}>
-                <div className="data">
-                    <input
-                        type="text"
-                        placeholder="Nombre"
-                        onChange={handleChange}
-                        name="name"
-                        value={formData.name}
-                    />
-
-                    <input
-                        type="email"
-                        placeholder="Email"
-                        onChange={handleChange}
-                        name="email"
-                        value={formData.email}
-                    />
-                </div>      
-                <textarea
-                    value={formData.text}
-                    placeholder="¿Cómo puedo ayudarte?"
-                    onChange={handleChange}
-                    name="text"
-                />
-
-                <button className="send">Enviar</button>
-
-            </form>
-
-        </section>
-    )
+      <input type="submit" />
+    </form>
+  );
 }

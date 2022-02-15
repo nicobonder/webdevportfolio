@@ -9,29 +9,31 @@ const Contact = () => {
         <section className="contactSection">
             <h2>Contact Me</h2>
             <Formik 
-                initialValues={{ name: '', email: '', text: '' }}
-
+                initialValues={{ 
+                    name: '', 
+                    email: '', 
+                    text: '' 
+                }}
                 validate={(values) => {
-                    let errors = {};
+                    let errores = {};
 
                     if(!values.name){
-                        errors.name = 'Please enter a name' 
-                    } else if(!/^[a-zA-ZÀ-ÿ\s]{1,40}$/.test(values.name)
-                    ) {
-                        errors.name = 'Please use only letters and spaces'
+                        errores.name = 'Please enter a name' 
+                    } else if(!/^[a-zA-ZÀ-ÿ\s]{1,40}$/.test(values.name)) {
+                        errores.name = 'Please use only letters and spaces'
                     }
 
                     if(!values.email){
-                        errors.email = 'Please enter your email'
+                        errores.email = 'Please enter your email'
                     } else if (!/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(values.email)){
-                        errors.email = 'Invalid email adress.'
+                        errores.email = 'Invalid email adress.'
                     }
 
                     if(!values.text){
-                        errors.text = 'Please enter your message'
+                        errores.text = 'Please enter your message'
                     }
 
-                    return errors;
+                    return errores;
                 }}
 
                 onSubmit={(values, { resetForm }) => {
@@ -45,8 +47,8 @@ const Contact = () => {
             {( {errors} ) => (
                 <form className="myForm" action="https://formspree.io/f/mqknqepr" method="post">
                     <div className="data">
-                    <label htmlFor="name">Name</label>
-                        <Field
+                        <label htmlFor="name"></label> 
+                        <Field className="nameInput"
                             type="text"
                             id="name"
                             name="name" 
@@ -54,9 +56,8 @@ const Contact = () => {
                             
                         />
                         <ErrorMessage name="name" component={() => (<div className="error">{errors.name}</div>)} />
-
-                        <label htmlFor="email">Email</label>
-                        <Field
+                        <label htmlFor="mail"></label>
+                        <Field className="emailInput"
                             type="email"
                             name="email"
                             id="email"
@@ -66,8 +67,7 @@ const Contact = () => {
                         <ErrorMessage name="email" component={() => (<div className="error">{errors.email}</div>)} />
                     </div>      
                     <div>                        
-                        <Field name="text" as="textarea"
-                        placeholder="Leave me a message"
+                        <Field name="text" as="textarea" placeholder="Leave me a message"
                         />
                     </div>
                     <ErrorMessage name="text" component={() => (<div className="error">{errors.text}</div>)} />

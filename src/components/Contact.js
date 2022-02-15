@@ -74,7 +74,7 @@ const Contact = () => {
 
                     <button type="submit" 
                         className="send">Submit</button>
-                    {formSent && <p className="success">Form sent successfully! Thanks!</p>}
+                    {formSent && <p className="success">Form sent successfully! Thank you!</p>}
             </form>
             )}
                 

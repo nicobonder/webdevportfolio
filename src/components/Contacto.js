@@ -6,7 +6,7 @@ import { useForm, ValidationError } from '@formspree/react';
 export default function Contacto() {
   const [state, handleSubmit] = useForm("mqknqpqg");
   if (state.succeeded) {
-      return <p>Gracias por contactarte</p>;
+      return <p className='thanksContact'>Gracias por contactarte</p>;
   }
   return (
       <section className='myForm'>
@@ -32,8 +32,8 @@ export default function Contacto() {
                     required={true}
                 />
             </div>
-            <ValidationError 
-                prefix="Por favor, escribe tu email" 
+            <ValidationError className="validationError"
+                prefix="" 
                 field="email"
                 errors={state.errors}
             />

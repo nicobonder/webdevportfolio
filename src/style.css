@@ -1729,7 +1729,7 @@
         width: 8rem;
         font-size: 0.6rem;
         margin-bottom: 0.3rem;
-                
+        padding-left: 0.2rem;                
     }
 
     form label {
@@ -1745,6 +1745,7 @@
         width: 16.6rem;
         height: 5rem; 
         margin-bottom: 1rem;
+        padding-left: 0.2rem;
     }
 
     button{
@@ -1784,10 +1785,16 @@
         color: #F5AF31;
     }
 
-    ValidationError{
-        color: #e92b2d;
-        font-size: 1rem;
+    .validationError{
+        color: red;
+        font-size: 0.5rem;
         z-index: 2;
+        margin: -0.2rem 0 0.3rem 6.1rem;
+        text-transform: uppercase;
+    }
+
+    .thanksContact{
+        margin-top: 3rem;
     }
 
 }

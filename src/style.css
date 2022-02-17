@@ -355,7 +355,6 @@
         border-radius: 0.125rem;
         color: white;
         background-color: #F5AF31;
-        width: 7.5rem;
         font-size: 0.4rem;
         text-align: left;
         margin: 0rem 0 0.5rem 0;
@@ -416,10 +415,14 @@
         flex-direction: column;
     }
 
+    .data{
+        display: flex;
+        flex-direction: column;
+    }
     input{
         width: 7.5rem;
         font-size: 0.5rem;
-        margin-bottom: 0.3rem;
+        margin-bottom: 0rem;
         padding-left: 0.2rem;                
     }
 
@@ -436,6 +439,7 @@
         width: 7.5rem;
         height: 5rem; 
         margin-bottom: 0.5rem;
+        margin-top: 0.3rem;
         padding-left: 0.2rem;
     }
 
@@ -831,10 +835,16 @@
         flex-direction: column;
     }
 
+    .data{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
     input{
-        width: 7rem;
+        width: 6rem;
         font-size: 0.5rem;
-        margin-bottom: 0.3rem;
+        margin: 0.3rem;
         padding-left: 0.2rem;                
     }
 
@@ -848,7 +858,7 @@
 
     textarea{
         font-size: 0.5rem;
-        width: 12rem;
+        width: 12.6rem;
         height: 5rem; 
         margin-bottom: 0.5rem;
         padding-left: 0.2rem;

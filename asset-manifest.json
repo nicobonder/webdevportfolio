@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/webdevportfolio/static/css/main.58698827.css",
-    "main.js": "/webdevportfolio/static/js/main.8167d8fa.js",
+    "main.css": "/webdevportfolio/static/css/main.bcf247fe.css",
+    "main.js": "/webdevportfolio/static/js/main.6a2743f1.js",
     "static/js/787.aeca62f9.chunk.js": "/webdevportfolio/static/js/787.aeca62f9.chunk.js",
     "static/media/nico.png": "/webdevportfolio/static/media/nico.c83d75e71a7d8d063f41.png",
     "static/media/CV_Nico_Bonder_esp.pdf": "/webdevportfolio/static/media/CV_Nico_Bonder_esp.cbf28582db65d5dea006.pdf",
@@ -11,12 +11,12 @@
     "static/media/shape.png": "/webdevportfolio/static/media/shape.7fd86ca3e128ef615e15.png",
     "static/media/logo_1.png": "/webdevportfolio/static/media/logo_1.5fcf2e2abb9273c6f1f9.png",
     "index.html": "/webdevportfolio/index.html",
-    "main.58698827.css.map": "/webdevportfolio/static/css/main.58698827.css.map",
-    "main.8167d8fa.js.map": "/webdevportfolio/static/js/main.8167d8fa.js.map",
+    "main.bcf247fe.css.map": "/webdevportfolio/static/css/main.bcf247fe.css.map",
+    "main.6a2743f1.js.map": "/webdevportfolio/static/js/main.6a2743f1.js.map",
     "787.aeca62f9.chunk.js.map": "/webdevportfolio/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58698827.css",
-    "static/js/main.8167d8fa.js"
+    "static/css/main.bcf247fe.css",
+    "static/js/main.6a2743f1.js"
   ]
 }

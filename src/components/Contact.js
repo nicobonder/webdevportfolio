@@ -18,7 +18,7 @@ export default function Contacto() {
                     id="name"
                     type="name" 
                     name="name"
-                    placeholder='Nombre'
+                    placeholder='Name'
                     required={true}
                     minLength= "4"
                 />
@@ -41,7 +41,7 @@ export default function Contacto() {
             <textarea
                 id="text"
                 name="text"
-                placeholder='Deja tu mensaja'
+                placeholder='Leave me your message'
                 required={true}
                 minLength= "20"
             />

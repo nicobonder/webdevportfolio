@@ -346,7 +346,7 @@
 
     .data{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
@@ -1093,10 +1093,70 @@
         margin: 2rem 0 1rem 0;  
     }
 
+    .data{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    input{
+        border: 0.05rem solid white;
+        border-radius: 0.125rem;
+        color: white;
+        background-color: #F5AF31;
+        font-size: 0.4rem;
+        text-align: left;
+        margin: 0rem 0.3rem 0.5rem 00.3rem;
+    }
+
+    input::placeholder{
+        color: white;
+        padding-left: 0.2rem;
+    }
+
+    textarea{
+        border: 2px solid white;
+        border-radius: 0.125rem;
+        color: white;
+        background-color: #F5AF31;
+        font-size: 0.4rem;
+        width: 7.5rem;
+        height: 3rem;
+        text-align: left;
+        margin-bottom: 0.3rem;
+    }
+
+    textarea::placeholder{
+        color: white;
+        padding-left: 0.2rem;
+    }
+
+    button{
+        border: 0.05rem solid white;
+        border-radius: 0.125rem;
+        color: white;
+        background-color: #F5AF31;
+        font-size: 0.5rem;
+        width: 3rem;
+        height: 1rem;
+        text-align: center;
+        margin-bottom: 0rem;
+    }
+
+    button:hover{
+        cursor: pointer;
+    }
+
+    .error{
+        font-size: 0.5rem;
+        color: white;
+        
+    }
+    
     input{
         width: 8rem;
         font-size: 0.6rem;
-        margin-bottom: 0.3rem;
+        margin-bottom: 0.5rem;
         padding-left: 0.2rem;                
     }
 
@@ -1397,8 +1457,13 @@
             width: 4rem;
             height: 1.2rem;
             cursor: pointer;
+            justify-content: center;
         }
     
+        form {
+            text-align: center;
+
+        }
         form .error {
             color: #e92b2d;
             font-weight: 400;
@@ -1419,6 +1484,7 @@
         .myForm{
             color: #e92b2d;
             margin-top: 3rem;
+
         }
     
         .myForm h2{
@@ -1641,8 +1707,12 @@
     input{
         width: 8rem;
         font-size: 0.6rem;
-        margin-bottom: 0.3rem;
+        margin: 0.3rem auto;
         padding-left: 0.2rem;                
+    }
+
+    form{
+        text-align: center;
     }
 
     form label {
@@ -1655,15 +1725,15 @@
 
     textarea{
         font-size: 0.6rem;
-        width: 16.6rem;
+        width: 18.2rem;
         height: 5rem; 
-        margin-bottom: 1rem;
+        margin-bottom: 0.7rem;
         padding-left: 0.2rem;
     }
 
     button{
         font-size: 0.7rem;
-        width: 4rem;
+        width: 5rem;
         height: 1.2rem;
         cursor: pointer;
     }
@@ -1689,6 +1759,7 @@
     .myForm{
         color: #e92b2d;
         margin-top: 3rem;
+
     }
 
     .myForm h2{
@@ -1880,16 +1951,10 @@
         height: 8rem;
        }
 
-    .contactSection h2{
-        color: #F5AF31;
-        font-size: 1.1rem;  
-        margin: 2rem 0 1rem 0;  
-    }
-
     input{
         width: 8rem;
         font-size: 0.6rem;
-        margin-bottom: 0.3rem;
+        margin: 0.3rem;
         padding-left: 0.2rem;                
     }
 
@@ -1905,15 +1970,17 @@
         font-size: 0.6rem;
         width: 16.6rem;
         height: 5rem; 
-        margin-bottom: 1rem;
+        
         padding-left: 0.2rem;
+        margin: 0.2rem 5rem 0.5rem 5rem;
     }
 
     button{
         font-size: 0.7rem;
-        width: 4rem;
+        width: 5rem;
         height: 1.2rem;
         cursor: pointer;
+        margin: 0.3rem;
     }
 
     form .error {
@@ -1933,8 +2000,16 @@
         color: #02a802;
     }
 
+    .data{
+        justify-content: center;
+    }
+
     .myForm{
         color: #e92b2d;
+        display: flex;
+        flex-direction: column;
+        
+
     }
 
     .myForm h2{

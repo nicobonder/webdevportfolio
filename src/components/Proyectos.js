@@ -9,7 +9,7 @@ export default function Project(props){
             <div className="project">
             
             <div className="portfolioReact">
-                    <a href="" 
+                    <a href="https://nicobonder.github.io/webdevportfolio/" 
                     title="Nico Bonder Portfolio"
                     target="_blank"><h3>Portfolio</h3></a>
                     <p>

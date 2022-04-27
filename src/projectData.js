@@ -1,0 +1,38 @@
+//importar las img
+
+const projects = [
+    {id: 1,
+    clase: "portfolioReact",
+    link: "https://nicobonder.github.io/webdevportfolio/",
+    title: "Click para ver el proyecto",
+    name: "Portfolio",
+    description: "Mi portfolio como Desarrollador Web, donde puedes encontrar todas las formas de contactarme y contratarme. Sí, sé que lo estás pensando. Usé React.js, CSS y algo de HTML. También use la librería Particles.js.",
+    img: "",
+    },
+    {id: 2,
+    clase: "content",
+    link: "https://nicobonder.github.io/contentwriter/",
+    title: "Click para ver el proyecto",
+    name: "Content Writer",
+    description: "Trabajo como escritor freelance, entonces creé una sitio web donde poder mostrar los servicios que ofrezco y mi experiencia. Lo creé usando HTML, CSS y JavaScript. También usé las librerías Animate On Scroll y Typed.js.",
+    img: "",
+    },
+    {id: 3,
+    clase: "gout",
+    link: "https://gout.vercel.app/",
+    title: "Click para ver el proyecto",
+    name: "goût",
+    description: "Proyecto grupal en el que creamos una red social dedicada a la gastronomía. En el Front End usamos React.js, Material UI y Redux Toolkit, mientras que en el Back End usamos Node Js, MySQL y Cloudinary.",
+    img: "",
+    },
+    {id: 4,
+    clase: "tienda",
+    link: "https://tiendaviajera.netlify.app/",
+    title: "Click para ver el proyecto",
+    name: "En construcción!",
+    description: "ecommerce creado para vender ebooks y artículos digitales de viajeros. Fue creado con React.js y Material UI.",
+    img: "",
+    },
+];
+
+export default projects;

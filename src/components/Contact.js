@@ -2,7 +2,7 @@
 // For more help visit https://formspr.ee/react-help
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-
+ 
 export default function Contacto() {
   const [state, handleSubmit] = useForm("mqknqpqg");
   if (state.succeeded) {
@@ -12,32 +12,32 @@ export default function Contacto() {
       <section className='myForm'>
         <h2>Contact Me</h2>
         <form onSubmit={handleSubmit}>
-            <div className="data">   
+            <div className="data">  
                 <label htmlFor="name"></label>
                 <input
                     id="name"
-                    type="name" 
+                    type="name"
                     name="name"
                     placeholder='Name'
                     required={true}
                     minLength= "4"
                 />
-
+ 
                 <label htmlFor="email"></label>
                 <input
                     id="email"
-                    type="email" 
+                    type="email"
                     name="email"
                     placeholder='Email'
                     required={true}
                 />
             </div>
             <ValidationError className="validationError"
-                prefix="" 
+                prefix=""
                 field="email"
                 errors={state.errors}
             />
-
+ 
             <textarea
                 id="text"
                 name="text"
@@ -45,8 +45,8 @@ export default function Contacto() {
                 required={true}
                 minLength= "20"
             />
-            <ValidationError 
-                prefix="text" 
+            <ValidationError
+                prefix="text"
                 field="text"
                 errors={state.errors}
             />
@@ -62,3 +62,4 @@ function App() {
     <Contacto />
   );
 }
+ 

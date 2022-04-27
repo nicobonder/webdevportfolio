@@ -13,7 +13,7 @@ export default function Acerca(){
                    <br /> Ahora estoy practicando y trato de aprender algo nuevo cada día.
                     <br />                 
                     <br />
-                    Soy licenciado en Administración, pero hace algunos años me di cuenta que quería hacer algo más creativo. 
+                    Soy Licenciado en Administración, pero hace algunos años me di cuenta que quería hacer algo más creativo. 
                     Como amo leer y escribir, los últimos años estuve trabajando como escritor de contenido freelance.
                     <br />
                     <br />

@@ -253,7 +253,7 @@
 
     .projectSection{
         width: 100%;
-        margin: 1rem 0;
+        margin: 1rem 0rem;
     }
 
     .projectSection h2{
@@ -265,13 +265,13 @@
     .project{
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        
         align-items: center;
     }
 
     .projectSection h3{
         color: white;
-        font-size: 0.6rem;
+        font-size: 0.55rem;
         background-color: rgba(245, 175, 49, 0.9);
         margin-top: 2rem;
         border-radius: 0.25rem;
@@ -280,7 +280,8 @@
     .projectSection p{
         font-size: 0.4rem;
         width: 8rem; 
-        margin: 2.5rem -1.5rem;    
+        margin: 2.5rem -1.5rem 3.5rem -1.5rem;
+        padding: 0 0.2rem;    
         text-align: justify;   
     }
 
@@ -317,11 +318,13 @@
         border-radius: 50%;    
         border: solid 2px #F5AF31;
         margin-bottom: 3rem;
+        margin-top: 1rem;
+
     }
 
-    .alto{
+    .gout{
         width: 5rem;
-        background-image: url(./Images/logo.png);
+        background-image: url(./Images/logo3.png);
         background-size: 100%;
         height: 5rem;
         background-repeat: no-repeat;
@@ -331,6 +334,22 @@
         border-radius: 50%;    
         border: solid 2px #F5AF31;
         margin-bottom: 2.5rem;
+        margin-top: 1rem;
+    }
+
+    .tienda{
+        width: 5rem;
+        background-image: url(./Images/logoTienda.png);
+        background-size: 100%;
+        height: 5rem;
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;    
+        border: solid 2px #F5AF31;
+        margin-bottom: 2.5rem;
+        margin-top: 2.5rem;
     }
 
     .contactSection{
@@ -475,7 +494,7 @@
     .myForm h2{
         font-size: 0.8rem; 
         color: #F5AF31;
-        margin-top: 1.5rem;
+        margin-top: 0rem;
     }
 
     .validationError{
@@ -753,7 +772,7 @@
 
     .projectSection{
         width: 100%;
-        margin: 1rem 0;
+        margin: 1rem -0.5rem;
     }
 
     .projectSection h2{
@@ -769,8 +788,8 @@
 
     .projectSection h3{
         color: white;
-        font-size: 0.6rem;
-        background-color: #F5AF31;
+        font-size: 0.55rem;
+        background-color: rgba(245, 175, 49, 0.9);
         margin-top: 2rem;
         border-radius: 0.25rem;
     }
@@ -816,9 +835,9 @@
         margin-top: 0rem;
     }
 
-    .alto{
+    .gout{
         width: 5rem;
-        background-image: url(./Images/logo.png);
+        background-image: url(./Images/logo3.png);
         background-size: 100%;
         height: 5rem;
         background-repeat: no-repeat;
@@ -828,6 +847,20 @@
         border-radius: 50%;    
         border: solid 2px #F5AF31;
         margin-top: 0rem;
+    }
+
+    .tienda{
+        width: 5rem;
+        background-image: url(./Images/logoTienda.png);
+        background-size: 100%;
+        height: 5rem;
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;    
+        border: solid 2px #F5AF31;
+        margin-top: 1rem;
     }
 
     .contactSection{
@@ -890,7 +923,7 @@
   
     .myForm{
         color: #e92b2d;
-        margin-top: 0;
+        margin-top: -1rem;
     }
 
     .myForm h2{
@@ -1056,29 +1089,101 @@
         height: auto;
         transform: translate(85%, 10%);
     }
+    
+    .projectSection{
+        width: 100%;
+        margin: 1rem 0rem;
+    }
 
     .projectSection h2{
-        font-size: 1rem;  
+        font-size: 1.1rem;  
         margin: 0 0 1rem 0;  
     }
-
+    
     .project{
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
     }
 
+
+
     .projectSection h3{
+        color: white;
         font-size: 0.6rem;
-        margin-top: 2rem;
+        background-color: rgba(245, 175, 49, 0.9);
+        margin-top: 2.5rem;
+        border-radius: 0.25rem;
     }
 
     .projectSection p{
-        font-size: 0.5rem;
-        text-align: justify;
-        padding: 0.1rem;
-        margin: 2.5rem 0 1rem 0;
-        width: 5rem;
+        font-size: 0.4rem;
+        width: 14rem; 
+        margin: 3rem -4rem;   
+        padding: 0 0.2rem;   
+        text-align: justify; 
+    }
+
+    .projectSection a{
+        font-weight: bold;
+        color: white;
+    }
+
+    .portfolioReact{
+        width: 6rem;
+        background-image: url(./Images/logo_1.png);
+        background-size: 140%;
+        background-position-x: -0.95rem;
+        background-position-y: -0.9rem;
+        height: 6rem;
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;    
+        border: solid 2px #F5AF31;
+    }
+
+    .content{
+        width: 6rem;
+        background-image: url(./Images/sentado.png);
+        background-size: 100%;
+        height: 6rem;
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;    
+        border: solid 2px #F5AF31;
+        margin-top: 2.5rem;
+    }
+
+    .gout{
+        width: 6rem;
+        background-image: url(./Images/logo3.png);
+        background-size: 100%;
+        height: 6rem;
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;    
+        border: solid 2px #F5AF31;
+        margin-top: 2.5rem;
+    }
+
+    .tienda{
+        width: 6rem;
+        background-image: url(./Images/logoTienda.png);
+        background-size: 100%;
+        height: 6rem;
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;    
+        border: solid 2px #F5AF31;
+        margin-top: 3.5rem;
     }
 
     @keyframes contact {
@@ -1206,13 +1311,13 @@
     form .success {
         text-align: center;
         font-size: 14px;
-        padding-top: 20px;
+        padding-top: 2rem;
         color: #02a802;
     }
   
     .myForm{
         color: #e92b2d;
-        margin-top: 3rem;
+        margin-top: -6rem;
     }
 
     .myForm h2{
@@ -1386,22 +1491,23 @@
 
     .projectSection{
         width: 100%;
-        margin: 1rem;
+        margin: 1rem -0.5rem;
     }
 
     .projectSection h2{
-        font-size: 1rem;  
+        font-size: 1.2rem;  
         margin: 0 0 1rem 0;  
     }
 
     .projectSection p{
         font-size: 0.5rem;
-        margin: 2rem 0 5rem 0;
+        margin: 3rem -4rem 5rem -4rem;
+        text-align: justify;
     }
 
     .project{
         display: flex;
-        justify-content: space-between;
+       
     }
 
     .projectSection h3{
@@ -1410,35 +1516,29 @@
         border-radius: 0.25rem;
     }
 
-    .portfolioReact{
-        width: 5rem;
-        background-size: 140%;
-        background-position-x: -0.8rem;
-        background-position-y: -0.8rem;
-        height: 5rem;
-      }
-
     .content{
-        width: 5rem;
-        height: 5rem;
+        margin-top: 3.5rem;
     }
 
-    .alto{
-        width: 5rem;
-        height: 5rem;
-        }
-
-        .contactSection{
-            display: flex;
-            flex-direction: column;
-            margin-top: 3rem;
-        }
-        .contactSection h2{
-            color: #F5AF31;
-            font-size: 1.1rem;  
-            margin: 2rem 0 1rem 0;  
-        }
+    .gout{
+        margin-top: 3.5rem;
+    }
     
+    .tienda{
+        margin-top: 4.6rem;
+    }
+
+    .contactSection{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+    .contactSection h2{
+        color: #F5AF31;
+        font-size: 1.1rem;  
+        margin: 2rem 0 1rem 0;  
+    }
+
         input{
             width: 8rem;
             font-size: 0.6rem;
@@ -1491,29 +1591,29 @@
             color: #02a802;
         }
       
-        .myForm{
-            color: #e92b2d;
-            margin-top: 3rem;
+    .myForm{
+        color: #e92b2d;
+        margin-top: -5rem;
 
-        }
-    
-        .myForm h2{
-            font-size: 1.2rem;
-            color: #F5AF31;
-            margin-top: 7.5rem;
-        }
-    
-        .validationError{
-            color: red;
-            font-size: 0.4rem;
-            z-index: 2;
-            margin: -0.2rem 0 0.3rem 5.1rem;
-            text-transform: uppercase;
-        }
-    
-        .thanksContact{
-            margin-top: 3rem;
-        }
+    }
+
+    .myForm h2{
+        font-size: 1.2rem;
+        color: #F5AF31;
+        margin-top: 7.5rem;
+    }
+
+    .validationError{
+        color: red;
+        font-size: 0.4rem;
+        z-index: 2;
+        margin: -0.2rem 0 0.3rem 5.1rem;
+        text-transform: uppercase;
+    }
+
+    .thanksContact{
+        margin-top: 3rem;
+    }
 
 }
 
@@ -1664,45 +1764,6 @@
         transform: translate(85%, 10%);
     }
 
-    .projectSection h2{
-        font-size: 1.1rem;  
-        margin: 1rem 0;  
-    }
-
-    .project{
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .projectSection h3{
-        font-size: 0.8rem;
-        margin-top: 2.5rem;
-        border-radius: 0.25rem;
-    }
-
-    .projectSection p{
-        margin: 3rem 0 1rem 0;
-        font-size: 0.6rem;
-        width: 6rem;
-    }
-    .portfolioReact{
-        width: 6rem;
-        background-size: 140%;
-        background-position-x: -1rem;
-        background-position-y: -1rem;
-        height: 6rem;
-    }
-
-    .content{
-        width: 6rem;
-        height: 6rem;
-    }
-
-    .alto{
-        width: 6rem;
-        height: 6rem;
-    }
-
     .contactSection{
         display: flex;
         flex-direction: column;
@@ -1768,7 +1829,7 @@
   
     .myForm{
         color: #e92b2d;
-        margin-top: 3rem;
+        margin-top: -8rem;
 
     }
 
@@ -1920,7 +1981,7 @@
     }
 
     .projectSection{
-        margin: 1rem;
+        margin: 1rem -0.5rem;
     }
 
     .projectSection h2{
@@ -1931,34 +1992,50 @@
     .projectSection p{
         margin: 3.8rem 0;
         font-size: 0.6rem;
-        width: 8REM;
+        width: 6.5rem;
     }
 
     .project{
-        margin: 1rem 0 6rem 0;
+        display: flex;
+        flex-direction: row;
+        margin: 0rem 0rem 6rem -1rem;
+        justify-content: space-evenly;
     }
 
     .projectSection h3{
-        font-size: 0.8rem;
-        margin-top: 3.5rem;
+        font-size: 0.75rem;
+        margin-top: 2.8rem;
     }
 
     .content{
-        width: 8rem;
-        height: 8rem;
+        width: 6.5rem;
+        height: 6.5rem;
+        margin-top: 0;
        }
 
-    .alto{
-        width: 8rem;
-        height: 8rem;
+    .gout{
+        width: 6.5rem;
+        height: 6.5rem;
+        margin-top: 0;
        }
 
     .portfolioReact{
-        width: 8rem;
+        width: 6.5rem;
         background-size: 130%;
         background-position-x: -1rem;
         background-position-y: -0.8rem;
-        height: 8rem;
+        height: 6.5rem;
+        margin-top: 0;
+       }
+
+    .tienda{
+        width: 6.5rem;
+        background-size: 110%;
+        background-position-x: -0.5rem;
+        background-position-y: -0.1rem;
+        height: 6.5rem;
+        margin-top: 0;
+   
        }
 
     input{
@@ -2018,8 +2095,7 @@
         color: #e92b2d;
         display: flex;
         flex-direction: column;
-        
-
+        margin-top: 6rem;
     }
 
     .myForm h2{
@@ -2040,5 +2116,10 @@
         margin-top: 3rem;
     }
 
+    .successWrapper h2{
+        margin-top: 2rem;
+        color: white;
+        font-size: 1.2rem;
+    }
 }
 

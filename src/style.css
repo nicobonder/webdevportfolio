@@ -253,7 +253,7 @@
 
     .projectSection{
         width: 100%;
-        margin: 1rem 0;
+        margin: 1rem 0rem;
     }
 
     .projectSection h2{
@@ -265,13 +265,13 @@
     .project{
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        
         align-items: center;
     }
 
     .projectSection h3{
         color: white;
-        font-size: 0.6rem;
+        font-size: 0.55rem;
         background-color: rgba(245, 175, 49, 0.9);
         margin-top: 2rem;
         border-radius: 0.25rem;
@@ -280,7 +280,8 @@
     .projectSection p{
         font-size: 0.4rem;
         width: 8rem; 
-        margin: 2.5rem -1.5rem;    
+        margin: 2.5rem -1.5rem 3.5rem -1.5rem;
+        padding: 0 0.2rem;    
         text-align: justify;   
     }
 
@@ -317,11 +318,13 @@
         border-radius: 50%;    
         border: solid 2px #F5AF31;
         margin-bottom: 3rem;
+        margin-top: 1rem;
+
     }
 
-    .alto{
+    .gout{
         width: 5rem;
-        background-image: url(./Images/logo.png);
+        background-image: url(./Images/logo3.png);
         background-size: 100%;
         height: 5rem;
         background-repeat: no-repeat;
@@ -331,6 +334,22 @@
         border-radius: 50%;    
         border: solid 2px #F5AF31;
         margin-bottom: 2.5rem;
+        margin-top: 1rem;
+    }
+
+    .tienda{
+        width: 5rem;
+        background-image: url(./Images/logoTienda.png);
+        background-size: 100%;
+        height: 5rem;
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;    
+        border: solid 2px #F5AF31;
+        margin-bottom: 2.5rem;
+        margin-top: 2.5rem;
     }
 
     .contactSection{
@@ -346,7 +365,7 @@
 
     .data{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
@@ -355,7 +374,6 @@
         border-radius: 0.125rem;
         color: white;
         background-color: #F5AF31;
-        width: 7.5rem;
         font-size: 0.4rem;
         text-align: left;
         margin: 0rem 0 0.5rem 0;
@@ -411,51 +429,86 @@
         animation-iteration-count: infinite;
     }
 
-    
-    input:invalid {
-        border: 0.05rem solid red;
+    .contactSection{
+        display: flex;
+        flex-direction: column;
     }
 
-    input:invalid:required {
-        border: 0.05rem solid red;
+    .data{
+        display: flex;
+        flex-direction: column;
     }
-
-    #email:invalid {
-        border: 0.05rem solid red;
-    }
-
-    #email:invalid:required {
-        border: 0.05rem solid red;
-    }
-
-    textarea:invalid {
-        border: 0.05rem solid red;
-    }
-
-    textarea:invalid:required {
-        border: 0.05rem solid red;
-    }
-
-
-    .th h1{
-        font-size: 0.6rem;
-        margin: 1rem 0.5rem 0 0.5rem;
-    }
-
-    .thanks{
-        font-size: 0.4rem;
-        margin: 1rem 0.5rem 0 0.5rem;
-    }
-
-    .th a{
-        text-decoration: none;
-        color: #F5AF31;
-    }
-
-    .th h3{
-        margin: 1rem 0.5rem 0 0.5rem;
+    input{
+        width: 7.5rem;
         font-size: 0.5rem;
+        margin-bottom: 0rem;
+        padding-left: 0.2rem;                
     }
+
+    form label {
+        display: block;
+        font-weight: 600;
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+        color: #1f1f1f;
+    }
+
+    textarea{
+        font-size: 0.5rem;
+        width: 7.5rem;
+        height: 5rem; 
+        margin-bottom: 0.5rem;
+        margin-top: 0.3rem;
+        padding-left: 0.2rem;
+    }
+
+    button{
+        font-size: 0.7rem;
+        width: 4rem;
+        height: 1.2rem;
+        cursor: pointer;
+    }
+
+    form .error {
+        color: #e92b2d;
+        font-weight: 400;
+        font-size: 0.5rem;
+        position: relative;
+        top: 1.5rem;
+        left: -5rem;
+        z-index: 2;
+    }
+
+    form .success {
+        text-align: center;
+        font-size: 14px;
+        padding-top: 20px;
+        color: #02a802;
+    }
+  
+    .myForm{
+        color: #e92b2d;
+        margin-top: 0;
+    }
+
+    .myForm h2{
+        font-size: 0.8rem; 
+        color: #F5AF31;
+        margin-top: 0rem;
+    }
+
+    .validationError{
+        color: red;
+        font-size: 0.4rem;
+        z-index: 2;
+        margin: -0.2rem 0 0.3rem 0;
+        text-transform: uppercase;
+    }
+
+    .thanksContact{
+        margin-top: 3rem;
+    }
+
 
     @keyframes contact {
         0%, 25%, 45%, 64%, 100%  { 
@@ -719,7 +772,7 @@
 
     .projectSection{
         width: 100%;
-        margin: 1rem 0;
+        margin: 1rem -0.5rem;
     }
 
     .projectSection h2{
@@ -735,8 +788,8 @@
 
     .projectSection h3{
         color: white;
-        font-size: 0.6rem;
-        background-color: #F5AF31;
+        font-size: 0.55rem;
+        background-color: rgba(245, 175, 49, 0.9);
         margin-top: 2rem;
         border-radius: 0.25rem;
     }
@@ -744,7 +797,8 @@
     .projectSection p{
         font-size: 0.4rem;
         width: 14rem; 
-        margin: 2.5rem -4.5rem;       
+        margin: 2.5rem -4.5rem;   
+        padding: 0 0.2rem;    
     }
 
     .projectSection a{
@@ -781,9 +835,9 @@
         margin-top: 0rem;
     }
 
-    .alto{
+    .gout{
         width: 5rem;
-        background-image: url(./Images/logo.png);
+        background-image: url(./Images/logo3.png);
         background-size: 100%;
         height: 5rem;
         background-repeat: no-repeat;
@@ -795,76 +849,101 @@
         margin-top: 0rem;
     }
 
+    .tienda{
+        width: 5rem;
+        background-image: url(./Images/logoTienda.png);
+        background-size: 100%;
+        height: 5rem;
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;    
+        border: solid 2px #F5AF31;
+        margin-top: 1rem;
+    }
+
     .contactSection{
         display: flex;
         flex-direction: column;
     }
 
-    .contactSection h2{
-        color: #F5AF31;
-        font-size: 0.8rem;  
-        margin: 0rem 0 0.7rem 0;  
-    }
-
     .data{
         display: flex;
         flex-direction: row;
+        justify-content: center;
     }
-
-    form{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        align-content: space-around;
-    }
-
+    
     input{
-        border: 0.05rem solid white;
-        border-radius: 0.125rem;
-        color: white;
-        background-color: #F5AF31;
         width: 6rem;
         font-size: 0.5rem;
-        text-align: left;
-        margin: 0 0.2rem 0.5rem 0.2rem;
+        margin: 0.3rem;
+        padding-left: 0.2rem;                
     }
 
-    input::placeholder{
-        color: white;
-        padding-left: 0.2rem;
+    form label {
+        display: block;
+        font-weight: 600;
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+        color: #1f1f1f;
     }
 
     textarea{
-        border: 2px solid white;
-        border-radius: 0.125rem;
-        color: white;
-        background-color: #F5AF31;
         font-size: 0.5rem;
-        width: 12.4rem;
-        height: 4rem;
-        text-align: left;
+        width: 12.6rem;
+        height: 5rem; 
         margin-bottom: 0.5rem;
-    }
-
-    textarea::placeholder{
-        color: white;
         padding-left: 0.2rem;
     }
 
     button{
-        border: 0.05rem solid white;
-        border-radius: 0.125rem;
-        color: white;
-        background-color: #F5AF31;
-        font-size: 0.6rem;
-        width: 3.3rem;
-        height: 1.1rem;
-        text-align: center;
-        margin-bottom: 0rem;
+        font-size: 0.7rem;
+        width: 4rem;
+        height: 1.2rem;
+        cursor: pointer;
     }
 
-    
+    form .error {
+        color: #e92b2d;
+        font-weight: 400;
+        font-size: 0.5rem;
+        position: relative;
+        top: 1.5rem;
+        left: -5rem;
+        z-index: 2;
+    }
+
+    form .success {
+        text-align: center;
+        font-size: 14px;
+        padding-top: 20px;
+        color: #02a802;
+    }
+  
+    .myForm{
+        color: #e92b2d;
+        margin-top: -1rem;
+    }
+
+    .myForm h2{
+        font-size: 0.8rem; 
+        color: #F5AF31;
+        margin-top: 0;
+    }
+
+    .validationError{
+        color: red;
+        font-size: 0.4rem;
+        z-index: 2;
+        margin: -0.2rem 0 0.3rem 0;
+        text-transform: uppercase;
+    }
+
+    .thanksContact{
+        margin-top: 3rem;
+    }
+
     #contact{
         animation-duration: 3s;
         animation-name: contact;
@@ -1010,74 +1089,101 @@
         height: auto;
         transform: translate(85%, 10%);
     }
+    
+    .projectSection{
+        width: 100%;
+        margin: 1rem 0rem;
+    }
 
     .projectSection h2{
-        font-size: 1rem;  
+        font-size: 1.1rem;  
         margin: 0 0 1rem 0;  
     }
-
+    
     .project{
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
     }
 
+
+
     .projectSection h3{
+        color: white;
         font-size: 0.6rem;
-        margin-top: 2rem;
+        background-color: rgba(245, 175, 49, 0.9);
+        margin-top: 2.5rem;
+        border-radius: 0.25rem;
     }
 
     .projectSection p{
-        font-size: 0.5rem;
-        text-align: justify;
-        padding: 0.1rem;
-        margin: 2.5rem 0 1rem 0;
-        width: 5rem;
+        font-size: 0.4rem;
+        width: 14rem; 
+        margin: 3rem -4rem;   
+        padding: 0 0.2rem;   
+        text-align: justify; 
     }
 
-    .contactSection h2{
-        font-size: 1rem;  
-        margin: 10.5rem 0 0.7rem 0;  
+    .projectSection a{
+        font-weight: bold;
+        color: white;
     }
 
-    input{
-        width: 7.1rem;
-        font-size: 0.6rem;
-        margin: 0 0.3rem 0.5rem 0.3rem;
+    .portfolioReact{
+        width: 6rem;
+        background-image: url(./Images/logo_1.png);
+        background-size: 140%;
+        background-position-x: -0.95rem;
+        background-position-y: -0.9rem;
+        height: 6rem;
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;    
+        border: solid 2px #F5AF31;
     }
 
-    textarea{
-        font-size: 0.6rem;
-        width: 14.8rem;
-        height: 4rem;
-        margin-bottom: 0.7rem;
+    .content{
+        width: 6rem;
+        background-image: url(./Images/sentado.png);
+        background-size: 100%;
+        height: 6rem;
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;    
+        border: solid 2px #F5AF31;
+        margin-top: 2.5rem;
     }
 
-    button{
-        font-size: 0.6rem;
-        width: 3.8rem;
-        height: 1.1rem;
-        margin-bottom: 0.5rem;
+    .gout{
+        width: 6rem;
+        background-image: url(./Images/logo3.png);
+        background-size: 100%;
+        height: 6rem;
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;    
+        border: solid 2px #F5AF31;
+        margin-top: 2.5rem;
     }
 
-    .th h1{
-        font-size: 1rem;
-        margin: 1rem 1rem 0 1rem;
-    }
-
-    .thanks{
-        font-size: 0.6rem;
-        margin: 1rem 1rem 0 1rem;
-    }
-
-    .th a{
-        text-decoration: none;
-        color: #F5AF31;
-    }
-
-    .th h3{
-        margin: 1rem 1rem 0 1rem;
-        font-size: 0.8rem;
+    .tienda{
+        width: 6rem;
+        background-image: url(./Images/logoTienda.png);
+        background-size: 100%;
+        height: 6rem;
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;    
+        border: solid 2px #F5AF31;
+        margin-top: 3.5rem;
     }
 
     @keyframes contact {
@@ -1089,6 +1195,147 @@
             opacity: 0; 
             
         }
+    }
+
+    .contactSection{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+    .contactSection h2{
+        color: #F5AF31;
+        font-size: 1.1rem;  
+        margin: 2rem 0 1rem 0;  
+    }
+
+    .data{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    input{
+        border: 0.05rem solid white;
+        border-radius: 0.125rem;
+        color: white;
+        background-color: #F5AF31;
+        font-size: 0.4rem;
+        text-align: left;
+        margin: 0rem 0.3rem 0.5rem 00.3rem;
+    }
+
+    input::placeholder{
+        color: white;
+        padding-left: 0.2rem;
+    }
+
+    textarea{
+        border: 2px solid white;
+        border-radius: 0.125rem;
+        color: white;
+        background-color: #F5AF31;
+        font-size: 0.4rem;
+        width: 7.5rem;
+        height: 3rem;
+        text-align: left;
+        margin-bottom: 0.3rem;
+    }
+
+    textarea::placeholder{
+        color: white;
+        padding-left: 0.2rem;
+    }
+
+    button{
+        border: 0.05rem solid white;
+        border-radius: 0.125rem;
+        color: white;
+        background-color: #F5AF31;
+        font-size: 0.5rem;
+        width: 3rem;
+        height: 1rem;
+        text-align: center;
+        margin-bottom: 0rem;
+    }
+
+    button:hover{
+        cursor: pointer;
+    }
+
+    .error{
+        font-size: 0.5rem;
+        color: white;
+        
+    }
+    
+    input{
+        width: 8rem;
+        font-size: 0.6rem;
+        margin-bottom: 0.5rem;
+        padding-left: 0.2rem;                
+    }
+
+    form label {
+        display: block;
+        font-weight: 600;
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+        color: #1f1f1f;
+    }
+
+    textarea{
+        font-size: 0.6rem;
+        width: 16.6rem;
+        height: 5rem; 
+        margin-bottom: 1rem;
+        padding-left: 0.2rem;
+    }
+
+    button{
+        font-size: 0.7rem;
+        width: 4rem;
+        height: 1.2rem;
+        cursor: pointer;
+    }
+
+    form .error {
+        color: #e92b2d;
+        font-weight: 400;
+        font-size: 0.5rem;
+        position: relative;
+        top: 1.5rem;
+        left: -5rem;
+        z-index: 2;
+    }
+
+    form .success {
+        text-align: center;
+        font-size: 14px;
+        padding-top: 2rem;
+        color: #02a802;
+    }
+  
+    .myForm{
+        color: #e92b2d;
+        margin-top: -6rem;
+    }
+
+    .myForm h2{
+        font-size: 1rem;
+        color: #F5AF31;
+        margin-top: 7.5rem;
+    }
+
+    .validationError{
+        color: red;
+        font-size: 0.4rem;
+        z-index: 2;
+        margin: -0.2rem 0 0.3rem 5.1rem;
+        text-transform: uppercase;
+    }
+
+    .thanksContact{
+        margin-top: 3rem;
     }
 }
 
@@ -1244,22 +1491,23 @@
 
     .projectSection{
         width: 100%;
-        margin: 1rem;
+        margin: 1rem -0.5rem;
     }
 
     .projectSection h2{
-        font-size: 1rem;  
+        font-size: 1.2rem;  
         margin: 0 0 1rem 0;  
     }
 
     .projectSection p{
         font-size: 0.5rem;
-        margin: 2rem 0 5rem 0;
+        margin: 3rem -4rem 5rem -4rem;
+        text-align: justify;
     }
 
     .project{
         display: flex;
-        justify-content: space-between;
+       
     }
 
     .projectSection h3{
@@ -1268,47 +1516,103 @@
         border-radius: 0.25rem;
     }
 
-    .portfolioReact{
-        width: 5rem;
-        background-size: 140%;
-        background-position-x: -0.8rem;
-        background-position-y: -0.8rem;
-        height: 5rem;
-      }
-
     .content{
-        width: 5rem;
-        height: 5rem;
+        margin-top: 3.5rem;
     }
 
-    .alto{
-        width: 5rem;
-        height: 5rem;
-        }
+    .gout{
+        margin-top: 3.5rem;
+    }
+    
+    .tienda{
+        margin-top: 4.6rem;
+    }
 
+    .contactSection{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
     .contactSection h2{
-        font-size: 1rem;  
-        margin: 10.5rem 0 0.7rem 0;  
+        color: #F5AF31;
+        font-size: 1.1rem;  
+        margin: 2rem 0 1rem 0;  
     }
 
-    input{
-        width: 7.3rem;
-        font-size: 0.6rem;
-        margin: 0 0.3rem 0.5rem 0.3rem;
+        input{
+            width: 8rem;
+            font-size: 0.6rem;
+            margin-bottom: 0.3rem;
+            padding-left: 0.2rem;                
+        }
+    
+        form label {
+            display: block;
+            font-weight: 600;
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+            color: #1f1f1f;
+        }
+    
+        textarea{
+            font-size: 0.6rem;
+            width: 16.6rem;
+            height: 5rem; 
+            margin-bottom: 1rem;
+            padding-left: 0.2rem;
+        }
+    
+        button{
+            font-size: 0.7rem;
+            width: 4rem;
+            height: 1.2rem;
+            cursor: pointer;
+            justify-content: center;
+        }
+    
+        form {
+            text-align: center;
+
+        }
+        form .error {
+            color: #e92b2d;
+            font-weight: 400;
+            font-size: 0.5rem;
+            position: relative;
+            top: 1.5rem;
+            left: -5rem;
+            z-index: 2;
+        }
+    
+        form .success {
+            text-align: center;
+            font-size: 14px;
+            padding-top: 20px;
+            color: #02a802;
+        }
+      
+    .myForm{
+        color: #e92b2d;
+        margin-top: -5rem;
+
     }
 
-    textarea{
-        font-size: 0.6rem;
-        width: 15.2rem;
-        height: 5rem;
-        margin-bottom: 0.7rem;
+    .myForm h2{
+        font-size: 1.2rem;
+        color: #F5AF31;
+        margin-top: 7.5rem;
     }
 
-    button{
-        font-size: 0.6rem;
-        width: 3.8rem;
-        height: 1.1rem;
-        margin-bottom: 0.5rem;
+    .validationError{
+        color: red;
+        font-size: 0.4rem;
+        z-index: 2;
+        margin: -0.2rem 0 0.3rem 5.1rem;
+        text-transform: uppercase;
+    }
+
+    .thanksContact{
+        margin-top: 3rem;
     }
 
 }
@@ -1460,94 +1764,93 @@
         transform: translate(85%, 10%);
     }
 
-    .projectSection h2{
-        font-size: 1.1rem;  
-        margin: 1rem 0;  
-    }
-
-    .project{
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .projectSection h3{
-        font-size: 0.8rem;
-        margin-top: 2.5rem;
-        border-radius: 0.25rem;
-    }
-
-    .projectSection p{
-        margin: 3rem 0 1rem 0;
-        font-size: 0.6rem;
-        width: 6rem;
-    }
-    .portfolioReact{
-        width: 6rem;
-        background-size: 140%;
-        background-position-x: -1rem;
-        background-position-y: -1rem;
-        height: 6rem;
-    }
-
-    .content{
-        width: 6rem;
-        height: 6rem;
-    }
-
-    .alto{
-        width: 6rem;
-        height: 6rem;
-    }
-
     .contactSection{
         display: flex;
         flex-direction: column;
+        margin-top: 3rem;
     }
-
     .contactSection h2{
+        color: #F5AF31;
         font-size: 1.1rem;  
-        margin: 11.5rem 0 0.5rem 0;  
+        margin: 2rem 0 1rem 0;  
     }
 
     input{
         width: 8rem;
         font-size: 0.6rem;
-        margin: 0.3rem;
-        
+        margin: 0.3rem auto;
+        padding-left: 0.2rem;                
+    }
+
+    form{
+        text-align: center;
+    }
+
+    form label {
+        display: block;
+        font-weight: 600;
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+        color: #1f1f1f;
     }
 
     textarea{
         font-size: 0.6rem;
-        width: 16.6rem;
-        height: 5rem;
-        margin-bottom: 0.5rem;
+        width: 18.2rem;
+        height: 5rem; 
+        margin-bottom: 0.7rem;
+        padding-left: 0.2rem;
     }
 
     button{
         font-size: 0.7rem;
-        width: 4rem;
+        width: 5rem;
         height: 1.2rem;
+        cursor: pointer;
     }
 
-    .th h1{
-        font-size: 1.1rem;
-        margin: 1rem 1rem 0 1rem;
+    form .error {
+        color: #e92b2d;
+        font-weight: 400;
+        font-size: 0.5rem;
+        position: relative;
+        top: 1.5rem;
+        left: -5rem;
+        z-index: 2;
     }
 
-    .thanks{
-        font-size: 0.6rem;
-        margin: 1rem 1rem 0 1rem;
+    form .success {
+        text-align: center;
+        font-size: 14px;
+        padding-top: 20px;
+        color: #02a802;
     }
 
-    .th a{
-        text-decoration: none;
+  
+    .myForm{
+        color: #e92b2d;
+        margin-top: -8rem;
+
+    }
+
+    .myForm h2{
+        font-size: 1.2rem;
         color: #F5AF31;
+        margin-top: 9.5rem;
     }
 
-    .th h3{
-        margin: 1rem 1rem 0 1rem;
-        font-size: 0.8rem;
+    .validationError{
+        color: red;
+        font-size: 0.4rem;
+        z-index: 2;
+        margin: -0.2rem 0 0.3rem 5.1rem;
+        text-transform: uppercase;
     }
+
+    .thanksContact{
+        margin-top: 3rem;
+    }
+
 
 }
 
@@ -1678,7 +1981,7 @@
     }
 
     .projectSection{
-        margin: 1rem;
+        margin: 1rem -0.5rem;
     }
 
     .projectSection h2{
@@ -1689,69 +1992,84 @@
     .projectSection p{
         margin: 3.8rem 0;
         font-size: 0.6rem;
-        width: 8REM;
+        width: 6.5rem;
     }
 
     .project{
-        margin: 1rem 0 6rem 0;
+        display: flex;
+        flex-direction: row;
+        margin: 0rem 0rem 6rem -1rem;
+        justify-content: space-evenly;
     }
 
     .projectSection h3{
-        font-size: 0.8rem;
-        margin-top: 3.5rem;
+        font-size: 0.75rem;
+        margin-top: 2.8rem;
     }
 
     .content{
-        width: 8rem;
-        height: 8rem;
+        width: 6.5rem;
+        height: 6.5rem;
+        margin-top: 0;
        }
 
-    .alto{
-        width: 8rem;
-        height: 8rem;
+    .gout{
+        width: 6.5rem;
+        height: 6.5rem;
+        margin-top: 0;
        }
 
     .portfolioReact{
-        width: 8rem;
+        width: 6.5rem;
         background-size: 130%;
         background-position-x: -1rem;
         background-position-y: -0.8rem;
-        height: 8rem;
+        height: 6.5rem;
+        margin-top: 0;
        }
 
-    .contactSection h2{
-        color: #F5AF31;
-        font-size: 1.1rem;  
-        margin: 2rem 0 1rem 0;  
-    }
+    .tienda{
+        width: 6.5rem;
+        background-size: 110%;
+        background-position-x: -0.5rem;
+        background-position-y: -0.1rem;
+        height: 6.5rem;
+        margin-top: 0;
+   
+       }
 
     input{
         width: 8rem;
         font-size: 0.6rem;
-        margin: 0.3rem;        
+        margin: 0.3rem;
+        padding-left: 0.2rem;                
     }
 
     form label {
         display: block;
         font-weight: 600;
         font-size: 1.4rem;
-        margin-bottom: 5px;
+        margin-bottom: 0.5rem;
         color: #1f1f1f;
     }
+
     textarea{
         font-size: 0.6rem;
         width: 16.6rem;
         height: 5rem; 
-        margin-bottom: 1rem;
+        
+        padding-left: 0.2rem;
+        margin: 0.2rem 5rem 0.5rem 5rem;
     }
 
     button{
         font-size: 0.7rem;
-        width: 4rem;
+        width: 5rem;
         height: 1.2rem;
         cursor: pointer;
+        margin: 0.3rem;
     }
-    
+
     form .error {
         color: #e92b2d;
         font-weight: 400;
@@ -1769,5 +2087,39 @@
         color: #fff;
     }
 
+    .data{
+        justify-content: center;
+    }
+
+    .myForm{
+        color: #e92b2d;
+        display: flex;
+        flex-direction: column;
+        margin-top: 6rem;
+    }
+
+    .myForm h2{
+        font-size: 1.2rem;
+        color: #F5AF31;
+        margin-top: 0.5rem;
+    }
+
+    .validationError{
+        color: red;
+        font-size: 0.5rem;
+        z-index: 2;
+        margin: -0.2rem 0 0.3rem 6.1rem;
+        text-transform: uppercase;
+    }
+
+    .thanksContact{
+        margin-top: 3rem;
+    }
+
+    .successWrapper h2{
+        margin-top: 2rem;
+        color: white;
+        font-size: 1.2rem;
+    }
 }
 

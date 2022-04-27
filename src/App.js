@@ -12,6 +12,8 @@ import Proyectos from './components/Proyectos'
 import Contact from './components/Contact'
 import Contacto from './components/Contacto'
 
+import Form from "./components/Form";
+
 import Particles from "react-tsparticles";
 import ParticleBackground from "./components/particleBackground";
 
@@ -35,7 +37,7 @@ export default function App(props) {
         {english ? <Presentacion /> : <Introduction />}
         {english ? <Acerca /> : <About />}
         {english ? <Proyectos /> : <Project />} 
-        {english ?<Contacto /> : <Contact />}
+        {english ? <Contacto /> : <Contact />}
       </div>
     );
 };

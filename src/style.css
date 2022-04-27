@@ -8,7 +8,7 @@
 
     html{
         color: black;
-        background-color: black;
+        background-color: red;
         font-size: 40px;
         font-family: 'Roboto', sans-serif;
     }
@@ -2082,9 +2082,9 @@
 
     form .success {
         text-align: center;
-        font-size: 14px;
+        font-size: 1.4rem;
         padding-top: 20px;
-        color: #02a802;
+        color: #fff;
     }
 
     .data{

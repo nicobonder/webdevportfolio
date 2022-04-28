@@ -26,7 +26,7 @@ const projectsEn = [
     img: "",
     },*/
     {id: 3,
-    clase: "alto",
+    clase: "gout",
     link: "altoviaje.herokuapp.com/",
     title: "Click to open this project",
     name: "Alto Viaje",

@@ -17,3 +17,4 @@ You may also see any lint errors in the console.
 ## Note
 My personal portfolio as Web Developer where you have all the ways to contact me. 
 I used React.js, CSS and some HTML. I also used the Particles.js Library.
+Feel free to open each project and see in what I have been working on.

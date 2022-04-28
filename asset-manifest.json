@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webdevportfolio/static/css/main.977a6d49.css",
-    "main.js": "/webdevportfolio/static/js/main.d2b8c2f0.js",
+    "main.js": "/webdevportfolio/static/js/main.bb087c0b.js",
     "static/js/787.aeca62f9.chunk.js": "/webdevportfolio/static/js/787.aeca62f9.chunk.js",
     "static/media/nico.png": "/webdevportfolio/static/media/nico.c83d75e71a7d8d063f41.png",
     "static/media/CV_Nico_Bonder_esp.pdf": "/webdevportfolio/static/media/CV_Nico_Bonder_esp.cbf28582db65d5dea006.pdf",
@@ -13,11 +13,11 @@
     "static/media/logo3.png": "/webdevportfolio/static/media/logo3.3b1c716be1a67d87d84a.png",
     "index.html": "/webdevportfolio/index.html",
     "main.977a6d49.css.map": "/webdevportfolio/static/css/main.977a6d49.css.map",
-    "main.d2b8c2f0.js.map": "/webdevportfolio/static/js/main.d2b8c2f0.js.map",
+    "main.bb087c0b.js.map": "/webdevportfolio/static/js/main.bb087c0b.js.map",
     "787.aeca62f9.chunk.js.map": "/webdevportfolio/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.977a6d49.css",
-    "static/js/main.d2b8c2f0.js"
+    "static/js/main.bb087c0b.js"
   ]
 }

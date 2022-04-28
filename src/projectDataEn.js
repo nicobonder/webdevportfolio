@@ -27,7 +27,7 @@ const projectsEn = [
     },*/
     {id: 3,
     clase: "gout",
-    link: "altoviaje.herokuapp.com/",
+    link: "http://altoviaje.herokuapp.com/",
     title: "Click to open this project",
     name: "Alto Viaje",
     description: "This site emulate a travel blog. It has different sections and pages. I also included a section to sell my books using a Paypal API. The site was created using  HTML, CSS and JavaScript. I worked with EJS. I included the Scroll Trigger Library. I love the airplane moving through the page!",

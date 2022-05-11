@@ -26,8 +26,8 @@ const projects = [
     img: "",
     },*/
     {id: 3,
-    clase: "alto",
-    link: "altoviaje.herokuapp.com/",
+    clase: "gout",
+    link: "http://altoviaje.herokuapp.com/",
     title: "Click para ver el proyecto",
     name: "Alto Viaje",
     description: "La página simula un blog de viajes. Tiene diferentes secciones y páginas. Incluí una sección para vender mis libros usando un API de Paypal. El sitio fue creado con HTML, CSS y JavaScript. Trabajé con EJS. También incluí la librería Scroll Trigger. Me encanta como queda el avioncito moviéndose por la página!",

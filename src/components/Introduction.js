@@ -1,7 +1,5 @@
 import React from "react"
 import nico from "../Images/nico.png"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { whatsapp } from '@fortawesome/free-solid-svg-icons'
 
 export default function Introduction(props){
     const [english, setEnglish] = React.useState(props.english)
@@ -26,8 +24,8 @@ export default function Introduction(props){
             <div className="right">
                 <img 
                     src={nico} 
-                    alt="Nico Bonder 's picture" 
-                    title="Nico Bonder 's picture">
+                    alt="Nico Bonder" 
+                    title="Nico Bonder">
                 </img> 
                 
             </div>
@@ -36,8 +34,3 @@ export default function Introduction(props){
 
 }
 
-/*<div className="spanish">
-                    <p>Versión en español</p>
-                    <h3 className="translateButton" onClick={changeLanguage}>Clic aquí</h3>
-                </div>   
-                */

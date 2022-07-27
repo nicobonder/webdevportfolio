@@ -25,14 +25,6 @@ const projectsEn = [
     description: "Group project in which we created a social network dedicated to gastronomy. We used React.js, Material UI and Redux Toolkit in the Front End and Node Js, MySQL and Cloudinary in the Back End.",
     img: "",
     },
-    /*{id: 3,
-    clase: "gout",
-    link: "http://altoviaje.herokuapp.com/",
-    title: "Click to open this project",
-    name: "Alto Viaje",
-    description: "This site emulate a travel blog. It has different sections and pages. I also included a section to sell my books using a Paypal API. The site was created using  HTML, CSS and JavaScript. I worked with EJS. I included the Scroll Trigger Library. I love the airplane moving through the page!",
-    img: "",
-    },*/
     {id: 4,
     clase: "tienda",
     link: "https://tiendaviajera.netlify.app/",
@@ -41,6 +33,14 @@ const projectsEn = [
     description: "ecommerce to sell travelers ebooks. It was created with React.js and Material UI. It is Under Construction, but will be ready soon!",
     img: "",
     },
+    {id: 5,
+    clase: "apiCountries",
+    link: "https://nicobondercountries.netlify.app/",
+    title: "Click to open this project",
+    name: "Countries API",
+    description: "Api that returns the countries of the world. It was created with Vanilla JS and the Api from restcountries.",
+    img: "",
+    }
 ]
 
 export default projectsEn;

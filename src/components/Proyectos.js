@@ -9,7 +9,7 @@ export default function Project(){
     return(
         <section className="projectSection">
             <h2>Mis proyectos</h2>
-            <div className="project">
+            <div className="project grid">
                 {
                     projects.map(proyecto => ( //projects es la array en projectData, ProyectoCard es la card de proyectos individuales
                         <div>

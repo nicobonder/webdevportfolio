@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/webdevportfolio/static/css/main.440f2b44.css",
-    "main.js": "/webdevportfolio/static/js/main.d2b8c2f0.js",
+    "main.css": "/webdevportfolio/static/css/main.83390ec4.css",
+    "main.js": "/webdevportfolio/static/js/main.44b5dfcc.js",
     "static/js/787.aeca62f9.chunk.js": "/webdevportfolio/static/js/787.aeca62f9.chunk.js",
     "static/media/nico.png": "/webdevportfolio/static/media/nico.c83d75e71a7d8d063f41.png",
     "static/media/CV_Nico_Bonder_esp.pdf": "/webdevportfolio/static/media/CV_Nico_Bonder_esp.cbf28582db65d5dea006.pdf",
     "static/media/CV_Nico_Bonder_wd.pdf": "/webdevportfolio/static/media/CV_Nico_Bonder_wd.43fcf8af8f063007cc7f.pdf",
-    "static/media/logoAltoViaje.png": "/webdevportfolio/static/media/logoAltoViaje.2ee2d5dba28013d82151.png",
     "static/media/sentado.png": "/webdevportfolio/static/media/sentado.814331998567579daa4f.png",
+    "static/media/logoConuntry.png": "/webdevportfolio/static/media/logoConuntry.4c3ceab27feba13875a9.png",
     "static/media/shape.png": "/webdevportfolio/static/media/shape.7fd86ca3e128ef615e15.png",
     "static/media/logo_1.png": "/webdevportfolio/static/media/logo_1.5fcf2e2abb9273c6f1f9.png",
     "static/media/logoTienda.png": "/webdevportfolio/static/media/logoTienda.788adaac1a168d7e28b4.png",
     "static/media/logo3.png": "/webdevportfolio/static/media/logo3.3b1c716be1a67d87d84a.png",
     "index.html": "/webdevportfolio/index.html",
-    "main.440f2b44.css.map": "/webdevportfolio/static/css/main.440f2b44.css.map",
-    "main.d2b8c2f0.js.map": "/webdevportfolio/static/js/main.d2b8c2f0.js.map",
+    "main.83390ec4.css.map": "/webdevportfolio/static/css/main.83390ec4.css.map",
+    "main.44b5dfcc.js.map": "/webdevportfolio/static/js/main.44b5dfcc.js.map",
     "787.aeca62f9.chunk.js.map": "/webdevportfolio/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.440f2b44.css",
-    "static/js/main.d2b8c2f0.js"
+    "static/css/main.83390ec4.css",
+    "static/js/main.44b5dfcc.js"
   ]
 }

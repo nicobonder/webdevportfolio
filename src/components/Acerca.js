@@ -1,6 +1,6 @@
 import React from "react"
 import shape from '../Images/shape.png'
-import myPDF from '../Images/CV_Nico_Bonder_esp.pdf'
+import myPDF from '../Images/CV_Nicolas_Bonder_esp.pdf'
 
 export default function Acerca(){
     return(
@@ -67,7 +67,7 @@ export default function Acerca(){
             <div className="cvEn">
                 <h3>
                 <h3><a href={myPDF} 
-                download="CV_Nico_Bonder_esp.pdf">Descarga mi CV</a>
+                download="CV_Nicolas_Bonder_esp.pdf">Descarga mi CV</a>
                 </h3>
                 </h3>
             </div>

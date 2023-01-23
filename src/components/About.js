@@ -1,6 +1,6 @@
 import React from "react"
 import shape from '../Images/shape.png'
-import myPDF from '../Images/CV_Nico_Bonder_wd.pdf'
+import myPDF from '../Images/CV_NicolasBonder_wd.pdf'
 
 export default function About(){
     return(
@@ -63,7 +63,7 @@ export default function About(){
             </div>
             <div className="cvEn">
                 <h3><a href={myPDF} 
-                download="CV_Nico_Bonder_wd.pdf">Download my Resume</a>
+                download="CV_NicolasBonder_wd.pdf">Download my Resume</a>
                 </h3>
             </div>
         

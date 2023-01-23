@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/webdevportfolio/static/css/main.0db27a4f.css",
+    "main.css": "/webdevportfolio/static/css/main.36678939.css",
     "main.js": "/webdevportfolio/static/js/main.4c37fb90.js",
     "static/js/651.6dc1b76f.chunk.js": "/webdevportfolio/static/js/651.6dc1b76f.chunk.js",
     "static/media/nico.png": "/webdevportfolio/static/media/nico.c83d75e71a7d8d063f41.png",
@@ -11,14 +11,13 @@
     "static/media/logoConuntry.png": "/webdevportfolio/static/media/logoConuntry.4c3ceab27feba13875a9.png",
     "static/media/shape.png": "/webdevportfolio/static/media/shape.7fd86ca3e128ef615e15.png",
     "static/media/logo_1.png": "/webdevportfolio/static/media/logo_1.5fcf2e2abb9273c6f1f9.png",
-    "static/media/logoTienda.png": "/webdevportfolio/static/media/logoTienda.788adaac1a168d7e28b4.png",
     "index.html": "/webdevportfolio/index.html",
-    "main.0db27a4f.css.map": "/webdevportfolio/static/css/main.0db27a4f.css.map",
+    "main.36678939.css.map": "/webdevportfolio/static/css/main.36678939.css.map",
     "main.4c37fb90.js.map": "/webdevportfolio/static/js/main.4c37fb90.js.map",
     "651.6dc1b76f.chunk.js.map": "/webdevportfolio/static/js/651.6dc1b76f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0db27a4f.css",
+    "static/css/main.36678939.css",
     "static/js/main.4c37fb90.js"
   ]
 }

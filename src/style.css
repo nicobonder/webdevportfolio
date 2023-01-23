@@ -289,7 +289,7 @@
         color: white;
     }
 
-    .portfolioReact, .content, .tienda, .gout, .apiCountries{
+    .portfolioReact, .content, .gout, .apiCountries{
         width: 5rem;
         height: 5rem;
         background-repeat: no-repeat;
@@ -316,24 +316,17 @@
     }
 
     .gout{
-        background-image: url(./Images/pokeLogo.png);
+        background-image: url(./Images/pokeLogo.pngfproj);
         background-size: 101%;
         margin-bottom: 2.5rem;
         margin-top: 1rem;
-    }
-
-    .tienda{
-        background-image: url(./Images/logoTienda.png);
-        background-size: 100%;
-        margin-bottom: 2.5rem;
-        margin-top: 1.5rem;
     }
 
     .apiCountries{
         background-image: url(./Images/logoConuntry.png);
         background-size: 100%;
         margin-bottom: 2rem;
-        margin-top: 0.5rem;
+        margin-top: 1.5rem;
     }
 
     .myForm{
@@ -753,7 +746,7 @@
         color: white;
     }
 
-    .portfolioReact, .content, .gout, .tienda, .apiCountries{
+    .portfolioReact, .content, .gout, .apiCountries{
         width: 5rem;
         height: 5rem;
         background-repeat: no-repeat;
@@ -776,16 +769,13 @@
     .content{
         background-image: url(./Images/sentado.png);
         background-size: 100%;
+        margin-bottom: 3rem;
     }
 
     .gout{
-        background-image: url(./Images/pokeLogo.png);
+        background-image: url(./Images/pokeLogo.pngfproj);
         background-size: 101%;
-    }
-
-    .tienda{
-        background-image: url(./Images/logoTienda.png);
-        background-size: 100%;
+        margin-bottom: 3rem;
     }
 
     .apiCountries{
@@ -1074,7 +1064,7 @@
         color: white;
     }
 
-    .portfolioReact, .content, .tienda, .gout, .apiCountries{
+    .portfolioReact, .content, .gout, .apiCountries{
         width: 6rem;
         height: 6rem;
         background-repeat: no-repeat;
@@ -1097,11 +1087,6 @@
     }
 
     .gout{
-        background-size: 100%;
-        margin-top: 3.5rem;
-    }
-
-    .tienda{
         background-size: 100%;
         margin-top: 3.5rem;
     }
@@ -1427,11 +1412,6 @@
         margin-top: 3.5rem;
     }
     
-    .tienda{
-        margin-top: 4.6rem;
-        background-size: 101%;
-    }
-
     .apiCountries{
         margin-top: 3.5rem;
     }
@@ -1677,7 +1657,7 @@
         justify-content: center;
     }
 
-    .portfolioReact, .content, .tienda, .gout, .apiCountries{
+    .portfolioReact, .content, .gout, .apiCountries{
         width: 6rem;
         height: 6rem;
         background-repeat: no-repeat;
@@ -1703,12 +1683,6 @@
     .gout{
         background-size: 100%;
         margin-top: -2rem;
-    }
-
-    .tienda{
-        background-size: 100%;
-        margin-top: -0.2rem;
-        background-size: 104%;
     }
 
     .apiCountries{
@@ -1963,7 +1937,7 @@
         margin-top: 2.8rem;
     }
 
-    .portfolioReact, .content, .gout, .tienda, .apiCountries{
+    .portfolioReact, .content, .gout, .apiCountries{
         width: 6.5rem;
         height: 6.5rem;
     }
@@ -1982,13 +1956,6 @@
     .gout{
         margin-top: 0;
     }
-
-    .tienda{
-        background-size: 110%;
-        background-position-x: -0.5rem;
-        background-position-y: -0.1rem;
-        margin-top: 1.5rem;
-       }
 
     .apiCountries{
         background-size: 110%;

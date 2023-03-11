@@ -1,6 +1,8 @@
 import React from "react";
-import ProyectoCard from "../ProyectoCard";
-import projects from '../projectData';
+import ProyectoCard from "./ProyectoCard";
+import projects from '../../projectData';
+
+import './Projects.css'
 
 export default function Project(){
 
@@ -12,7 +14,7 @@ export default function Project(){
             <div className="project grid">
                 {
                     projects.map(proyecto => ( //projects es la array en projectData, ProyectoCard es la card de proyectos individuales
-                        <div>
+                        <div className="projectCard">
                             <ProyectoCard key={proyecto.id} proyecto={proyecto} /> 
                         </div>
                     ))

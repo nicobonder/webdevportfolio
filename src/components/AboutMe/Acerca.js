@@ -1,6 +1,6 @@
 import React from "react"
-import shape from '../Images/shape.png'
-import myPDF from '../Images/CV_Nicolas_Bonder_esp.pdf'
+import shape from '../../Images/shape.png'
+import myPDF from '../../Images/CV_Nicolas_Bonder_esp.pdf'
 
 export default function Acerca(){
     return(

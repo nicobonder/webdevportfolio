@@ -1,0 +1,228 @@
+.introduction {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 55vh;
+  margin-bottom: 1rem;
+}
+
+.left {
+  width: 60%;
+  margin-left: 2rem;
+}
+
+.right {
+  background-color: #f5af31;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  height: 55vh;
+  position: relative;
+}
+
+.introduction img {
+  height: 55vh;
+  position: absolute;
+  left: -30%;
+}
+
+.hello_text {
+  font-size: 0.8rem;
+}
+
+.developer {
+  font-size: 1rem;
+  margin: 0 0 1.5rem 0;
+}
+
+h1 {
+  font-size: 1.2rem;
+  color: #f5af31;
+}
+
+.left a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5.5rem;
+  height: 1rem;
+  border: #f5af31 1px solid;
+  color: white;
+}
+
+.left h3 {
+  font-size: 0.7rem;
+}
+
+.fab {
+  color: #4bc858;
+}
+
+#contact {
+  animation-duration: 3s;
+  animation-name: contact;
+  animation-iteration-count: infinite;
+}
+
+@keyframes contact {
+  0%,
+  25%,
+  45%,
+  64%,
+  100% {
+    opacity: 1;
+  }
+
+  37%,
+  56%,
+  73%,
+  78% {
+    opacity: 0;
+  }
+}
+
+/*entre 900 y 1200*/
+@media screen and (max-width: 1200px) {
+  .introduction {
+    height: 50vh;
+  }
+
+  .left {
+    width: 55%;
+    margin-left: 0.8rem;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  .right {
+    width: 45%;
+    height: 50vh;
+  }
+
+  .introduction img {
+    height: 50vh;
+    width: auto;
+  }
+
+  .hello_text {
+    font-size: 0.7rem;
+  }
+
+  .developer {
+    font-size: 0.9rem;
+    margin: 0 0 2rem 0rem;
+  }
+}
+
+/*entre 750 y 900*/
+@media screen and (max-width: 900px) {
+  .introduction {
+    height: 40vh;
+  }
+
+  .left {
+    width: 50%;
+    height: 40vh;
+  }
+
+  .right {
+    width: 50%;
+    height: 40vh;
+  }
+
+  .introduction img {
+    height: 40vh;
+    width: auto;
+  }
+
+  h1 {
+    font-size: 0.8rem;
+  }
+
+  .hello_text {
+    font-size: 0.55rem;
+  }
+
+  .developer {
+    font-size: 0.7rem;
+    margin: 0 0 2rem 0rem;
+  }
+}
+
+/*entre 550 y 750*/
+@media screen and (max-width: 750px) {
+  .introduction {
+    height: 40vh;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 40vh;
+    margin-left: 0;
+  }
+
+  .left a {
+    width: 4.5rem;
+    height: 0.9rem;
+    margin: 0 auto;
+  }
+
+  .left h3 {
+    font-size: 0.55rem;
+  }
+
+  h1 {
+    font-size: 0.8rem;
+  }
+
+  .hello_text {
+    font-size: 0.6rem;
+  }
+
+  .developer {
+    font-size: 0.7rem;
+    margin: 0 0 1rem 0rem;
+  }
+
+  .right {
+    display: none;
+  }
+}
+
+/*menos de 550*/
+@media screen and (max-width: 550px) {
+  .introduction {
+    height: 35vh;
+  }
+
+  .left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hello_text {
+    margin-left: 0rem;
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .developer {
+    font-size: 0.6rem;
+    margin: 0 0 1rem 0rem;
+  }
+}

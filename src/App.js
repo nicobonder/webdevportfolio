@@ -1,44 +1,36 @@
-/*Dividir el App en: pressentacion, about, project y contact*/
+import React, { useState } from "react";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import React from "react";
-import './App.css';
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Home";
+import AboutMe from "./components/AboutMe/AboutMe";
+import ContactMe from "./components/ContactMe/ContactMe";
+import About from "./components/AboutMe/About";
+import Acerca from "./components/AboutMe/Acerca";
+import Contacto from "./components/ContactMe/Contacto";
+import Contact from "./components/ContactMe/Contact";
+import Inicio from "./components/Home/Inicio";
 
-import Introduction from './components/Introduction';
-import Presentacion from './components/Presentacion';
-import About from './components/About'
-import Acerca from './components/Acerca'
-import Project from './components/Project'
-import Proyectos from './components/Proyectos'
-import Contact from './components/Contact'
-import Contacto from './components/Contacto'
+//import Form from "./components/Form";
 
-import Form from "./components/Form";
+export default function App() {
+  const [language, setLanguage] = useState("en");
 
-import Particles from "react-tsparticles";
-import ParticleBackground from "./components/particleBackground";
-
-
-export default function App(props) {
-    const [english, setEnglish] = React.useState(props.english)
-
-    function changeLanguage(){
-        setEnglish(prevSetEnglish => !prevSetEnglish)
-    }
+  const toggleLanguage = () => {
+    setLanguage(language === "en" ? "es" : "en");
+  };
 
     return (
-      <div className="App">
-        <ParticleBackground />
-        <div className="spanish">
-            <p>{english ? "English version" : "Versión en español"}</p>
-          
-            <h3 className="translateButton" onClick={changeLanguage}>{english ? "Click here" : "Clic aquí"}</h3>
-          
-        </div>
-        {english ? <Presentacion /> : <Introduction />}
-        {english ? <Acerca /> : <About />}
-        {english ? <Proyectos /> : <Project />} 
-        {english ? <Contacto /> : <Contact />}
+      <Router>
+      <div>
+        <Navbar language={language} toggleLanguage={toggleLanguage} />
+        <Routes>
+          <Route path="/" element={language === 'en' ? <Home /> : <Inicio />} />
+          <Route path="/about" element={language === 'en' ? <About /> : <Acerca />} />
+          <Route path="/contact" element={language === 'en' ? <Contact /> : <Contacto />} />
+        </Routes>
       </div>
+    </Router>
     );
 };
   

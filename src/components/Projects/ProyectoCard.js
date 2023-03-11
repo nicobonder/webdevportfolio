@@ -7,7 +7,10 @@ export default function ProyectoCard({
         <div className={clase}>
             <a href={link}
                 title={title}
-                target="_blank"><h3>{name}</h3></a>
+                target="_blank"
+                rel="noreferrer"
+                ><h3>{name}</h3>
+            </a>
             <p>{description}</p>
         </div>
     )

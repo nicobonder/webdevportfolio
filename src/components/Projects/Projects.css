@@ -1,0 +1,293 @@
+.projectSection{
+  margin: 1rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectSection h2 {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  color: #f5af31;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 6.5rem);
+  grid-template-rows: repeat(2, 10rem);
+  gap: 6rem 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.projectSection h3 {
+  color: white;
+  font-size: 0.6rem;
+  background-color: rgba(245, 175, 49, 0.9);
+  margin-top: 2.5rem;
+  border-radius: 0.25rem;
+}
+
+.projectSection p {
+  margin: 3.8rem 0 1rem 0;
+  font-size: 0.6rem;
+  width: 6.5rem;
+  text-align: justify;
+}
+
+.portfolioReact,
+.content,
+.pokemon,
+.apiCountries,
+.jazz {
+  width: 6.5rem;
+  height: 6.5rem;
+  background-repeat: no-repeat;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: solid 2px #f5af31;
+}
+
+.portfolioReact {
+  background-image: url(../../Images/logo_1.png);
+  background-size: 140%;
+  background-position-x: -1.1rem;
+  background-position-y: -1.1rem;
+}
+
+.content {
+  background-image: url(../../Images/sentado.png);
+  background-size: 100%;
+}
+
+.pokemon {
+  background-image: url(../../Images/pokeLogo.png);
+  background-size: 101%;
+}
+
+.apiCountries {
+  background-image: url(../../Images/logoConuntry.png);
+  background-size: 109%;
+  background-position-x: -0.3rem;
+}
+
+.jazz {
+  background-image: url(../../Images/gt.png);
+  background-size: 100%;
+}
+
+/*Entre 1200 y 900*/
+@media screen and (max-width: 1200px) {
+  .projectSection {
+    margin: 1rem 0 3rem 0;
+  }
+
+  .projectSection h2 {
+    margin: 1rem 0;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 5.5rem);
+    grid-template-rows: repeat(2, 10rem);
+    gap: 6rem 1rem;
+  }
+
+  .projectSection p {
+    margin: 3rem 0 1rem 0;
+    font-size: 0.6rem;
+    width: 5.5rem;
+  }
+
+  .portfolioReact,
+  .content,
+  .pokemon,
+  .apiCountries,
+  .jazz {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+
+  .portfolioReact {
+    background-position-x: -0.9rem;
+    background-position-y: -0.9rem;
+  }
+}
+
+/*Entre 900 y 750*/
+@media screen and (max-width: 900px) {
+  .projectSection {
+    width: 100%;
+    margin: 1rem 0rem;
+  }
+
+  .grid {
+    gap: 0;
+  }
+
+  .projectCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 8rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+
+  .projectCard:nth-child(1){
+    margin-top: 0;
+  }
+
+  .projectCard:nth-child(4){
+    margin-bottom: 0.7rem;
+  }
+
+
+  .projectSection h2 {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projectSection h3 {
+    color: white;
+    font-size: 0.6rem;
+    background-color: rgba(245, 175, 49, 0.9);
+    margin-top: 2.5rem;
+    border-radius: 0.25rem;
+  }
+
+  .projectSection p {
+    font-size: 0.6rem;
+    width: 14rem;
+    margin: 3rem -4rem 2.5rem -4rem;
+    padding: 0 0.2rem;
+    text-align: justify;
+  }
+
+  .projectSection a {
+    font-weight: bold;
+    color: white;
+  }
+
+  .portfolioReact,
+  .content,
+  .pokemon,
+  .apiCountries,
+  .jazz {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .portfolioReact {
+    background-size: 140%;
+    background-position-x: -0.95rem;
+    background-position-y: -0.9rem;
+  }
+}
+
+/*Entre 750 y 550*/
+@media screen and (max-width: 750px) {
+  .projectSection {
+    margin: 0.4rem 0rem 0 0rem;
+  }
+
+  .grid{
+    gap: 0;
+  }
+
+  .projectCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    width: 13rem;
+    height: 10rem;
+    margin: 0.4rem 0;
+  }
+
+  .projectCard:nth-child(4){
+    margin-top: 0.9rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .projectCard:nth-child(5){
+    margin-top: -1.4rem;
+    margin-bottom: -1rem;
+  }
+
+  .projectSection h2 {
+    font-size: 0.8rem;
+    margin: 0rem 0 0.5rem 0;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projectSection h3 {
+    color: white;
+    font-size: 0.6rem;
+    background-color: rgba(245, 175, 49, 0.9);
+    margin-top: 2.5rem;
+    border-radius: 0.25rem;
+  }
+
+  .projectSection p {
+    font-size: 0.6rem;
+    width: 12rem;
+    margin: 3rem -3rem 10rem -3rem;
+    padding: 0 0.2rem;
+    text-align: justify;
+  }
+}
+
+/*Menos de 550*/
+@media screen and (max-width: 550px) {
+
+  .projectCard {
+    width: 8rem;
+    height: 10rem;
+    margin: 1rem 0;
+  }
+  
+  .portfolioReact,
+  .content,
+  .pokemon,
+  .apiCountries,
+  .jazz{
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+
+  }
+
+  .projectSection p {
+    font-size: 0.5rem;
+    width: 7rem;
+    margin: 3rem 0 7rem -0.5rem;
+    padding: 0 0.2rem;
+    text-align: justify;
+  }
+
+  .projectCard:nth-child(4){
+    margin-top: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .projectCard:nth-child(5){
+    margin-top: -1.4rem;
+    margin-bottom: 0rem;
+  }
+
+}

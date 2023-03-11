@@ -1,2058 +1,1192 @@
 /*MENOS DE 640*/
 @media (max-width: 640px) {
-    *{
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 
-    html{
-        color: black;
-        background-color: black;
-        font-size: 40px;
-        font-family: 'Roboto', sans-serif;
-    }
+  html {
+    color: black;
+    background-color: black;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+  }
 
-    a{
-        text-decoration: none;
-    }
+  a {
+    text-decoration: none;
+  }
 
-    p{
-        color: white;
-    }
+  p {
+    color: white;
+  }
 
-    .App{
-        margin: -1rem 0rem 2rem 0rem;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        background-color: rgba(0, 0, 0, 0.5);
-        overflow: hidden;
-        z-index: 1;
-    }
+  .App {
+    margin: -1rem 0rem 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    z-index: 1;
+  }
 
-    .introduction{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        width: 100%;
-        height: 75vh;
-        margin-bottom: 1rem;
-    }
+  .about h2 {
+    color: #f5af31;
+    font-size: 0.8rem;
+    z-index: 5;
+  }
 
-    .left{ 
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;   
-    }
+  .about {
+    width: 100%;
+    margin: 0rem 0 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+  }
 
-    .right{
-        background-color: #F5AF31;
-        width: 100%; 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 1rem;
-        height: 40vh;
-    }
+  .about p {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.4rem;
+  }
 
-    .introduction img{
-        height: 40vh;
-        width: auto;
-        position: absolute;
-        z-index: 110;
-        transform: translateX(-35%);
-    }
+  .left2 {
+    width: 100%;
+    justify-content: left;
+    z-index: 100;
+  }
 
-    .hello{
-        margin-left: 0rem;
-        font-size: 0.5rem;
-        margin-top: 0.5rem;
-    }
+  .left2 p {
+    padding: 0.6rem;
+    text-align: justify;
+  }
 
-    .developer{
-        font-size: 0.6rem;
-        margin: 0 0 1rem 0rem;
-    }
+  .right2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-left: 0rem;
+    margin-top: 0rem;
+  }
 
-    h1{
-        color: #F5AF31;
-        margin-left: 0rem;
-        font-size: 0.8rem;
-    }
+  .info {
+    display: flex;
+    text-align: left;
+    justify-content: right;
+    margin-top: 0.5rem;
+    margin-left: 0rem;
+    z-index: 1;
+  }
 
-    .left h3{
-        border: 1px solid #F5AF31;
-        border-radius: 0.0125rem;
-        color: white;
-        width: 4.5rem;
-        font-size: 0.5rem;
-    }
+  .info p {
+    margin-bottom: 0.3rem;
+  }
 
-    .left a{
-        width: 4.5rem;
-        margin-left: 0rem;
-        align-self: center;
-    }
+  .column2 {
+    margin-left: 0.5rem;
+  }
 
-    .fab{
-        color: #4BC858;
-    }
+  .softSkills {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: right;
+    margin-top: 0.5rem;
+    z-index: 1;
+  }
 
-    .spanish{
-        color: white;
-        border: 1px solid white;
-        border-radius: 0.0125rem;
-        width: 3rem;
-        height: 1.3rem;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        margin: 0 0 3rem 4rem;
-        -webkit-box-shadow: 9px 10px 1px -1px rgba(0,0,0,0.75);
-        -moz-box-shadow: 9px 10px 1px -1px rgba(0,0,0,0.75);
-        box-shadow: 9px 10px 1px -1px rgba(0,0,0,0.75);
-        position: absolute;
-        top: 6.2rem;
-        left: 1rem;
-    }
+  .softSkills li {
+    font-size: 0.4rem;
+    margin-bottom: 0.3rem;
+    margin-left: 0.9rem;
+    margin-right: 0.5rem;
+    text-align: justify;
+  }
 
-    .spanish p{
-        font-size: 0.3rem;
-    }
+  .softSkills h2 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
 
-    .spanish h3{
-        font-size: 0.4rem;   
-    }
+  .cvEn a {
+    color: white;
+  }
 
-    .spanish a{
-        color: white;
-    }
+  .cvEn {
+    border: 1px solid #f5af31;
+    border-radius: 0.0125rem;
+    color: white;
+    width: 5rem;
+    font-size: 0.4rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.1rem 0.2rem;
+  }
 
-    .translateButton{
-        cursor: pointer;
-    }
+  .right2 a {
+    color: white;
+    text-decoration: none;
+  }
 
-    .about h2{
-        color: #F5AF31;
-        font-size: 0.8rem;
-        z-index: 5;
-    }
+  .shape {
+    position: absolute;
+    z-index: -110;
+    transform: translate(-160%, -80%);
+  }
 
-    .about{
-        width: 100%;
-        margin: 0rem 0 1rem 0rem;
-        display: flex;
-        flex-direction: column;
-    }
+  .shape img {
+    width: 4rem;
+    height: auto;
+    z-index: -300;
+    transform: translate(75%, -10%);
+  }
 
-    .about p{
-        margin: 0 0 0.5rem 0;
-        font-size: 0.4rem;
-    }
+  .myForm {
+    display: flex;
+    flex-direction: column;
+    color: #e92b2d;
+    margin-top: 0;
+  }
 
-    .left2{
-        width: 100%;
-        justify-content: left;   
-        z-index: 100;
-    }
+  .myForm h2 {
+    color: #f5af31;
+    font-size: 0.8rem;
+    margin: 0.5rem 0 0.7rem 0;
+  }
 
-    .left2 p{
-        padding: 0.6rem;
-        text-align: justify;
-    }
+  .data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .right2{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-        align-items: center;
-        margin-left: 0rem;
-        margin-top: 0rem;
-    }
+  input {
+    border: 0.05rem solid white;
+    border-radius: 0.125rem;
+    color: white;
+    background-color: #f5af31;
+    text-align: left;
+    margin: 0rem 0 0.5rem 0;
+    width: 7.5rem;
+    font-size: 0.5rem;
+    padding-left: 0.2rem;
+  }
 
-    .info{
-        display: flex;
-        text-align: left;
-        justify-content: right;
-        margin-top: 0.5rem;
-        margin-left: 0rem;
-        z-index: 1;
-    }
+  input::placeholder {
+    color: white;
+    padding-left: 0.2rem;
+  }
 
-    .info p{
-        margin-bottom: 0.3rem;
-    }
+  form label {
+    display: block;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #1f1f1f;
+  }
 
-    .column2{
-        margin-left: 0.5rem;
-    }
+  textarea {
+    display: block;
+    font-size: 0.5rem;
+    width: 7.5rem;
+    margin-top: 0.3rem;
+    padding-left: 0.2rem;
+    border: 2px solid white;
+    border-radius: 0.125rem;
+    color: white;
+    background-color: #f5af31;
+    height: 3rem;
+    text-align: left;
+    margin-bottom: 0.3rem;
+  }
 
-    .softSkills{
-        color: white;
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        justify-content: right;
-        margin-top: 0.5rem;
-        z-index: 1;
-    }
+  textarea::placeholder {
+    color: white;
+    padding-left: 0.2rem;
+  }
 
-    .softSkills li{
-        font-size: 0.4rem;
-        margin-bottom: 0.3rem;
-        margin-left: 0.9rem;
-        margin-right: 0.5rem;
-        text-align: justify;
-    }
+  button {
+    border: 0.05rem solid white;
+    border-radius: 0.125rem;
+    color: white;
+    background-color: #f5af31;
+    text-align: center;
+    margin-bottom: 0rem;
+    font-size: 0.7rem;
+    width: 4rem;
+    height: 1.2rem;
+    cursor: pointer;
+  }
 
-    .softSkills h2{
-        text-align: center;
-        margin-bottom: 0.5rem;
-    }
+  button:hover {
+    cursor: pointer;
+  }
 
-    .cvEn a{
-        color: white;
-    }
-    
-    .cvEn{
-        border: 1px solid #F5AF31;
-        border-radius: 0.0125rem;
-        color: white;
-        width: 5rem;
-        font-size: 0.4rem;
-        text-align: center;
-        margin: 0 auto;
-        padding: 0.1rem 0.2rem;
-    }
+  .error {
+    font-size: 0.5rem;
+    color: white;
+  }
 
-    .right2 a{
-        color: white;
-        text-decoration: none;
-    }
+  form .error {
+    color: #e92b2d;
+    font-weight: 400;
+    font-size: 0.5rem;
+    position: relative;
+    top: 1.5rem;
+    left: -5rem;
+    z-index: 2;
+  }
 
-    .shape{
-        position: absolute;
-        z-index: -110;
-        transform: translate(-160%, -80%);
-    }
+  form .success {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 20px;
+    color: #02a802;
+  }
 
-    .shape img{
-        width: 4rem;
-        height: auto;
-        z-index: -300;
-        transform: translate(75%, -10%);
-    }
+  .validationError {
+    color: red;
+    font-size: 0.4rem;
+    z-index: 2;
+    margin: -0.2rem 0 0.3rem 0;
+    text-transform: uppercase;
+  }
 
-    .projectSection{
-        width: 100%;
-        margin: 1rem 0rem;
-    }
-
-    .projectSection h2{
-        color: #F5AF31;
-        font-size: 0.8rem;  
-        margin: 0.5rem 0 0.8rem 0;  
-    }
-
-    .project{
-        display: flex;
-        flex-direction: column;
-        
-        align-items: center;
-    }
-
-    .projectSection h3{
-        color: white;
-        font-size: 0.55rem;
-        background-color: rgba(245, 175, 49, 0.9);
-        margin-top: 2rem;
-        border-radius: 0.25rem;
-    }
-
-    .projectSection p{
-        font-size: 0.4rem;
-        width: 8rem; 
-        margin: 2.5rem -1.5rem 3.5rem -1.5rem;
-        padding: 0 0.2rem;    
-        text-align: justify;   
-    }
-
-    .projectSection a{
-        font-weight: bold;
-        color: white;
-    }
-
-    .portfolioReact, .content, .gout, .apiCountries{
-        width: 5rem;
-        height: 5rem;
-        background-repeat: no-repeat;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;    
-        border: solid 2px #F5AF31;
-    }
-
-    .portfolioReact{
-        background-image: url(./Images/logo_1.png);
-        background-size: 140%;
-        background-position-x: -0.8rem;
-        background-position-y: -0.75rem;
-        margin-bottom: 3rem;
-    }
-
-    .content{
-        background-image: url(./Images/sentado.png);
-        background-size: 100%;
-        margin-bottom: 3rem;
-        margin-top: 1rem;
-    }
-
-    .gout{
-        background-image: url(./Images/pokeLogo.png);
-        background-size: 101%;
-        margin-bottom: 2.5rem;
-        margin-top: 1rem;
-    }
-
-    .apiCountries{
-        background-image: url(./Images/logoConuntry.png);
-        background-size: 100%;
-        margin-bottom: 2rem;
-        margin-top: 1.5rem;
-    }
-
-    .myForm{
-        display: flex;
-        flex-direction: column;
-        color: #e92b2d;
-        margin-top: 0;
-    }
-
-    .myForm h2{
-        color: #F5AF31;
-        font-size: 0.8rem;  
-        margin: 0.5rem 0 0.7rem 0;  
-    }
-
-    .data{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    input{
-        border: 0.05rem solid white;
-        border-radius: 0.125rem;
-        color: white;
-        background-color: #F5AF31;
-        text-align: left;
-        margin: 0rem 0 0.5rem 0;
-        width: 7.5rem;
-        font-size: 0.5rem;
-        padding-left: 0.2rem;                
-    }
-
-    input::placeholder{
-        color: white;
-        padding-left: 0.2rem;
-    }
-
-    form label {
-        display: block;
-        font-weight: 600;
-        font-size: 1.4rem;
-        margin-bottom: 0.5rem;
-        color: #1f1f1f;
-    }
-
-    textarea{
-        display: block;
-        font-size: 0.5rem;
-        width: 7.5rem;
-        margin-top: 0.3rem;
-        padding-left: 0.2rem;
-        border: 2px solid white;
-        border-radius: 0.125rem;
-        color: white;
-        background-color: #F5AF31;
-        height: 3rem;
-        text-align: left;
-        margin-bottom: 0.3rem;
-    }
-
-    textarea::placeholder{
-        color: white;
-        padding-left: 0.2rem;
-    }
-
-    button{
-        border: 0.05rem solid white;
-        border-radius: 0.125rem;
-        color: white;
-        background-color: #F5AF31;
-        text-align: center;
-        margin-bottom: 0rem;
-        font-size: 0.7rem;
-        width: 4rem;
-        height: 1.2rem;
-        cursor: pointer;
-    }
-
-    button:hover{
-        cursor: pointer;
-    }
-
-    .error{
-        font-size: 0.5rem;
-        color: white;    
-    }
-
-    #contact{
-        animation-duration: 3s;
-        animation-name: contact;
-        animation-iteration-count: infinite;
-    }
-   
-    form .error {
-        color: #e92b2d;
-        font-weight: 400;
-        font-size: 0.5rem;
-        position: relative;
-        top: 1.5rem;
-        left: -5rem;
-        z-index: 2;
-    }
-
-    form .success {
-        text-align: center;
-        font-size: 14px;
-        padding-top: 20px;
-        color: #02a802;
-    }
-
-    .validationError{
-        color: red;
-        font-size: 0.4rem;
-        z-index: 2;
-        margin: -0.2rem 0 0.3rem 0;
-        text-transform: uppercase;
-    }
-
-    .thanksContact{
-        margin-top: 3rem;
-    }
-
-
-    @keyframes contact {
-        0%, 25%, 45%, 64%, 100%  { 
-            opacity: 1;
-        }
-
-        37%, 56%, 73%, 78%  { 
-            opacity: 0; 
-            
-        }
-    }
+  .thanksContact {
+    margin-top: 3rem;
+  }
 }
-
 
 /*DE 640 A 768*/
 @media (min-width: 640px) {
-    *{
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 
-    html{
-        color: black;
-        background-color: black;
-        font-size: 40px;
-        font-family: 'Roboto', sans-serif;
-    }
+  html {
+    color: black;
+    background-color: black;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+  }
 
-    a{
-        text-decoration: none;
-    }
+  a {
+    text-decoration: none;
+  }
 
-    p{
-        color: white;
-    }
+  p {
+    color: white;
+  }
 
-    .App{
-        margin: -1rem 1rem 2rem 1rem;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        background-color: rgba(0, 0, 0, 0.5);
-        overflow: hidden;
-        z-index: 1;
-    }
+  .App {
+    margin: -1rem 0rem 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    z-index: 1;
+  }
 
-    .introduction{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        height: 50vh;
-        margin-bottom: 1rem;
-    }
+  .about h2 {
+    color: #f5af31;
+    font-size: 0.8rem;
+    z-index: 5;
+  }
 
-    .left{ 
-        width: 60%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: justify;   
-    }
+  .about {
+    width: 100%;
+    margin: 0.5rem 0 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+  }
 
-    .right{
-        background-color: #F5AF31;
-        width: 40%; 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 0;
-        height: 50vh;
-    }
+  .about p {
+    margin: 0 0 1rem 0;
+    font-size: 0.5rem;
+  }
 
-    .introduction img{
-        height: 50vh;
-        width: auto;
-        position: absolute;
-        z-index: 110;
-        transform: translateX(-80%);
-    }
+  .left2 {
+    width: 100%;
+    justify-content: left;
+    z-index: 100;
+  }
 
-    .hello{
-        margin-left: 0rem;
-        font-size: 0.5rem;
-        margin-top: 0.5rem;
-    }
+  .left2 p {
+    margin: 0.5rem;
+    text-align: justify;
+  }
 
-    .developer{
-        font-size: 0.6rem;
-        margin: 0 0 1rem 0rem;
-    }
- 
-    .fab{
-        color: #4BC858;
-    }
+  .right2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-left: 0rem;
+  }
 
-    h1{
-        color: #F5AF31;
-        margin-left: 0rem;
-        font-size: 0.8rem;
-    }
+  .info {
+    display: flex;
+    text-align: left;
+    justify-content: right;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    z-index: 1;
+  }
 
-    .left h3{
-        border: 1px solid #F5AF31;
-        border-radius: 0.0125rem;
-        color: white;
-        width: 4.5rem;
-        font-size: 0.5rem;
-        text-align: center;   
-    }
+  .info p {
+    margin-bottom: 0.4rem;
+  }
 
-    .left a{
-        width: 4.5rem;
-        margin-left: 0rem;
-        align-self:unset;
-    }
+  .column2 {
+    margin-left: 0.5rem;
+  }
 
-    .spanish{
-        color: white;
-        border: 1px solid white;
-        border-radius: 0.0125rem;
-        width: 2.8rem;
-        height: 1.1rem;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        margin: 0 0 2rem 1.5rem;
-        -webkit-box-shadow: 9px 10px 1px -1px rgba(0,0,0,0.75);
-        -moz-box-shadow: 9px 10px 1px -1px rgba(0,0,0,0.75);
-        box-shadow: 9px 10px 1px -1px rgba(0,0,0,0.75);
-        position: absolute;
-        top: 0.7rem;
-        left: 10rem;
-    }
+  .softSkills {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: right;
+    margin-top: 0.5rem;
+    z-index: 1;
+  }
 
-    .spanish p{
-        font-size: 0.3rem;
-    }
+  .softSkills li {
+    font-size: 0.5rem;
+    margin-bottom: 0.3rem;
+  }
 
-    .spanish h3{
-        font-size: 0.4rem;   
-    }
+  .softSkills h2 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
 
-    .spanish a{
-        color: white;
-    }
+  .cvEn a {
+    color: white;
+  }
 
+  .cvEn {
+    border: 1px solid #f5af31;
+    border-radius: 0.0125rem;
+    color: white;
+    width: 5.5rem;
+    font-size: 0.4rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.1rem 0.2rem;
+  }
 
-    .about h2{
-        color: #F5AF31;
-        font-size: 0.8rem;
-        z-index: 5;
-    }
+  .right2 a {
+    color: white;
+    text-decoration: none;
+  }
 
-    .about{
-        width: 100%;
-        margin: 0.5rem 0 1rem 0rem;
-        display: flex;
-        flex-direction: column;
-    }
+  .shape {
+    position: absolute;
+    z-index: -110;
+    transform: translate(-230%, -90%);
+  }
 
-    .about p{
-        margin: 0 0 1rem 0;
-        font-size: 0.5rem;
-    }
+  .shape img {
+    width: 4.5rem;
+    height: auto;
+    z-index: -300;
+    transform: translate(85%, 10%);
+  }
 
-    .left2{
-        width: 100%;
-        justify-content: left;   
-        z-index: 100;
-    }
+  .myForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: -1rem;
+  }
 
-    .left2 p{
-        margin: 0.5rem; 
-        text-align: justify;
-    }
+  .myForm h2 {
+    font-size: 0.8rem;
+    color: #f5af31;
+    margin-top: 0;
+  }
 
-    .right2{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-        align-items: center;
-        margin-left: 0rem;
-    }
+  .data {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .info{
-        display: flex;
-        text-align: left;
-        justify-content: right;
-        margin-top: 0.5rem;
-        margin-left: 1rem;
-        z-index: 1;
-    }
+  #name,
+  #email {
+    width: 6rem;
+    font-size: 0.5rem;
+    padding-left: 0.2rem;
+    background-color: #f5af31;
+    color: white;
+    border-radius: 0.125rem;
+  }
 
-    .info p{
-        margin-bottom: 0.4rem;
-    }
+  #name {
+    margin: 0.3rem 0.3rem 0.3rem 0;
+  }
+  #email {
+    margin: 0.3rem 0 0.3rem 0.3rem;
+  }
 
-    .column2{
-        margin-left: 0.5rem;
-    }
+  form label {
+    display: block;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #1f1f1f;
+  }
 
-    .softSkills{
-        color: white;
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        justify-content: right;
-        margin-top: 0.5rem;
-        z-index: 1;
-    }
+  textarea {
+    font-size: 0.5rem;
+    width: 12.6rem;
+    height: 5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 0.2rem;
+    /*margin-left: 0.3rem;*/
+    background-color: #f5af31;
+    color: white;
+    border-radius: 0.125rem;
+  }
 
-    .softSkills li{
-        font-size: 0.5rem;
-        margin-bottom: 0.3rem;
-    }
+  button {
+    font-size: 0.7rem;
+    width: 4rem;
+    height: 1.2rem;
+    cursor: pointer;
+    background-color: #f5af31;
+    color: white;
+    border-radius: 0.125rem;
+  }
 
-    .softSkills h2{
-        text-align: center;
-        margin-bottom: 0.5rem;
-    }
+  form .error {
+    color: #e92b2d;
+    font-weight: 400;
+    font-size: 0.5rem;
+    position: relative;
+    top: 1.5rem;
+    left: -5rem;
+    z-index: 2;
+  }
 
-    .cvEn a{
-        color: white;
-    }
+  form .success {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 20px;
+    color: #02a802;
+  }
 
-    .cvEn{
-        border: 1px solid #F5AF31;
-        border-radius: 0.0125rem;
-        color: white;
-        width: 5.5rem;
-        font-size: 0.4rem;
-        text-align: center;
-        margin: 0 auto;
-        padding: 0.1rem 0.2rem;
-    }
- 
-    .right2 a{
-        color: white;
-        text-decoration: none;
-    }
+  .validationError {
+    color: red;
+    font-size: 0.4rem;
+    z-index: 2;
+    margin: -0.2rem 0 0.3rem 0;
+    text-transform: uppercase;
+  }
 
-    .shape{
-        position: absolute;
-        z-index: -110;
-        transform: translate(-230%, -90%);
-    }
-
-    .shape img{
-        width: 4.5rem;
-        height: auto;
-        z-index: -300;
-        transform: translate(85%, 10%);
-    }
-
-    .projectSection{
-        width: 100%;
-        margin: 1rem -0.5rem;
-    }
-
-    .projectSection h2{
-        color: #F5AF31;
-        font-size: 0.8rem;  
-        margin: 0.5rem 0 1rem 0;  
-    }
-
-    .project{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .projectSection h3{
-        color: white;
-        font-size: 0.55rem;
-        background-color: rgba(245, 175, 49, 0.9);
-        margin-top: 2rem;
-        border-radius: 0.25rem;
-    }
-
-    .projectSection p{
-        font-size: 0.4rem;
-        width: 14rem; 
-        margin: 2.5rem -4.5rem;   
-        padding: 0 0.2rem;    
-    }
-
-    .projectSection a{
-        font-weight: bold;
-        color: white;
-    }
-
-    .portfolioReact, .content, .gout, .apiCountries{
-        width: 5rem;
-        height: 5rem;
-        background-repeat: no-repeat;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;    
-        border: solid 2px #F5AF31;
-        margin-top: 0;
-    }
-
-    .portfolioReact{
-        background-image: url(./Images/logo_1.png);
-        background-size: 140%;
-        background-position-x: -0.8rem;
-        background-position-y: -0.75rem;
-        margin-bottom: 3rem;
-    }
-
-    .content{
-        background-image: url(./Images/sentado.png);
-        background-size: 100%;
-        margin-bottom: 3rem;
-    }
-
-    .gout{
-        background-image: url(./Images/pokeLogo.png);
-        background-size: 101%;
-        margin-bottom: 3rem;
-    }
-
-    .apiCountries{
-        background-image: url(./Images/logoConuntry.png);
-        background-size: 100%;
-        margin-bottom: 2.5rem;
-        
-    }
-
-    .myForm{
-        display: flex;
-        flex-direction: column;
-        margin-top: -1rem;
-    }
-
-    .myForm h2{
-        font-size: 0.8rem; 
-        color: #F5AF31;
-        margin-top: 0;
-    }
-
-    .data{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    #name, #email {
-        width: 6rem;
-        font-size: 0.5rem;
-        padding-left: 0.2rem;  
-        background-color: #F5AF31;
-        color: white; 
-        border-radius: 0.125rem;             
-    }
-
-    #name{
-        margin: 0.3rem 0.3rem 0.3rem 0;
-
-    }
-    #email{
-        margin: 0.3rem 0 0.3rem 0.3rem;
-
-    }
-
-    form label {
-        display: block;
-        font-weight: 600;
-        font-size: 1.4rem;
-        margin-bottom: 0.5rem;
-        color: #1f1f1f;
-    }
-
-    textarea{
-        font-size: 0.5rem;
-        width: 12.6rem;
-        height: 5rem; 
-        margin-bottom: 0.5rem;
-        padding-left: 0.2rem;
-        /*margin-left: 0.3rem;*/
-        background-color: #F5AF31;
-        color: white;
-        border-radius: 0.125rem;
-    }
-
-    button{
-        font-size: 0.7rem;
-        width: 4rem;
-        height: 1.2rem;
-        cursor: pointer;
-        background-color: #F5AF31;
-        color: white;
-        border-radius: 0.125rem;
-    }
-
-    form .error {
-        color: #e92b2d;
-        font-weight: 400;
-        font-size: 0.5rem;
-        position: relative;
-        top: 1.5rem;
-        left: -5rem;
-        z-index: 2;
-    }
-
-    form .success {
-        text-align: center;
-        font-size: 14px;
-        padding-top: 20px;
-        color: #02a802;
-    }
-
-    .validationError{
-        color: red;
-        font-size: 0.4rem;
-        z-index: 2;
-        margin: -0.2rem 0 0.3rem 0;
-        text-transform: uppercase;
-    }
-
-    .thanksContact{
-        margin-top: 3rem;
-    }
-
-    #contact{
-        animation-duration: 3s;
-        animation-name: contact;
-        animation-iteration-count: infinite;
-    }
-
-
+  .thanksContact {
+    margin-top: 3rem;
+  }
 }
-
 
 /*DE 768 A 840*/
 @media (min-width: 768px) {
-   
-    .App{
-        margin: -1rem 1rem 2rem 1rem;
+  .App {
+    margin: -1rem 0rem 2rem 0rem;
+  }
+
+  .about h2 {
+    font-size: 1rem;
+    z-index: 5;
+  }
+
+  .about {
+    width: 100%;
+    margin: 1rem 0 1rem 0rem;
+    flex-direction: column;
+  }
+
+  .about p {
+    margin: 0 0 1rem 0;
+    font-size: 0.5rem;
+  }
+
+  .left2 {
+    width: 100%;
+    z-index: 100;
+  }
+
+  .left2 p {
+    margin-top: 0.5rem;
+  }
+
+  .right2 {
+    width: 100%;
+    margin-left: 0rem;
+  }
+
+  .info {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+  }
+
+  .info p {
+    margin-bottom: 0.4rem;
+  }
+
+  .column2 {
+    margin-left: 0.5rem;
+  }
+
+  .softSkills h2 {
+    margin: 0.5rem 0;
+  }
+
+  .cvEn {
+    width: 6.5rem;
+    font-size: 0.5rem;
+    margin: 0.5rem auto;
+  }
+
+  .shape {
+    transform: translate(-190%, -80%);
+  }
+
+  .shape img {
+    width: 6rem;
+    height: auto;
+    transform: translate(85%, 10%);
+  }
+
+  @keyframes contact {
+    0%,
+    25%,
+    45%,
+    64%,
+    100% {
+      opacity: 1;
     }
 
-    .introduction{
-        width: 100%;
-        height: 40vh;
-        margin-bottom: 1rem;
+    37%,
+    56%,
+    73%,
+    78% {
+      opacity: 0;
     }
+  }
 
-    .left{ 
-        width: 60%;
-    }
+  .myForm {
+    display: flex;
+    flex-direction: column;
+    color: #e92b2d;
+    margin-top: -2.2rem;
+  }
 
-    .right{
-        width: 40%; 
-        height: 40vh;
-    }
+  .myForm h2 {
+    color: #f5af31;
+    font-size: 1.1rem;
+    margin: 1rem 0;
+  }
 
-    .introduction img{
-        height: 40vh;
-        transform: translateX(-43%);
-    }
+  .data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 
+  #name,
+  #email {
+    border: 0.05rem solid white;
+    border-radius: 0.125rem;
+    color: white;
+    background-color: #f5af31;
+    text-align: left;
+    width: 8rem;
+    font-size: 0.6rem;
+    margin-bottom: 0.5rem;
+    padding-left: 0.2rem;
+  }
 
-    .hello{
-        margin-left: 0rem;
-        font-size: 0.6rem;
-        margin-top: 0rem;
-    }
+  input::placeholder {
+    color: white;
+    padding-left: 0.2rem;
+  }
 
-    .developer{
-        font-size: 0.7rem;
-        margin: 0 0 2.5rem 0rem;
-    }
+  textarea {
+    border: 2px solid white;
+    border-radius: 0.125rem;
+    color: white;
+    background-color: #f5af31;
+    text-align: left;
+    font-size: 0.6rem;
+    width: 16.6rem;
+    height: 5rem;
+    margin-bottom: 1rem;
+    padding-left: 0.2rem;
+  }
 
-    h1{
-        margin-left: 0rem;
-        font-size: 0.9rem;
-    }
+  textarea::placeholder {
+    color: white;
+    padding-left: 0.2rem;
+  }
 
-    .left h3{
-        width: 4.5rem;
-        font-size: 0.6rem;
-    }
+  button {
+    border: 0.05rem solid white;
+    border-radius: 0.125rem;
+    color: white;
+    background-color: #f5af31;
+    text-align: center;
+    margin-bottom: 0rem;
+    font-size: 0.7rem;
+    width: 4rem;
+    height: 1.2rem;
+    cursor: pointer;
+  }
 
-    .left a{
-        width: 4.5rem;
-        margin-left: 0rem;
-    }
+  button:hover {
+    cursor: pointer;
+  }
 
-    .spanish{
-        width: 4rem;
-        height: 1.3rem;
-        margin: 0 0 5.5rem 1.5rem;
-        top: 1.5rem;
-        left: 12rem;
-    }
+  .error {
+    font-size: 0.5rem;
+    color: white;
+  }
 
-    .spanish p{
-        font-size: 0.4rem;
-    }
+  form label {
+    display: block;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #1f1f1f;
+  }
 
-    .spanish h3{
-        font-size: 0.5rem;
-        
-    }
+  form .error {
+    color: #e92b2d;
+    font-weight: 400;
+    font-size: 0.5rem;
+    position: relative;
+    top: 1.5rem;
+    left: -5rem;
+    z-index: 2;
+  }
 
-    .about h2{
-        font-size: 1rem;
-        z-index: 5;
-    }
+  form .success {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 2rem;
+    color: #02a802;
+  }
 
-    .about{
-        width: 100%;
-        margin: 1rem 0 1rem 0rem;
-        flex-direction: column;
-    }
+  .validationError {
+    color: red;
+    font-size: 0.4rem;
+    z-index: 2;
+    margin: -0.2rem 0 0.3rem 5.1rem;
+    text-transform: uppercase;
+  }
 
-    .about p{
-        margin: 0 0 1rem 0;
-        font-size: 0.5rem;
-    }
-
-    .left2{
-        width: 100%;
-        z-index: 100;
-    }
-
-    .left2 p{
-        margin-top: 0.5rem; 
-    }
-
-    .right2{
-        width: 100%;
-        margin-left: 0rem;
-    }
-
-    .info{
-        margin-top: 0.5rem;
-        margin-left: 1rem;
-    }
-
-    .info p{
-        margin-bottom: 0.4rem;
-    }
-
-    .column2{
-        margin-left: 0.5rem;
-    }
-
-
-    .softSkills h2{
-        margin: 0.5rem 0;
-    }
-
-    .cvEn{
-        width: 6.5rem;
-        font-size: 0.5rem;
-        margin: 0.5rem auto;
-
-    }
-
-    .shape{
-        transform: translate(-190%, -80%);
-    }
-
-    .shape img{
-        width: 6rem;
-        height: auto;
-        transform: translate(85%, 10%);
-    }
-    
-    .projectSection{
-        width: 100%;
-        margin: 1rem 0rem;
-    }
-
-    .projectSection h2{
-        font-size: 1.1rem;  
-        margin: 0 0 1rem 0;  
-    }
-    
-    .project{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .projectSection h3{
-        color: white;
-        font-size: 0.6rem;
-        background-color: rgba(245, 175, 49, 0.9);
-        margin-top: 2.5rem;
-        border-radius: 0.25rem;
-    }
-
-    .projectSection p{
-        font-size: 0.4rem;
-        width: 14rem; 
-        margin: 3rem -4rem;   
-        padding: 0 0.2rem;   
-        text-align: justify; 
-    }
-
-    .projectSection a{
-        font-weight: bold;
-        color: white;
-    }
-
-    .portfolioReact, .content, .gout, .apiCountries{
-        width: 6rem;
-        height: 6rem;
-        background-repeat: no-repeat;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;    
-        border: solid 2px #F5AF31;
-    }
-    
-    .portfolioReact {
-        background-size: 140%;
-        background-position-x: -0.95rem;
-        background-position-y: -0.9rem;
-    }
-
-    .content{
-        background-size: 100%;
-        margin-top: 0.5rem;
-    }
-
-    .gout{
-        background-size: 100%;
-        margin-top: 3.5rem;
-    }
-
-    .apiCountries{
-        background-size: 100%;        
-        margin-top: 3rem;
-    }
-
-    @keyframes contact {
-        0%, 25%, 45%, 64%, 100%  { 
-            opacity: 1;
-        }
-
-        37%, 56%, 73%, 78%  { 
-            opacity: 0; 
-            
-        }
-    }
-
-    .myForm{
-        display: flex;
-        flex-direction: column;
-        color: #e92b2d;
-        margin-top: -2.2rem;
-    }
-
-    .myForm h2{
-        color: #F5AF31;
-        font-size: 1.1rem;  
-        margin: 1rem 0;  
-    }
-
-    .data{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    #name, #email{
-        border: 0.05rem solid white;
-        border-radius: 0.125rem;
-        color: white;
-        background-color: #F5AF31;
-        text-align: left;
-        width: 8rem;
-        font-size: 0.6rem;
-        margin-bottom: 0.5rem;
-        padding-left: 0.2rem;                
-    }
-
-    input::placeholder{
-        color: white;
-        padding-left: 0.2rem;
-    }
-
-    textarea{
-        border: 2px solid white;
-        border-radius: 0.125rem;
-        color: white;
-        background-color: #F5AF31;
-        text-align: left;
-        font-size: 0.6rem;
-        width: 16.6rem;
-        height: 5rem; 
-        margin-bottom: 1rem;
-        padding-left: 0.2rem;
-    }
-
-    textarea::placeholder{
-        color: white;
-        padding-left: 0.2rem;
-    }
-
-    button{
-        border: 0.05rem solid white;
-        border-radius: 0.125rem;
-        color: white;
-        background-color: #F5AF31;
-        text-align: center;
-        margin-bottom: 0rem;
-        font-size: 0.7rem;
-        width: 4rem;
-        height: 1.2rem;
-        cursor: pointer;
-    }
-
-    button:hover{
-        cursor: pointer;
-    }
-
-    .error{
-        font-size: 0.5rem;
-        color: white;
-    }
-
-    form label {
-        display: block;
-        font-weight: 600;
-        font-size: 1.4rem;
-        margin-bottom: 0.5rem;
-        color: #1f1f1f;
-    }
-
-    form .error {
-        color: #e92b2d;
-        font-weight: 400;
-        font-size: 0.5rem;
-        position: relative;
-        top: 1.5rem;
-        left: -5rem;
-        z-index: 2;
-    }
-
-    form .success {
-        text-align: center;
-        font-size: 14px;
-        padding-top: 2rem;
-        color: #02a802;
-    }
-  
-    .validationError{
-        color: red;
-        font-size: 0.4rem;
-        z-index: 2;
-        margin: -0.2rem 0 0.3rem 5.1rem;
-        text-transform: uppercase;
-    }
-
-    .thanksContact{
-        margin-top: 3rem;
-    }
+  .thanksContact {
+    margin-top: 3rem;
+  }
 }
-
 
 /*DE 840 A 1024*/
 @media (min-width: 840px) {
-    .App{
-        margin: -1rem 1.5rem 2rem 1.5rem;
-    }
+  .App {
+    margin: -1rem 0rem 2rem 0rem;
+  }
 
-    .introduction{
-        width: 100%;
-        height: 40vh;
-        margin-bottom: 1rem;
-    }
+  .about h2 {
+    font-size: 1rem;
+    z-index: 5;
+  }
 
-    .left{ 
-        width: 60%;
-    }
+  .about {
+    width: 100%;
+    margin: 1rem 0 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+  }
 
-    .right{
-        width: 40%; 
-    }
+  .about p {
+    margin: 0 0 1rem 0;
+    font-size: 0.5rem;
+  }
 
-    .introduction img{
-        height: 40vh;
-        width: auto;
-        transform: translateX(-73%);
-    }
+  .left2 {
+    width: 100%;
+    justify-content: left;
+    z-index: 100;
+  }
 
-    .hello{
-        margin-left: 0rem;
-        font-size: 0.6rem;
-        margin-top: 0.5rem;
-    }
+  .left2 p {
+    margin-top: 0.5rem;
+    text-align: justify;
+  }
 
-    .developer{
-        font-size: 0.8rem;
-        margin: 0 0 2rem 0rem;
-    }
+  .right2 {
+    width: 100%;
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
 
-    h1{
-        margin-left: 0rem;
-        font-size: 1rem;
-    }
+  .info {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+  }
 
-    .left h3{
-        width: 4.5rem;
-        font-size: 0.6rem;
-    }
+  .info p {
+    margin-bottom: 0.5rem;
+  }
 
-    .left a{
-        width: 4.5rem;
-        margin-left: 0rem;
-    }
+  .column2 {
+    margin-left: 0.5rem;
+  }
 
-    .spanish{
-        width: 4rem;
-        height: 1.3rem;
-        margin: 0 0 3rem 1.5rem;
-        top: 1rem;
-        left: 13.5rem;
-    }
+  .softSkills {
+    margin-top: 0.5rem;
+  }
 
-    .spanish p{
-        font-size: 0.4rem;
-    }
+  .softSkills li {
+    font-size: 0.5rem;
+    margin-bottom: 0.3rem;
+  }
 
-    .spanish h3{
-        font-size: 0.5rem;
-        
-    }
+  .softSkills h2 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
 
-    .about h2{
-        font-size: 1rem;
-        z-index: 5;
-    }
+  .cvEn {
+    width: 6.5rem;
+    font-size: 0.5rem;
+    margin: 1rem auto 0 auto;
+    padding: 0.1rem 0.2rem;
+  }
 
-    .about{
-        width: 100%;
-        margin: 1rem 0 1rem 0rem;
-        display: flex;
-        flex-direction: column;
-    }
+  .shape {
+    z-index: -110;
+    transform: translate(-190%, -90%);
+  }
 
-    .about p{
-        margin: 0 0 1rem 0;
-        font-size: 0.5rem;
-    }
+  .shape img {
+    width: 6rem;
+    height: auto;
+    transform: translate(85%, 10%);
+  }
 
-    .left2{
-        width: 100%;
-        justify-content: left;   
-        z-index: 100;
-    }
+  .myForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+  .myForm h2 {
+    color: #f5af31;
+    font-size: 1.1rem;
+    margin: 2rem 0 1rem 0;
+  }
 
-    .left2 p{
-        margin-top: 0.5rem; 
-        text-align: justify;
-    }
+  input {
+    width: 8rem;
+    font-size: 0.6rem;
+    margin-bottom: 0.3rem;
+    padding-left: 0.2rem;
+  }
 
-    .right2{
-        width: 100%;
-        margin-left: 0rem;
-        margin-top: 1rem;
-    }
+  form label {
+    display: block;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #1f1f1f;
+  }
 
-    .info{
-        margin-top: 0.5rem;
-        margin-left: 1rem;
-    }
+  textarea {
+    font-size: 0.6rem;
+    width: 16.6rem;
+    height: 5rem;
+    margin-bottom: 1rem;
+    padding-left: 0.2rem;
+  }
 
-    .info p{
-        margin-bottom: 0.5rem;
-    }
+  button {
+    font-size: 0.7rem;
+    width: 4rem;
+    height: 1.2rem;
+    cursor: pointer;
+    justify-content: center;
+  }
 
-    .column2{
-        margin-left: 0.5rem;
-    }
+  form {
+    text-align: center;
+  }
+  form .error {
+    color: #e92b2d;
+    font-weight: 400;
+    font-size: 0.5rem;
+    position: relative;
+    top: 1.5rem;
+    left: -5rem;
+    z-index: 2;
+  }
 
-    .softSkills{
-        margin-top: 0.5rem;  
-    }
+  form .success {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 20px;
+    color: #02a802;
+  }
 
-    .softSkills li{
-        font-size: 0.5rem;
-        margin-bottom: 0.3rem;
-    }
+  .myForm {
+    color: #e92b2d;
+    margin-top: -5rem;
+  }
 
-    .softSkills h2{
-        text-align: center;
-        margin-bottom: 0.5rem;
-    }
+  .myForm h2 {
+    font-size: 1.2rem;
+    color: #f5af31;
+    margin-top: 7.5rem;
+  }
 
-    .cvEn{
-        width: 6.5rem;
-        font-size: 0.5rem;
-        margin: 1rem auto 0 auto;
-        padding: 0.1rem 0.2rem;
-    }
+  .validationError {
+    color: red;
+    font-size: 0.4rem;
+    z-index: 2;
+    margin: -0.2rem 0 0.3rem 5.1rem;
+    text-transform: uppercase;
+  }
 
-    .shape{
-        z-index: -110;
-        transform: translate(-190%, -90%);
-    }
-
-    .shape img{
-        width: 6rem;
-        height: auto;
-        transform: translate(85%, 10%);
-    }
-
-    .projectSection{
-        width: 100%;
-        margin: 1rem -0.5rem;
-    }
-
-    .projectSection h2{
-        font-size: 1.2rem;  
-        margin: 0 0 1rem 0;  
-    }
-
-    .projectSection p{
-        font-size: 0.5rem;
-        margin: 3rem -4rem 5rem -4rem;
-        text-align: justify;
-    }
-
-    .project{
-        display: flex;
-    }
-
-    .projectSection h3{
-        font-size: 0.6rem;
-        margin-top: 2.5rem;
-        border-radius: 0.25rem;
-    }
-
-    .grid{
-        display: grid;
-        grid-template-columns: 31% 31% 31%;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-gap: 1rem;
-        margin: 0 0 1rem 0;
-    }
-   
-    .content{
-        margin-top: 3.5rem;
-    }
-
-    .gout{
-        margin-top: 3.5rem;
-    }
-    
-    .apiCountries{
-        margin-top: 3.5rem;
-    }
-
-    .myForm{
-        display: flex;
-        flex-direction: column;
-        margin-top: 3rem;
-    }
-    .myForm h2{
-        color: #F5AF31;
-        font-size: 1.1rem;  
-        margin: 2rem 0 1rem 0;  
-    }
-
-    input{
-        width: 8rem;
-        font-size: 0.6rem;
-        margin-bottom: 0.3rem;
-        padding-left: 0.2rem;                
-    }
-
-    form label {
-        display: block;
-        font-weight: 600;
-        font-size: 1.4rem;
-        margin-bottom: 0.5rem;
-        color: #1f1f1f;
-    }
-
-    textarea{
-        font-size: 0.6rem;
-        width: 16.6rem;
-        height: 5rem; 
-        margin-bottom: 1rem;
-        padding-left: 0.2rem;
-    }
-
-    button{
-        font-size: 0.7rem;
-        width: 4rem;
-        height: 1.2rem;
-        cursor: pointer;
-        justify-content: center;
-    }
-
-    form {
-        text-align: center;
-
-    }
-    form .error {
-        color: #e92b2d;
-        font-weight: 400;
-        font-size: 0.5rem;
-        position: relative;
-        top: 1.5rem;
-        left: -5rem;
-        z-index: 2;
-    }
-
-    form .success {
-        text-align: center;
-        font-size: 14px;
-        padding-top: 20px;
-        color: #02a802;
-    }
-    
-    .myForm{
-        color: #e92b2d;
-        margin-top: -5rem;
-    }
-
-    .myForm h2{
-        font-size: 1.2rem;
-        color: #F5AF31;
-        margin-top: 7.5rem;
-    }
-
-    .validationError{
-        color: red;
-        font-size: 0.4rem;
-        z-index: 2;
-        margin: -0.2rem 0 0.3rem 5.1rem;
-        text-transform: uppercase;
-    }
-
-    .thanksContact{
-        margin-top: 3rem;
-    }
-
+  .thanksContact {
+    margin-top: 3rem;
+  }
 }
 
 /*DE 1024 A 1200*/
 @media (min-width: 1024px) {
-   
-    .App{
-        margin: -1rem 2.5rem 2rem 2.5rem;
-    }
+  .App {
+    margin: -1rem 0rem 2rem 0rem;
+  }
 
-    .introduction{
-        width: 100%;
-        height: 50vh;
-        margin-bottom: 1rem;
-    }
+  .about h2 {
+    font-size: 1.1rem;
+  }
 
-    .left{ 
-        width: 60%;
-    }
+  .about {
+    width: 100%;
+    margin: 2rem 0 1rem 0rem;
+    display: flex;
+    flex-direction: row;
+  }
 
-    .right{
-        width: 40%; 
-        height: 50vh;
-    }
+  .about p {
+    margin: 0;
+    font-size: 0.5rem;
+  }
 
-    .introduction img{
-        height: 50vh;
-        width: auto;
-        transform: translateX(-58%);
-    }
+  .left2 {
+    width: 50%;
+  }
 
-    .hello{
-        margin-left: 0.5rem;
-        font-size: 0.7rem;
-    }
+  .left2 p {
+    margin-top: 0.5rem;
+  }
 
-    .developer{
-        font-size: 0.9rem;
-        margin: 0 0 2rem 0.5rem;
-    }
+  .right2 {
+    width: 50%;
+    margin-left: 0.5rem;
+    margin-top: 0;
+  }
 
-    h1{
-        margin-left: 0.5rem;
-        font-size: 1.1rem;
-    }
+  .info {
+    margin-top: 0.5rem;
+    z-index: 1;
+  }
 
-    .left h3{
-        width: 5rem;
-        font-size: 0.6rem; 
-    }
+  .info p {
+    margin-bottom: 0.3rem;
+  }
 
-    .left a{
-        width: 5rem;
-        margin-left: 0.5rem;
-    }
+  .column2 {
+    margin-left: 0.05rem;
+  }
 
-    .spanish{
-        width: 5rem;
-        height: 1.5rem;
-        margin: 0 0 5rem 1.5rem;
-        top: 1.5rem;
-        left: 16rem;
-    }
+  .softSkills {
+    margin-top: 0.7rem;
+    z-index: 1;
+  }
 
-    .spanish p{
-        font-size: 0.5rem;
-    }
+  .softSkills li {
+    font-size: 0.5rem;
+    margin-bottom: 0.3rem;
+    margin-left: 1.6rem;
+    text-align: justify;
+  }
 
-    .spanish h3{
-        font-size: 0.6rem;
-        
-    }
+  .softSkills h2 {
+    margin-bottom: 0.5rem;
+  }
 
-    .about h2{
-        font-size: 1.1rem;
-    }
+  .cvEn {
+    width: 5.5rem;
+    font-size: 0.6rem;
+    margin: 1rem auto 0 auto;
+  }
 
-    .about{
-        width: 100%;
-        margin: 2rem 0 1rem 0rem;
-        display: flex;
-        flex-direction: row;
-    }
+  .shape {
+    transform: translate(-190%, -10%);
+  }
 
-    .about p{
-        margin: 0;
-        font-size: 0.5rem;
-    }
+  .shape img {
+    width: 6rem;
+    transform: translate(85%, 10%);
+  }
 
-    .left2{
-        width: 50%;
-    }
+  .myForm {
+    display: flex;
+    flex-direction: column;
+    color: #e92b2d;
+    margin-top: -8rem;
+  }
 
-    .left2 p{
-        margin-top: 0.5rem; 
+  .myForm h2 {
+    font-size: 1.2rem;
+    color: #f5af31;
+    margin-top: 9.5rem;
+  }
 
-    }
+  #nombre,
+  #email {
+    width: 9.5rem;
+    font-size: 0.6rem;
+    margin-bottom: 0.5rem;
+    padding-left: 0.2rem;
+  }
 
-    .right2{
-        width: 50%;
-        margin-left: 0.5rem;
-        margin-top: 0;
-    }
+  form {
+    text-align: center;
+  }
 
-    .info{
-        margin-top: 0.5rem;
-        z-index: 1;
-    }
+  form label {
+    display: block;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #1f1f1f;
+  }
 
-    .info p{
-        margin-bottom: 0.3rem;
-    }
+  textarea {
+    font-size: 0.6rem;
+    width: 18.2rem;
+    height: 5rem;
+    margin-bottom: 0.7rem;
+    padding-left: 0.2rem;
+  }
 
-    .column2{
-        margin-left: 0.05rem;
-    }
+  button {
+    font-size: 0.7rem;
+    width: 5rem;
+    height: 1.2rem;
+    cursor: pointer;
+  }
 
-    .softSkills{
-        margin-top: 0.7rem;
-        z-index: 1;
-    }
+  form .error {
+    color: #e92b2d;
+    font-weight: 400;
+    font-size: 0.5rem;
+    position: relative;
+    top: 1.5rem;
+    left: -5rem;
+    z-index: 2;
+  }
 
-    .softSkills li{
-        font-size: 0.5rem;
-        margin-bottom: 0.3rem;
-        margin-left: 1.6rem;
-        text-align: justify;
-    }
+  form .success {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 20px;
+    color: #02a802;
+  }
 
-    .softSkills h2{
-        margin-bottom: 0.5rem;
-    }
-    
-    .cvEn{
-        width: 5.5rem;
-        font-size: 0.6rem;
-        margin: 1rem auto 0 auto;
-    }
+  .validationError {
+    color: red;
+    font-size: 0.4rem;
+    z-index: 2;
+    margin: -0.2rem 0 0.3rem 5.1rem;
+    text-transform: uppercase;
+  }
 
-    .shape{
-        transform: translate(-190%, -10%);
-    }
-
-    .shape img{
-        width: 6rem;
-        transform: translate(85%, 10%);
-    }
-
-    .grid{
-        display: grid;
-        grid-template-columns: repeat(3, 6.5rem);
-        grid-template-rows: repeat(2, 8.5rem);
-        gap: 4rem 0.5rem;
-        justify-content: center;
-    }
-
-    .portfolioReact, .content, .gout, .apiCountries{
-        width: 6rem;
-        height: 6rem;
-        background-repeat: no-repeat;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;    
-        border: solid 2px #F5AF31;
-    }
-    
-    .portfolioReact {
-        background-size: 140%;
-        background-position-x: -0.95rem;
-        background-position-y: -0.9rem;
-        margin-top: 1rem;
-    }
-
-    .content{
-        background-size: 100%;
-        margin-top: -2rem;
-    }
-
-    .gout{
-        background-size: 100%;
-        margin-top: -2rem;
-    }
-
-    .apiCountries{
-        background-size: 100%;        
-        margin-top: 2.4rem;
-    }
-
-    .projectSection p{
-        font-size: 0.5rem;
-        margin: 3rem 0rem 5rem 0rem;
-        text-align: justify;
-        width: 6rem;
-    }
-
-    .myForm{
-        display: flex;
-        flex-direction: column;
-        color: #e92b2d;
-        margin-top: -8rem;
-    }
-
-    .myForm h2{
-        font-size: 1.2rem;
-        color: #F5AF31;
-        margin-top: 9.5rem;
-    }
-
-    #nombre, #email{
-        width: 9.5rem;
-        font-size: 0.6rem;
-        margin-bottom: 0.5rem;
-        padding-left: 0.2rem;                
-    }
-
-    form{
-        text-align: center;
-    }
-
-    form label {
-        display: block;
-        font-weight: 600;
-        font-size: 1.4rem;
-        margin-bottom: 0.5rem;
-        color: #1f1f1f;
-    }
-
-    textarea{
-        font-size: 0.6rem;
-        width: 18.2rem;
-        height: 5rem; 
-        margin-bottom: 0.7rem;
-        padding-left: 0.2rem;
-    }
-
-    button{
-        font-size: 0.7rem;
-        width: 5rem;
-        height: 1.2rem;
-        cursor: pointer;
-    }
-
-    form .error {
-        color: #e92b2d;
-        font-weight: 400;
-        font-size: 0.5rem;
-        position: relative;
-        top: 1.5rem;
-        left: -5rem;
-        z-index: 2;
-    }
-
-    form .success {
-        text-align: center;
-        font-size: 14px;
-        padding-top: 20px;
-        color: #02a802;
-    }
-
-    .validationError{
-        color: red;
-        font-size: 0.4rem;
-        z-index: 2;
-        margin: -0.2rem 0 0.3rem 5.1rem;
-        text-transform: uppercase;
-    }
-
-    .thanksContact{
-        margin-top: 3rem;
-    }
-
-
+  .thanksContact {
+    margin-top: 3rem;
+  }
 }
 
 /********/
 /*MAS DE 1200*/
 @media (min-width: 1200px) {
-    
-    .App{
-        margin: -1rem 3.5rem 2rem 3.5rem;      
-        }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 
-    .introduction{
-        width: 100%;
-        height: 55vh;
-        margin-bottom: 1rem;
-    }
+  .App {
+    margin: -1rem 0 2rem 0;
+  }
 
-    .left{ 
-        width: 60%;
-        }
+  .about h2 {
+    font-size: 1.2rem;
+  }
 
-    .right{
-        width: 40%; 
-        height: 55vh;
-    }
+  .about {
+    width: 100%;
+    margin: 2rem 0 1rem 0rem;
+  }
 
-    .introduction img{
-        height: 55vh;
-        transform: translateX(-78%);
-    }
+  .about p {
+    margin: 0 0.5rem;
+    font-size: 0.6rem;
+  }
 
+  .left2 {
+    width: 45%;
+  }
 
-    .hello{
-        margin-left: 2rem;
-        font-size: 0.8rem;
-    }
+  .left2 p {
+    margin-top: 0.5rem;
+  }
 
-    .developer{
-        font-size: 1rem;
-        margin: 0 0 1.5rem 2rem;
-    }
+  .right2 {
+    width: 55%;
+    margin-left: 1.2rem;
+    padding-right: 1rem;
+  }
 
-    h1{
-        margin-left: 2rem;
-        font-size: 1.2rem;
-    }
+  .info {
+    margin-top: 0.5rem;
+  }
 
-    .left h3{
-        width: 5.5rem;
-        font-size: 0.7rem;    
-    }
+  .info p {
+    margin-bottom: 0.5rem;
+  }
 
-    .left a{
-        width: 5.5rem;
-        margin-left: 2rem;
-    }
+  .column2 {
+    margin-right: 0.5rem;
+  }
 
-    .spanish{
-        width: 6rem;
-        height: 2rem;
-        margin: 0 0 5rem 3.5rem;
-        top: 2rem;
-        left: 23rem;
-    }
+  .cvEn {
+    width: 6.5rem;
+    font-size: 0.7rem;
+    margin-top: 1.5rem;
+  }
 
-    .spanish p{
-        font-size: 0.6rem;
-    }
+  .shape {
+    transform: translate(-190%, -10%);
+  }
 
-    .translateButton{
-        cursor: pointer;
-        font-size: 0.7rem;
-    }
+  .shape img {
+    width: 9rem;
+    transform: translate(75%, 10%);
+  }
 
-    .about h2{
-        font-size: 1.2rem;
-    }
+  input {
+    width: 8rem;
+    font-size: 0.6rem;
+    margin: 0.3rem;
+    padding-left: 0.2rem;
+  }
 
-    .about{
-        width: 100%;
-        margin: 2rem 0 1rem 0rem;
-    }
+  form label {
+    display: block;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #1f1f1f;
+  }
 
-    .about p{
-        margin: 0 0.5rem;
-        font-size: 0.6rem;
-    }
+  textarea {
+    font-size: 0.6rem;
+    width: 16.6rem;
+    height: 5rem;
 
-    .left2{
-        width: 45%;
-    }
+    padding-left: 0.2rem;
+    margin: 0.2rem 5rem 0.5rem 5rem;
+  }
 
-    .left2 p{
-        margin-top: 0.5rem; 
-    }
+  button {
+    font-size: 0.7rem;
+    width: 5rem;
+    height: 1.2rem;
+    cursor: pointer;
+    margin: 0.3rem;
+  }
 
-    .right2{
-        width: 55%;
-        margin-left: 1.2rem;
-        padding-right: 1rem;
-    }
+  form .error {
+    color: #e92b2d;
+    font-weight: 400;
+    font-size: 0.5rem;
+    position: relative;
+    top: 1.5rem;
+    left: -5rem;
+    z-index: 2;
+  }
 
-    .info{
-        margin-top: 0.5rem;
-    }
+  form .success {
+    text-align: center;
+    font-size: 1.4rem;
+    padding-top: 20px;
+    color: #fff;
+  }
 
-    .info p{
-        margin-bottom: 0.5rem;
-    }
+  .data {
+    justify-content: center;
+  }
 
-    .column2{
-        margin-right: 0.5rem;
-    }
+  .myForm {
+    color: #e92b2d;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+  }
 
-    .cvEn{
-        width: 6.5rem;
-        font-size: 0.7rem;
-        margin-top: 1.5rem;
-    }
+  .myForm h2 {
+    font-size: 1.2rem;
+    color: #f5af31;
+    margin-top: 0.5rem;
+  }
 
-    .shape{
-        transform: translate(-190%, -10%);
-    }
+  #nombre,
+  #email {
+    width: 8rem;
+    font-size: 0.6rem;
+    margin-bottom: 0.5rem;
+    padding-left: 0.2rem;
+  }
 
-    .shape img{
-        width: 9rem;
-        transform: translate(75%, 10%);
-    }
+  .validationError {
+    color: red;
+    font-size: 0.5rem;
+    z-index: 2;
+    margin: -0.2rem 0 0.3rem 6.1rem;
+    text-transform: uppercase;
+  }
 
-    .grid{
-        display: grid;
-        grid-template-columns: repeat(3, 6.5rem);
-        grid-template-rows: repeat(2, 8.5rem);
-        gap: 8rem 2rem;
-        justify-content: center;
-    }
+  .thanksContact {
+    margin-top: 3rem;
+  }
 
-    .projectSection{
-        margin: 1rem -0.5rem;
-    }
-
-    .projectSection h2{
-        font-size: 1.2rem;  
-        margin: 1rem 0;  
-    }
-
-    .projectSection p{
-        margin: 3.8rem 0 1rem 0;
-        font-size: 0.6rem;
-        width: 6.5rem;
-    }
-
-    /*.project{
-        display: flex;
-        flex-direction: row;
-        margin: 0rem 0rem 6rem -1rem;
-        justify-content: space-evenly;
-    }*/
-
-    .projectSection h3{
-        font-size: 0.75rem;
-        margin-top: 2.8rem;
-    }
-
-    .portfolioReact, .content, .gout, .apiCountries{
-        width: 6.5rem;
-        height: 6.5rem;
-    }
-
-    .portfolioReact{
-        background-size: 130%;
-        background-position-x: -1rem;
-        background-position-y: -0.8rem;
-        margin-top: 0;
-    }
-
-    .content{
-        margin-top: 0;
-       }
-
-    .gout{
-        margin-top: 0;
-    }
-
-    .apiCountries{
-        background-size: 110%;
-        background-position-x: -0.5rem;
-        background-position-y: -0.1rem;
-        margin-top: 4rem;
-    }
-
-    input{
-        width: 8rem;
-        font-size: 0.6rem;
-        margin: 0.3rem;
-        padding-left: 0.2rem;                
-    }
-
-    form label {
-        display: block;
-        font-weight: 600;
-        font-size: 1.4rem;
-        margin-bottom: 0.5rem;
-        color: #1f1f1f;
-    }
-
-    textarea{
-        font-size: 0.6rem;
-        width: 16.6rem;
-        height: 5rem; 
-        
-        padding-left: 0.2rem;
-        margin: 0.2rem 5rem 0.5rem 5rem;
-    }
-
-    button{
-        font-size: 0.7rem;
-        width: 5rem;
-        height: 1.2rem;
-        cursor: pointer;
-        margin: 0.3rem;
-    }
-
-    form .error {
-        color: #e92b2d;
-        font-weight: 400;
-        font-size: 0.5rem;
-        position: relative;
-        top: 1.5rem;
-        left: -5rem;
-        z-index: 2;
-    }
-
-    form .success {
-        text-align: center;
-        font-size: 1.4rem;
-        padding-top: 20px;
-        color: #fff;
-    }
-
-    .data{
-        justify-content: center;
-    }
-
-    .myForm{
-        color: #e92b2d;
-        display: flex;
-        flex-direction: column;
-        margin-top: 4rem;
-    }
-
-    .myForm h2{
-        font-size: 1.2rem;
-        color: #F5AF31;
-        margin-top: 0.5rem;
-    }
-
-    #nombre, #email{
-        width: 8rem;
-        font-size: 0.6rem;
-        margin-bottom: 0.5rem;
-        padding-left: 0.2rem;                
-    }
-
-    .validationError{
-        color: red;
-        font-size: 0.5rem;
-        z-index: 2;
-        margin: -0.2rem 0 0.3rem 6.1rem;
-        text-transform: uppercase;
-    }
-
-    .thanksContact{
-        margin-top: 3rem;
-    }
-
-    .successWrapper h2{
-        margin-top: 2rem;
-        color: white;
-        font-size: 1.2rem;
-    }
+  .successWrapper h2 {
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.2rem;
+  }
 }
-

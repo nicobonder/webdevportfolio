@@ -24,6 +24,7 @@
     margin-top: 0.5rem;
     z-index: 5;
     position: relative;
+    text-align: justify;
 }
 
 .left2{
@@ -64,6 +65,7 @@
    margin-top: -6rem !important;
     margin-left: 2.5rem;
     z-index: -300;
+    width: 6rem;
 }
 
 /* .shape img{
@@ -303,6 +305,12 @@
     .left2 h2, .right2 h2, .about_skills_section h2{ 
         font-size: 0.8rem;
     }
+
+    .shape{
+       margin-top: -5.5rem !important;
+        margin-left: 1.5rem;
+        width: 5.5rem;
+    }
 }
 
 /*MENOS DE 550*/
@@ -345,5 +353,11 @@
 .tech_Skills{
     margin-top: 0.4rem;
 }
+
+.shape{
+    margin-top: -4.5rem !important;
+     margin-left: 2.5rem;
+     width: 4.5rem;
+ }
 }
 

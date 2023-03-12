@@ -1,18 +1,21 @@
 .introduction {
   display: flex;
+  width: 80%;
   align-items: center;
-  width: 100%;
+  justify-content: space-between;
   height: 55vh;
-  margin-bottom: 1rem;
+  margin: 0 auto 1rem auto;
 }
 
 .left {
   width: 60%;
-  margin-left: 2rem;
 }
 
 .right {
-  background-color: #f5af31;
+  background-image: url(../../Images/bgRigth.png);
+  background-size: 135%;
+  background-position-x: -1.3rem;
+  background-position-y: -2rem;
   width: 40%;
   display: flex;
   justify-content: center;
@@ -21,11 +24,21 @@
   height: 55vh;
   position: relative;
 }
+/* 
+.introduction_svg_containter{
+  height: 55vh;
+  width: auto;
+}
+
+.introduction_svg_containter svg{
+  width: 100% !important;
+  height: 100% !important;
+} */
 
 .introduction img {
   height: 55vh;
   position: absolute;
-  left: -30%;
+  left: 1;
 }
 
 .hello_text {
@@ -101,6 +114,9 @@ h1 {
   .right {
     width: 45%;
     height: 50vh;
+    background-size: 165%;
+    background-position-x: -1.7rem;
+    background-position-y: -1.4rem;
   }
 
   .introduction img {
@@ -130,8 +146,11 @@ h1 {
   }
 
   .right {
-    width: 50%;
+    width: 45%;
     height: 40vh;
+    background-size: 142%;
+    background-position-x: -0.8rem;
+    background-position-y: -1.1rem;
   }
 
   .introduction img {

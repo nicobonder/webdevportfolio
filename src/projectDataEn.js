@@ -8,7 +8,7 @@ const projectsEn = [
     title: "Click to open this project",
     name: "Portfolio",
     description:
-      "My personal portfolio as Web Developer where you have all the ways to contact me and hire me. Yes, I know you are thinking about it. I used React.js, CSS and some HTML. I also used the Particles.js Library.",
+      "My personal portfolio as Web Developer where you have all the ways to contact me and hire me. I used React.js, JavaScript and CSS. I also used the Particles.js Library.",
     img: "",
   },
   {
@@ -28,7 +28,7 @@ const projectsEn = [
     title: "Click to open this project",
     name: "Pokemon App",
     description:
-      "I created this SPA as part of the Fullstack Developer course I am taking at soyhenry.com. I did the front end with React.js, Redux, and CSS. The back end was built with Express and Sequelize. And the Database with PostgreSQL.",
+      "I created this SPA as part of the Fullstack Developer course I took at soyhenry.com. I did the front end with React.js, JavaScript, Redux, and CSS. The back end was built with Express and Sequelize. And the Database with PostgreSQL.",
     img: "",
   },
   /*{id: 4,
@@ -46,7 +46,7 @@ const projectsEn = [
     title: "Click to open this project",
     name: "Countries API",
     description:
-      "Api that returns the countries of the world. It was created with Vanilla JS and the Api from restcountries.",
+      "Api that returns all the countries of the world. It was created with Vanilla JS and the Api from restcountries.",
     img: "",
   },
   {
@@ -56,7 +56,7 @@ const projectsEn = [
     title: "Click to open this project",
     name: "Groove Tickets",
     description:
-      "Group work creating during the Fullstack Developer Bootcamp at soyhenry.com. I worked on the App's front-end using JavaScript, React, Redux, and Material UI.",
+      "Group work created during the Fullstack Developer Bootcamp at soyhenry.com. I worked on the App's front-end using JavaScript, React.js, Redux, and Material UI.",
     img: "",
   },
 ];

@@ -27,10 +27,10 @@ const ParticleBackground = () => {
                   distance: 300,
                   duration: 2,
                   opacity: 0.5,
-                  size: 20,
+                  size: 15,
                 },
                 push: {
-                  quantity: 4,
+                  quantity: 3,
                 },
                 repulse: {
                   distance: 130,
@@ -63,9 +63,9 @@ const ParticleBackground = () => {
               number: {
                 density: {
                   enable: true,
-                  area: 800,
+                  area: 900,
                 },
-                value: 70,
+                value: 40,
               },
               opacity: {
                 value: 0.5,
@@ -75,7 +75,7 @@ const ParticleBackground = () => {
               },
               size: {
                 random: true,
-                value: 3,
+                value: 2,
               },
             },
             detectRetina: true,

@@ -191,6 +191,10 @@
 
   /*entre 550 y 750*/
   @media (max-width: 750px) {
+    .navbar{
+      height: 2rem;
+    }
+  
     .nav_logo {
       display: none;
     }

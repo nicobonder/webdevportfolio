@@ -8,7 +8,7 @@ const projects = [
     title: "Click para ver el proyecto",
     name: "Portfolio",
     description:
-      "Mi portfolio como Desarrollador Web, donde puedes encontrar todas las formas de contactarme y contratarme. Sí, sé que lo estás pensando. Usé React.js, CSS y algo de HTML. También use la librería Particles.js.",
+      "Mi portfolio como Desarrollador Web, donde puedes encontrar todas las formas de contactarme y contratarme. Usé React.js, JavaScript y CSS. Además, use la librería Particles.js.",
     img: "",
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     title: "Click para ver el proyecto",
     name: "Pokemon App",
     description:
-      "Este SPA fue creada como parte del Bootcamp de Fullstack Developer de soyhenry.com. El front-end lo hice con React.js, Redux y CSS. El back-end lo construí con Express y Sequelize. Y la Base de Datos con PostgreSQL.",
+      "Este SPA fue creada como parte del Bootcamp de Fullstack Developer de soyhenry.com. El front-end lo hice con React.js, Redux, JavaScript y CSS. El back-end lo construí con Express y Sequelize. Y la Base de Datos con PostgreSQL.",
     img: "",
   },
   /*{id: 4,

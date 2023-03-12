@@ -1,0 +1,349 @@
+  .about_section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about h2{
+    font-size: 1rem;
+    color: #f5af31;
+}
+
+.about{
+    width: 80%;
+    margin: 1rem 0rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about_left2_p{
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
+    z-index: 5;
+    position: relative;
+}
+
+.left2{
+    width: 55%;
+    position: relative;
+}
+
+.right2{
+    width: 45%;
+    margin-left: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info{
+    margin-top: 0.5rem;
+    display: flex;
+}
+
+.info p{
+    margin-bottom: 0.5rem;
+    font-size: 0.5rem;
+    z-index: 5;
+}
+
+.column1{
+    margin-left: 0.5rem;
+}
+
+.column2{
+    margin-left: 0.5rem;
+}
+
+
+.shape{
+    position: absolute;
+   margin-top: -6rem !important;
+    margin-left: 2.5rem;
+    z-index: -300;
+}
+
+/* .shape img{
+    width: 9rem;
+    z-index: -300;
+    position: absolute;
+    top: -2rem;
+    left: 0;
+    z-index: -300;
+} */
+
+.about_skills_section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_skills_section h2 {
+    text-align: center;
+}
+
+.my_Skills{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.soft_Skills, .tech_Skills{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.soft_Skills{
+    margin-right: 1rem;
+}
+
+.about_skills_section h2{
+    color:#f5af31;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.about_skills_section h3{
+    color: white;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.about_skills_section li {
+    color: white;
+    font-size: 0.5rem;
+}
+
+.skills_list{
+    list-style-type: none;
+}
+
+.skills_list li::before{
+    content: "\2713"; /* Código del símbolo de check */
+    display: inline-block;
+    margin-right: 0.16rem;
+    width: 0.4rem; 
+    text-align: center;
+    font-size: 1.5em;
+    color: #f5af31;
+}
+
+.cvEn {
+    border: 1px solid #f5af31;
+    border-radius: 0.0125rem;
+    color: white;
+    width: 6rem;
+    font-size: 0.6rem;
+    text-align: center;
+    margin: 1rem auto 2rem auto;
+    padding: 0.1rem 0.2rem;
+  }
+  
+  .cvEn a {
+    color: white;
+  }
+
+/*Entre 1200 y 900*/
+@media screen and (max-width: 1200px) {
+      
+      .about h2{
+        font-size: 1rem;
+        color: #f5af31;
+    }
+    
+    .about{
+        width: 90%;
+        margin: 1rem 0rem 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .about_left2_p{
+        font-size: 0.45rem;
+    }
+    
+    .left2{
+        width: 50%;
+    }
+    
+    .right2{
+        width: 50%;
+        margin-left: 1.2rem;
+    }
+    
+    .info{
+        margin-top: 0.5rem;
+        display: flex;
+    }
+    
+    .info p{
+        margin-bottom: 0.5rem;
+        font-size: 0.5rem;
+        z-index: 5;
+    }
+    
+    .column1{
+        margin-left: 0;
+    }
+    
+    .column2{
+        margin-left: 0.5rem;
+    }
+    
+    .about_skills_section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about_skills_section h2 {
+        text-align: center;
+    }
+    
+    .my_Skills{
+        display: flex;
+        width: 80%;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    
+    .soft_Skills, .tech_Skills{
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .soft_Skills{
+        margin-right: 1rem;
+    } 
+    
+    .about_skills_section h2{
+        color:#f5af31;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .about_skills_section h3{
+        color: white;
+        font-size: 0.8rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .about_skills_section li {
+        color: white;
+        font-size: 0.5rem;
+    }
+    
+    .skills_list{
+        list-style-type: none;
+    }
+    
+    .skills_list li::before{
+        margin-right: 0.16rem;
+    }
+}
+
+/*Entre 900 y 750*/
+@media screen and (max-width: 900px) {
+    
+    .about{
+        width: 80%;
+        margin: 1rem 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about h2{
+        text-align: center;
+    }
+
+    .left2{
+        width: 100%;
+    }
+
+    .about_left2_p{
+        text-align: justify;
+    }
+
+    .shape{
+        position: absolute;
+       margin-top: -5rem !important;
+        margin-left: 3rem;
+        z-index: -300;
+        width: 6rem;
+    }
+
+    .right2{
+        margin: 1rem auto 0 auto;
+    }
+
+    .about_skills_section{
+        margin-top: 1rem;
+    }
+
+}
+
+/*Entre 750 y 550*/
+@media screen and (max-width: 750px) {
+    .left2 h2, .right2 h2, .about_skills_section h2{ 
+        font-size: 0.8rem;
+    }
+}
+
+/*MENOS DE 550*/
+@media screen and (max-width: 550px) {
+   .about_left2_p{
+    font-size: 0.4rem;
+   }
+
+   .my_Skills{
+    flex-direction: column;
+   }
+
+   .skills_list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+
+   }
+
+   .my_Skills li{
+    font-size: 0.4rem;
+    text-align: justify;
+   }
+
+   .soft_Skills, .tech_Skills{
+    width: 100%;
+    display: flex;
+}
+
+.soft_Skills{
+    margin-right:0;
+}
+
+.about_skills_section h3{
+    font-size: 0.7rem;
+    margin-bottom: 0.4rem;
+}
+
+.tech_Skills{
+    margin-top: 0.4rem;
+}
+}
+

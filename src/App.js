@@ -3,8 +3,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
-import AboutMe from "./components/AboutMe/AboutMe";
-import ContactMe from "./components/ContactMe/ContactMe";
 import About from "./components/AboutMe/About";
 import Acerca from "./components/AboutMe/Acerca";
 import Contacto from "./components/ContactMe/Contacto";
@@ -25,7 +23,7 @@ export default function App() {
       <div>
         <Navbar language={language} toggleLanguage={toggleLanguage} />
         <Routes>
-          <Route path="/" element={language === 'en' ? <Home /> : <Inicio />} />
+          <Route path="/webdevportfolio" element={language === 'en' ? <Home /> : <Inicio />} />
           <Route path="/about" element={language === 'en' ? <About /> : <Acerca />} />
           <Route path="/contact" element={language === 'en' ? <Contact /> : <Contacto />} />
         </Routes>

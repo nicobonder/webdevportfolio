@@ -80,6 +80,16 @@
    font-size: 0.5rem;
    margin: 0 0.25rem; 
   }
+
+  .react-switch-bg{
+    height: 0.6rem !important;
+    width: 1.15rem !important;
+  }
+
+  .react-switch-handle{
+    height: 0.58rem !important;
+    width: 0.58rem !important;
+  }
     
   /*Entre 1200 y 900*/
   @media screen and (max-width: 1200px) {

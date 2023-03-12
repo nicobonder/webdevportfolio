@@ -23,7 +23,7 @@ export default function Navbar({ language, toggleLanguage }) {
   return (
     <div className="navbar">
       <div className="nav_logo">
-        <Link to="/">
+        <Link to="/webdevportfolio">
           <img
             className="navbar_logo_img"
             src={Logo}
@@ -33,9 +33,9 @@ export default function Navbar({ language, toggleLanguage }) {
       </div>
       <div className={`nav_items ${isOpen && "open"}`}>
         <Link
-          to={"/"}
+          to={"/webdevportfolio"}
           className={
-            isActive("/") ? "navbar_menu_link_active" : "navbar_menu_link"
+            isActive("/webdevportfolio") ? "navbar_menu_link_active" : "navbar_menu_link"
           }
         >
           {language === "en" ? "HOME" : "INICIO"}

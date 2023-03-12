@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/webdevportfolio/static/css/main.d86ae5f4.css",
-    "main.js": "/webdevportfolio/static/js/main.4c37fb90.js",
+    "main.css": "/webdevportfolio/static/css/main.0d615311.css",
+    "main.js": "/webdevportfolio/static/js/main.425351b7.js",
     "static/js/651.6dc1b76f.chunk.js": "/webdevportfolio/static/js/651.6dc1b76f.chunk.js",
+    "static/media/gt.png": "/webdevportfolio/static/media/gt.4eae54f8ed9663bbd3c6.png",
     "static/media/nico.png": "/webdevportfolio/static/media/nico.c83d75e71a7d8d063f41.png",
     "static/media/CV_Nicolas_Bonder_esp.pdf": "/webdevportfolio/static/media/CV_Nicolas_Bonder_esp.53b2e89c230c1b94faf9.pdf",
     "static/media/CV_NicolasBonder_wd.pdf": "/webdevportfolio/static/media/CV_NicolasBonder_wd.05be8585d71fdd7bd42b.pdf",
     "static/media/pokeLogo.png": "/webdevportfolio/static/media/pokeLogo.66fb325eab0f717210cd.png",
     "static/media/sentado.png": "/webdevportfolio/static/media/sentado.814331998567579daa4f.png",
     "static/media/logoConuntry.png": "/webdevportfolio/static/media/logoConuntry.4c3ceab27feba13875a9.png",
+    "static/media/bgRigth.png": "/webdevportfolio/static/media/bgRigth.77feb0a7caf6d53003fe.png",
     "static/media/shape.png": "/webdevportfolio/static/media/shape.7fd86ca3e128ef615e15.png",
     "static/media/logo_1.png": "/webdevportfolio/static/media/logo_1.5fcf2e2abb9273c6f1f9.png",
     "index.html": "/webdevportfolio/index.html",
-    "main.d86ae5f4.css.map": "/webdevportfolio/static/css/main.d86ae5f4.css.map",
-    "main.4c37fb90.js.map": "/webdevportfolio/static/js/main.4c37fb90.js.map",
+    "main.0d615311.css.map": "/webdevportfolio/static/css/main.0d615311.css.map",
+    "main.425351b7.js.map": "/webdevportfolio/static/js/main.425351b7.js.map",
     "651.6dc1b76f.chunk.js.map": "/webdevportfolio/static/js/651.6dc1b76f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d86ae5f4.css",
-    "static/js/main.4c37fb90.js"
+    "static/css/main.0d615311.css",
+    "static/js/main.425351b7.js"
   ]
 }

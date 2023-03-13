@@ -245,7 +245,7 @@
       display: none;
     }
     .nav_toggle.open > span:nth-child(3) {
-      transform: rotate(-45deg) translateY(-3px);
+      transform: rotate(-45deg) translateY(-6px) translateX(-4px);
     }
   }
   

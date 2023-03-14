@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/webdevportfolio/static/css/main.db40fd43.css",
-    "main.js": "/webdevportfolio/static/js/main.237a5eb3.js",
+    "main.css": "/webdevportfolio/static/css/main.41b80535.css",
+    "main.js": "/webdevportfolio/static/js/main.4f70f264.js",
     "static/js/651.6dc1b76f.chunk.js": "/webdevportfolio/static/js/651.6dc1b76f.chunk.js",
     "static/media/gt.png": "/webdevportfolio/static/media/gt.4eae54f8ed9663bbd3c6.png",
-    "static/media/nico.png": "/webdevportfolio/static/media/nico.c83d75e71a7d8d063f41.png",
     "static/media/CV_Nicolas_Bonder_esp.pdf": "/webdevportfolio/static/media/CV_Nicolas_Bonder_esp.2580dde0cdb4908fbe4e.pdf",
     "static/media/CV_NicolasBonder_wd.pdf": "/webdevportfolio/static/media/CV_NicolasBonder_wd.b34161eedbd2b1a39888.pdf",
+    "static/media/nicobonder_img.png": "/webdevportfolio/static/media/nicobonder_img.37f805e9a435e011ebb1.png",
     "static/media/pokeLogo.png": "/webdevportfolio/static/media/pokeLogo.66fb325eab0f717210cd.png",
     "static/media/sentado.png": "/webdevportfolio/static/media/sentado.814331998567579daa4f.png",
     "static/media/logoConuntry.png": "/webdevportfolio/static/media/logoConuntry.4c3ceab27feba13875a9.png",
-    "static/media/bgRigth.png": "/webdevportfolio/static/media/bgRigth.77feb0a7caf6d53003fe.png",
     "static/media/shape.png": "/webdevportfolio/static/media/shape.7fd86ca3e128ef615e15.png",
     "static/media/logo_1.png": "/webdevportfolio/static/media/logo_1.5fcf2e2abb9273c6f1f9.png",
     "index.html": "/webdevportfolio/index.html",
-    "main.db40fd43.css.map": "/webdevportfolio/static/css/main.db40fd43.css.map",
-    "main.237a5eb3.js.map": "/webdevportfolio/static/js/main.237a5eb3.js.map",
+    "main.41b80535.css.map": "/webdevportfolio/static/css/main.41b80535.css.map",
+    "main.4f70f264.js.map": "/webdevportfolio/static/js/main.4f70f264.js.map",
     "651.6dc1b76f.chunk.js.map": "/webdevportfolio/static/js/651.6dc1b76f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db40fd43.css",
-    "static/js/main.237a5eb3.js"
+    "static/css/main.41b80535.css",
+    "static/js/main.4f70f264.js"
   ]
 }

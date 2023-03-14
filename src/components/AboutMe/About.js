@@ -1,5 +1,7 @@
 import React from "react";
 import shape from "../../Images/shape.png";
+import nicobonder from "../../Images/nicobonder_img.png";
+
 import myPDF from "../../Images/CV_NicolasBonder_wd.pdf";
 
 import ParticleBackground from "../particleBackground";

@@ -1,5 +1,6 @@
 import React from "react";
-import nico from "../../Images/nico.png";
+
+import nicobonder from "../../Images/nicobonder_img.png";
 
 import "./Introduction.css";
 
@@ -43,7 +44,7 @@ export default function Introduction(props) {
         </svg>
 
      </div> */}
-        <img src={nico} alt="Nico Bonder" title="Nico Bonder"></img>
+        <img src={nicobonder} alt="Nico Bonder" title="Nico Bonder"></img>
       </div>
     </div>
   );

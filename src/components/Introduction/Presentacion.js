@@ -1,5 +1,5 @@
 import React from "react"
-import nico from "../../Images/nico.png"
+import nicobonder from "../../Images/nicobonder_img.png";
 
 export default function Introduction(props){
     const [english, setEnglish] = React.useState(props.english)
@@ -20,11 +20,7 @@ export default function Introduction(props){
             </div>
             
             <div className="right">
-                <img 
-                    src={nico} 
-                    alt="Nico Bonder" 
-                    title="Nico Bonder">
-                </img> 
+            <img src={nicobonder} alt="Nico Bonder" title="Nico Bonder"></img>
               
             </div>
         </div>

@@ -12,10 +12,7 @@
 }
 
 .right {
-  background-image: url(../../Images/bgRigth.png);
-  background-size: 135%;
-  background-position-x: -1.3rem;
-  background-position-y: -2rem;
+  
   width: 40%;
   display: flex;
   justify-content: center;
@@ -114,9 +111,6 @@ h1 {
   .right {
     width: 45%;
     height: 50vh;
-    background-size: 165%;
-    background-position-x: -1.7rem;
-    background-position-y: -1.4rem;
   }
 
   .introduction img {
@@ -148,9 +142,6 @@ h1 {
   .right {
     width: 45%;
     height: 40vh;
-    background-size: 142%;
-    background-position-x: -0.8rem;
-    background-position-y: -1.1rem;
   }
 
   .introduction img {

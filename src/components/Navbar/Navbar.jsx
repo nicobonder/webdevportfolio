@@ -7,11 +7,13 @@ import "./Navbar.css";
 
 export default function Navbar({ language, toggleLanguage }) {
   const [isOpen, setIsOpen] = useState(false);
+  //To swap languages
   const handleLanguageToggle = () => {
     toggleLanguage();
   };
-  const location = useLocation();
 
+  //To determinate wich tab is active
+  const location = useLocation();
   const isActive = (path) => {
     return location.pathname === path;
   };
@@ -19,6 +21,9 @@ export default function Navbar({ language, toggleLanguage }) {
   // const toggleLanguage = () => {
   //   setLanguage((prevLanguage) => (prevLanguage === "en" ? "es" : "en"));
   // };
+  const goAndClose = () => {
+    setIsOpen(false);
+  };
 
   return (
     <div className="navbar">
@@ -34,14 +39,18 @@ export default function Navbar({ language, toggleLanguage }) {
       <div className={`nav_items ${isOpen && "open"}`}>
         <Link
           to={"/webdevportfolio"}
+          onClick={goAndClose}
           className={
-            isActive("/webdevportfolio") ? "navbar_menu_link_active" : "navbar_menu_link"
+            isActive("/webdevportfolio")
+              ? "navbar_menu_link_active"
+              : "navbar_menu_link"
           }
         >
           {language === "en" ? "HOME" : "INICIO"}
         </Link>
         <Link
           to={"/about"}
+          onClick={goAndClose}
           className={
             isActive("/about") ? "navbar_menu_link_active" : "navbar_menu_link"
           }
@@ -50,6 +59,7 @@ export default function Navbar({ language, toggleLanguage }) {
         </Link>
         <Link
           to={"/contact"}
+          onClick={goAndClose}
           className={
             isActive("/contact")
               ? "navbar_menu_link_active"
@@ -61,25 +71,23 @@ export default function Navbar({ language, toggleLanguage }) {
       </div>
 
       <div className="language_switch">
-        <span className="change_lang_text">English</span>
-        <Switch
-          onChange={handleLanguageToggle}
-          checked={language === "es"}
-          checkedIcon={false}
-          uncheckedIcon={false}
-          onColor="#008000"
-          offColor="#f5af31"
-          className="switcher_look"
-        />
-        <span className="change_lang_text">Español</span>
+        <label className="button_switch" for="toggle_switch">
+          <input
+            id="toggle_switch"
+            type="checkbox"
+            onChange={handleLanguageToggle}
+          />
+          <span className="slider_switch"></span>
+        </label>
       </div>
+
       <div
         className={`nav_toggle ${isOpen && "open"}`}
         onClick={() => setIsOpen(!isOpen)}
       >
-        <span class="line-1"></span>
-        <span class="line-2"></span>
-        <span class="line-3"></span>
+        <span className="line-1"></span>
+        <span className="line-2"></span>
+        <span className="line-3"></span>
       </div>
     </div>
   );

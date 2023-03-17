@@ -90,6 +90,52 @@
     height: 0.58rem !important;
     width: 0.58rem !important;
   }
+
+  
+  .button_switch {
+    display: inline-block;
+    width: 1.65rem;
+    height: 0.63rem;
+    background-color: #fff;
+    border-radius: 0.79rem;
+    cursor: pointer;
+    padding: 0;
+   }
+   
+   #toggle_switch {
+    display: none;
+   }
+   
+   .slider_switch {
+    display: block;
+    font-size: 0.32rem;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+   }
+   
+   .slider_switch::after {
+    content: 'ENG';
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #f5af31;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+    position: absolute;
+    top: -5px;
+    left: 0;
+    display: grid;
+    place-content: center;
+    line-height: 0;
+    transition: background-color .25s, transform .25s ease-in;
+   }
+   
+   #toggle_switch:checked + .slider_switch::after {
+    content: 'ESP';
+    background-color: #008000;
+    transform: translateX(0.76rem) rotate(360deg);
+   }
     
   /*Entre 1200 y 900*/
   @media screen and (max-width: 1200px) {
@@ -247,6 +293,7 @@
     .nav_toggle.open > span:nth-child(3) {
       transform: rotate(-45deg) translateY(-6px) translateX(-4px);
     }
+
   }
   
   /*Maximo 550*/

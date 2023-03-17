@@ -14,7 +14,7 @@ export default function Project(){
             <div className="project grid">
                 {
                     projectsEn.map(proyecto => ( //projectsEn es la array en projectDataEn, ProyectoCard es la card de proyectos individuales
-                        <div className="projectCard">
+                        <div key={proyecto.id} className="projectCard">
                             <ProyectoCard key={proyecto.id} proyecto={proyecto} /> 
                         </div>
                     ))

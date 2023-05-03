@@ -52,7 +52,7 @@ const projects = [
   {
     id: 6,
     clase: "jazz",
-    link: "https://pg-front-henry.vercel.app/",
+    link: "https://grooveticket.up.railway.app/",
     title: "Click para ver el proyecto",
     name: "Groove Tickets",
     description:

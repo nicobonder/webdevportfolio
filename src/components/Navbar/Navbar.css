@@ -5,6 +5,10 @@
     justify-content:space-around;
     align-items: center;
     width: 100%;
+    position: sticky;
+    top: 0;
+    bottom: auto;
+    z-index: 1000;
   }
   
   .nav_logo {
@@ -115,11 +119,14 @@
    }
    
    .slider_switch::after {
-    content: 'ENG';
+    content: '';
     width: 0.8rem;
     height: 0.8rem;
-    background-color: #f5af31;
+    background-image: url('../../Images/reino-unido.png');
     border: 2px solid #fff;
+    background-size: 1.18rem;
+    background-position: center;
+    background-repeat: no-repeat;
     border-radius: 50%;
     box-shadow: 0 0 5px rgba(0, 0, 0, .25);
     position: absolute;
@@ -132,8 +139,8 @@
    }
    
    #toggle_switch:checked + .slider_switch::after {
-    content: 'ESP';
-    background-color: #008000;
+    content: '';
+    background-image: url('../../Images/espana.png');
     transform: translateX(0.76rem) rotate(360deg);
    }
     

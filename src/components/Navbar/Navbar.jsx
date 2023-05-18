@@ -18,10 +18,7 @@ export default function Navbar({ language, toggleLanguage }) {
     return location.pathname === path;
   };
 
-  // const toggleLanguage = () => {
-  //   setLanguage((prevLanguage) => (prevLanguage === "en" ? "es" : "en"));
-  // };
-  const goAndClose = () => {
+   const goAndClose = () => {
     setIsOpen(false);
   };
 

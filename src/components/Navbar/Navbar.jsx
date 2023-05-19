@@ -1,19 +1,20 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Logo from "../../Images/logo_1.png";
-import Switch from "react-switch";
+// import Switch from "react-switch";
 
 import "./Navbar.css";
 
 export default function Navbar({ language, toggleLanguage }) {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+
   //To swap languages
   const handleLanguageToggle = () => {
     toggleLanguage();
   };
 
   //To determinate wich tab is active
-  const location = useLocation();
   const isActive = (path) => {
     return location.pathname === path;
   };
@@ -25,17 +26,16 @@ export default function Navbar({ language, toggleLanguage }) {
   return (
     <div className="navbar">
       <div className="nav_logo">
-        <Link to="/webdevportfolio">
+        <a href="#introduction_container">
           <img
             className="navbar_logo_img"
             src={Logo}
             alt="logo portfolio Nico Bonder"
           />
-        </Link>
+        </a>
       </div>
       <div className={`nav_items ${isOpen && "open"}`}>
-        <Link
-          to={"/webdevportfolio"}
+      <a href="#introduction_container"
           onClick={goAndClose}
           className={
             isActive("/webdevportfolio")
@@ -44,18 +44,18 @@ export default function Navbar({ language, toggleLanguage }) {
           }
         >
           {language === "en" ? "HOME" : "INICIO"}
-        </Link>
-        <Link
-          to={"/about"}
+        </a>
+        <a
+           href="#about_container"
           onClick={goAndClose}
           className={
             isActive("/about") ? "navbar_menu_link_active" : "navbar_menu_link"
           }
         >
           {language === "en" ? "ABOUT ME" : "ACERCA"}
-        </Link>
-        <Link
-          to={"/contact"}
+        </a>
+        <a
+          href="#contact_container"
           onClick={goAndClose}
           className={
             isActive("/contact")
@@ -64,7 +64,7 @@ export default function Navbar({ language, toggleLanguage }) {
           }
         >
           {language === "en" ? "CONTACT" : "CONTACTO"}
-        </Link>
+        </a>
       </div>
 
       <div className="language_switch">

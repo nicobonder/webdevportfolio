@@ -4,7 +4,7 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { Link } from 'react-router-dom';
 
-import ParticleBackground from "../particleBackground";
+// import ParticleBackground from "../particleBackground";
 
 import "./Contact.css";
 import { useState } from 'react';
@@ -60,7 +60,7 @@ export default function Contact() {
 
   return (
       <section className='myForm'>
-  <ParticleBackground />
+  {/* <ParticleBackground /> */}
 
         <h2>Contact Me</h2>
         <form className='form_data' onSubmit={handleSubmit}>
@@ -95,12 +95,7 @@ export default function Contact() {
             {errors.email && (<p className="error_message">{errors.email}</p>)}
           </div>
         </div>
-        {/* <ValidationError
-          className="validationError"
-          prefix=""
-          field="email"
-          errors={state.errors}
-        /> */}
+
         <div className="input_wrapper">
           <textarea
             id="text"

@@ -24,8 +24,8 @@ export default function App() {
         <Navbar language={language} toggleLanguage={toggleLanguage} />
         <Routes>
           <Route path="/webdevportfolio" element={language === 'en' ? <Home /> : <Inicio />} />
-          <Route path="/about" element={language === 'en' ? <About /> : <Acerca />} />
-          <Route path="/contact" element={language === 'en' ? <Contact /> : <Contacto />} />
+          {/* <Route path="/about" element={language === 'en' ? <About /> : <Acerca />} />
+          <Route path="/contact" element={language === 'en' ? <Contact /> : <Contacto />} /> */}
         </Routes>
       </div>
     </Router>

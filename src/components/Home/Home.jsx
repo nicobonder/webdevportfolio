@@ -11,16 +11,16 @@ export default function Home(props) {
   return (
     <div className='homeSection'>
         <ParticleBackground />
-        <div className='introduction_container'>
+        <div id='introduction_container' className='introduction_container'>
           <Introduction />
         </div>
-        <div className='project_container'>
+        <div id='project_container' className='project_container'>
            <Project />
         </div>
-        <div className='about_container'>
+        <div id='about_container' className='about_container'>
           <About />
         </div>
-        <div className='contact_container'>
+        <div id='contact_container' className='contact_container'>
           <Contact />
         </div>
     </div>

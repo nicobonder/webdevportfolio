@@ -4,14 +4,14 @@ import nicobonder from "../../Images/nicobonder_img.png";
 
 import myPDF from "../../Images/CV_NicolasBonder_wd.pdf";
 
-import ParticleBackground from "../particleBackground";
+// import ParticleBackground from "../particleBackground";
 
 import "./About.css";
 
 export default function About() {
   return (
     <section className="about_section">
-      <ParticleBackground />
+      {/* <ParticleBackground /> */}
       <div className="about">
         <div className="left2">
           <h2>About Me</h2>

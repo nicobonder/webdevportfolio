@@ -61,7 +61,7 @@ export default function Contacto() {
 
   return (
     <section className="myForm">
-       <ParticleBackground />
+       {/* <ParticleBackground /> */}
       <h2>Escribime</h2>
       <form className="form_data" onSubmit={handleSubmit}>
         <div className="data">

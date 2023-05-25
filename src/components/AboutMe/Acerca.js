@@ -9,7 +9,7 @@ import "./About.css";
 export default function Acerca() {
   return (
     <section className="about_section">
-      <ParticleBackground />
+      {/* <ParticleBackground /> */}
       <div className="about">
         <div className="left2">
           <h2>¿Quién soy?</h2>

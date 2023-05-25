@@ -2,7 +2,7 @@
   color: white;
   display: flex;
   flex-direction: column;
-  margin: 1rem auto 2rem auto;
+  margin: 0rem auto;
   width: 100%;
   align-items: center;
 }
@@ -10,7 +10,7 @@
 .myForm h2, .findMe_section h2 {
   font-size: 1rem;
   color: #f5af31;
-  margin: 0 auto 0.5rem auto;
+  margin: 0rem auto 0.5rem auto;
 }
 
 .form_data {
@@ -85,7 +85,7 @@ button {
     font-size: 0.8rem;
     font-weight: 600;
     text-align: center;
-    margin: 1rem auto 2rem auto;
+    margin: 1rem auto;
     padding: 0.1rem 0.2rem;
   transition: 0.2s all;
 }

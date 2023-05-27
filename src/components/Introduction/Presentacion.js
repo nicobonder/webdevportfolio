@@ -1,5 +1,6 @@
 import React from "react"
 import nicobonder from "../../Images/nicobonder_img.png";
+import { motion } from "framer-motion"
 
 export default function Introduction(props){
     const [english, setEnglish] = React.useState(props.english)
@@ -19,21 +20,16 @@ export default function Introduction(props){
                     <h3 id="contact">Contáctame <i className="fab fa-whatsapp"></i></h3></a>
             </div>
             
-            <div className="right">
-            <img src={nicobonder} alt="Nico Bonder" title="Nico Bonder"></img>
+            <motion.div className="right"
+                 initial={{ scale: 1.25, x: -200, opacity: 0 }}
+                 whileInView={{ scale: 1, x: 0, opacity: 1 }}
+                 transition={{ duration: 0.8, type: "spring" }}
+                 viewport={{ once: true }}
+            >
+                <img src={nicobonder} alt="Nico Bonder" title="Nico Bonder"></img>
               
-            </div>
+            </motion.div>
         </div>
     )
 
 }
-
-/*
- <div className="spanish">
-                    <p>English version</p>
-                    <a 
-                        href="views/spanish.html" 
-                        title="Clic aquí para ver versión en español">
-                        <h3>Click here</h3>
-                    </a>
-                </div>*/

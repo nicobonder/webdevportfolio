@@ -15,10 +15,10 @@ export default function Navbar({ language, toggleLanguage }) {
     toggleLanguage();
   };
 
-  //To determinate wich tab is active
-  const isActive = (path) => {
-    return location.pathname === path;
-  };
+  // //To determinate wich tab is active
+  // const isActive = (path) => {
+  //   return location.pathname === path;
+  // };
 
   const goAndClose = () => {
     setIsOpen(false);
@@ -62,11 +62,7 @@ export default function Navbar({ language, toggleLanguage }) {
             scrollToSection("introduction_container");
             goAndClose();
           }}
-          className={
-            isActive("/webdevportfolio")
-              ? "navbar_menu_link_active"
-              : "navbar_menu_link"
-          }
+          className="navbar_menu_link_active"
         >
           {language === "en" ? "HOME" : "INICIO"}
         </a>
@@ -77,9 +73,7 @@ export default function Navbar({ language, toggleLanguage }) {
             scrollToSection("about_container");
             goAndClose();
           }}
-          className={
-            isActive("/about") ? "navbar_menu_link_active" : "navbar_menu_link"
-          }
+          className="navbar_menu_link_active"
         >
           {language === "en" ? "ABOUT ME" : "ACERCA"}
         </a>
@@ -90,11 +84,7 @@ export default function Navbar({ language, toggleLanguage }) {
             scrollToSection("contact_container");
             goAndClose();
           }}
-          className={
-            isActive("/contact")
-              ? "navbar_menu_link_active"
-              : "navbar_menu_link"
-          }
+          className="navbar_menu_link_active"
         >
           {language === "en" ? "CONTACT" : "CONTACTO"}
         </a>

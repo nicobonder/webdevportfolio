@@ -152,11 +152,16 @@ button:hover {
 }
 
 .thanks_page{
-    margin: 1rem 0rem 1rem 2rem;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .thanksContact_text {
   margin-bottom: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 .back_btn_thanks{
@@ -195,6 +200,10 @@ button:hover {
 
     #name, #email{
         margin-top: -0.3rem;
+    }
+
+    .thanksContact_text {
+      font-size: 1rem;
     }
 }
 

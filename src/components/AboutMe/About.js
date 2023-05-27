@@ -1,6 +1,6 @@
 import React from "react";
 import shape from "../../Images/shape.png";
-import nicobonder from "../../Images/nicobonder_img.png";
+import { motion } from "framer-motion"
 
 import myPDF from "../../Images/CV_NicolasBonder_wd.pdf";
 
@@ -14,7 +14,14 @@ export default function About() {
       {/* <ParticleBackground /> */}
       <div className="about">
         <div className="left2">
-          <h2>About Me</h2>
+          <motion.h2
+            initial={{ scale: 1.25, x: -200, opacity: 0 }}
+            whileInView={{ scale: 1, x: 0, opacity: 1 }}
+            transition={{ duration: 0.8, type: "spring" }}
+            viewport={{ once: true }}
+          >
+            About Me
+          </motion.h2>
           <p className="about_left2_p">
             In 2022 I started to study to become a Web Developer. For several
             months, I studied on my own, and in August, I started the Full Stack
@@ -35,7 +42,12 @@ export default function About() {
         </div>
 
         <div className="right2">
-          <h2>Information</h2>
+          <motion.h2
+            initial={{ scale: 1.25, x: -200, opacity: 0 }}
+            whileInView={{ scale: 1, x: 0, opacity: 1 }}
+            transition={{ duration: 0.8, type: "spring" }}
+            viewport={{ once: true }}
+          >Information</motion.h2>
           <div className="info">
             <div className="column1">
               <p>Name:</p>
@@ -54,7 +66,12 @@ export default function About() {
       </div>
 
       <div className="about_skills_section">
-        <h2>Skills</h2>
+        <motion.h2
+         initial={{ scale: 1.25, x: -200, opacity: 0 }}
+         whileInView={{ scale: 1, x: 0, opacity: 1 }}
+         transition={{ duration: 0.8, type: "spring" }}
+         viewport={{ once: true }}
+        >Skills</motion.h2>
         <div className="my_Skills">
           <div className="soft_Skills">
             <h3>Soft</h3>
@@ -80,7 +97,7 @@ export default function About() {
               <li>CSS</li>
               <li>Sequelize</li>
               <li>PostgreSQL</li>
-              <li>MAterial UI</li>
+              <li>Material UI</li>
             </ul>
           </div>
         </div>

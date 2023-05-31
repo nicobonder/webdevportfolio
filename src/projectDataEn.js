@@ -10,6 +10,7 @@ const projectsEn = [
     description:
       "My personal portfolio as Web Developer where you have all the ways to contact me and hire me. I used React.js, JavaScript and CSS. I also used the Particles.js Library.",
     img: "",
+    github: "https://github.com/nicobonder/webdevportfolio"
   },
   {
     id: 2,
@@ -20,6 +21,8 @@ const projectsEn = [
     description:
       "I work as a content writer, so I made a web where I can show my services and my expertise. I created it using HTML, CSS and JavaScript. I also used the Animate On Scroll Library and the Typed.js Library.",
     img: "",
+    github: "https://github.com/nicobonder/contentwriter"
+    
   },
   {
     id: 3,
@@ -30,6 +33,7 @@ const projectsEn = [
     description:
       "I created this SPA as part of the Fullstack Developer course I took at soyhenry.com. I did the front end with React.js, JavaScript, Redux, and CSS. The back end was built with Express and Sequelize. And the Database with PostgreSQL.",
     img: "",
+    github: "https://github.com/nicobonder/piPokemon"
   },
   /*{id: 4,
     clase: "tienda",
@@ -48,6 +52,7 @@ const projectsEn = [
     description:
       "Api that returns all the countries of the world. It was created with Vanilla JS and the Api from restcountries.",
     img: "",
+    github: "https://github.com/nicobonder/countryApi"
   },
   {
     id: 6,
@@ -58,7 +63,19 @@ const projectsEn = [
     description:
       "Group work created during the Fullstack Developer Bootcamp at soyhenry.com. I worked on the App's front-end using JavaScript, React.js, Redux, and Material UI.",
     img: "",
+    github: "https://github.com/nicobonder/PG-Henry"
   },
+  // {
+  // id: 7,
+  // clase: "memo",
+  // link: "https://nicogames.vercel.app/",
+  // title: "Click to open this project",
+  // name: "Memotest Game",
+  // description:
+  //   "Memotest game created using React.Js and CSS.",
+  // img: "",
+  // github: "https://github.com/nicobonder/games"
+  // },
 ];
 
 export default projectsEn;

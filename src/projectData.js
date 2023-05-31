@@ -10,6 +10,7 @@ const projects = [
     description:
       "Mi portfolio como Desarrollador Web, donde puedes encontrar todas las formas de contactarme y contratarme. Usé React.js, JavaScript y CSS. Además, use la librería Particles.js.",
     img: "",
+    github: "https://github.com/nicobonder/webdevportfolio"
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ const projects = [
     description:
       "Trabajo como escritor freelance, entonces creé una sitio web donde poder mostrar los servicios que ofrezco y mi experiencia. Lo creé usando HTML, CSS y JavaScript. También usé las librerías Animate On Scroll y Typed.js.",
     img: "",
+    github: "https://github.com/nicobonder/contentwriter"
   },
   {
     id: 3,
@@ -30,6 +32,7 @@ const projects = [
     description:
       "Este SPA fue creada como parte del Bootcamp de Fullstack Developer de soyhenry.com. El front-end lo hice con React.js, Redux, JavaScript y CSS. El back-end lo construí con Express y Sequelize. Y la Base de Datos con PostgreSQL.",
     img: "",
+    github: "https://github.com/nicobonder/piPokemon"
   },
   /*{id: 4,
     clase: "tienda",
@@ -48,6 +51,7 @@ const projects = [
     description:
       "Api que muestra los países de todo el mundo. Fue creado con Vanilla JS y la api de restcountries.",
     img: "",
+    github: "https://github.com/nicobonder/countryApi"
   },
   {
     id: 6,
@@ -58,7 +62,19 @@ const projects = [
     description:
       "Trabajo grupal realizado durante el cursado del Bootcamp de Fullstack Developer de soyhenry.com. Trabajé sobre el front-end de la aplicación. Usé JavaScript, React, Redux and Material UI.",
     img: "",
+    github: "https://github.com/nicobonder/PG-Henry"
   },
+  // {
+  //   id: 7,
+  //   clase: "memo",
+  //   link: "https://nicogames.vercel.app/",
+  //   title: "Click to open this project",
+  //   name: "Memotest Game",
+  //   description:
+  //     "Juego de Memotest creado con React.Js yn CSS.",
+  //   img: "",
+  //   github: "https://github.com/nicobonder/games"
+  //   },
 ];
 
 export default projects;

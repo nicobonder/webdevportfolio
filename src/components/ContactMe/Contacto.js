@@ -179,7 +179,7 @@ export default function Contacto() {
       </form>
       <div className="findMe_section">
       <motion.h2
-              initial={{ scale: 1.25, y: -200, opacity: 0 }}
+              initial={{ scale: 1.05, y: -200, opacity: 0 }}
               whileInView={{ scale: 1, y: 0, opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.3, type: "tween" }}
               viewport={{ once: true }}

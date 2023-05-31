@@ -64,17 +64,17 @@ const projects = [
     img: "",
     github: "https://github.com/nicobonder/PG-Henry"
   },
-  // {
-  //   id: 7,
-  //   clase: "memo",
-  //   link: "https://nicogames.vercel.app/",
-  //   title: "Click to open this project",
-  //   name: "Memotest Game",
-  //   description:
-  //     "Juego de Memotest creado con React.Js yn CSS.",
-  //   img: "",
-  //   github: "https://github.com/nicobonder/games"
-  //   },
+  {
+    id: 7,
+    clase: "memo",
+    link: "https://nicogames.vercel.app/",
+    title: "Click to open this project",
+    name: "Memotest Game",
+    description:
+      "Juego de Memotest creado con React.Js yn CSS.",
+    img: "",
+    github: "https://github.com/nicobonder/games"
+    },
 ];
 
 export default projects;

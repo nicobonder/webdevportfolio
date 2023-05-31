@@ -108,8 +108,8 @@ export default function Contacto() {
     <section className="myForm">
        {/* <ParticleBackground /> */}
       <motion.h2
-     initial={{ scale: 1.25, x: 200, opacity: 0 }}
-     whileInView={{ scale: 1, x: 0, opacity: 1 }}
+     initial={{ scale: 1.25, y: 200, opacity: 0 }}
+     whileInView={{ scale: 1, y: 0, opacity: 1 }}
      transition={{ duration: 0.8, type: "tween" }}
      viewport={{ once: true }}
       >
@@ -178,7 +178,12 @@ export default function Contacto() {
         </div>
       </form>
       <div className="findMe_section">
-        <h2>Puedes encontrarme en:</h2>
+      <motion.h2
+              initial={{ scale: 1.25, y: -200, opacity: 0 }}
+              whileInView={{ scale: 1, y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, delay: 0.3, type: "tween" }}
+              viewport={{ once: true }}
+        >Puedes encontrarme en:</motion.h2>
         <div className="findMe_div">
           <a
             href="https://www.linkedin.com/in/nicobonder/"

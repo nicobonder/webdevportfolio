@@ -33,7 +33,7 @@ const projectsEn = [
     description:
       "I created this SPA as part of the Fullstack Developer course I took at soyhenry.com. I did the front end with React.js, JavaScript, Redux, and CSS. The back end was built with Express and Sequelize. And the Database with PostgreSQL.",
     img: "",
-    github: "https://github.com/nicobonder/piPokemon"
+    github: "https://github.com/nicobonder/pokemonFront"
   },
   /*{id: 4,
     clase: "tienda",

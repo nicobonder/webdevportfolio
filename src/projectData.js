@@ -32,7 +32,7 @@ const projects = [
     description:
       "Este SPA fue creada como parte del Bootcamp de Fullstack Developer de soyhenry.com. El front-end lo hice con React.js, Redux, JavaScript y CSS. El back-end lo construí con Express y Sequelize. Y la Base de Datos con PostgreSQL.",
     img: "",
-    github: "https://github.com/nicobonder/piPokemon"
+    github: "https://github.com/nicobonder/pokemonFront"
   },
   /*{id: 4,
     clase: "tienda",

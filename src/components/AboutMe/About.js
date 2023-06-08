@@ -93,11 +93,14 @@ export default function About() {
               <li>JavaScript</li>
               <li>React.js</li>
               <li>Redux</li>
+              <li>Node</li>
               <li>HTML</li>
               <li>CSS</li>
+              <li>Tailwind</li>
+              <li>Framer Motion</li>
               <li>Sequelize</li>
               <li>PostgreSQL</li>
-              <li>Material UI</li>
+              <li>Git</li>
             </ul>
           </div>
         </div>

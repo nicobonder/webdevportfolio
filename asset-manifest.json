@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/webdevportfolio/static/css/main.0842ca53.css",
-    "main.js": "/webdevportfolio/static/js/main.1f2d4252.js",
+    "main.js": "/webdevportfolio/static/js/main.1928752b.js",
     "static/js/651.6dc1b76f.chunk.js": "/webdevportfolio/static/js/651.6dc1b76f.chunk.js",
     "static/media/gt.png": "/webdevportfolio/static/media/gt.4eae54f8ed9663bbd3c6.png",
-    "static/media/CV_Nicolas_Bonder_esp.pdf": "/webdevportfolio/static/media/CV_Nicolas_Bonder_esp.024212f2e89fe940f0f7.pdf",
-    "static/media/CV_NicolasBonder_wd.pdf": "/webdevportfolio/static/media/CV_NicolasBonder_wd.4fb4379a5741c1506f10.pdf",
+    "static/media/CV_Nicolas_Bonder_es.pdf": "/webdevportfolio/static/media/CV_Nicolas_Bonder_es.bc840a408bd41cde14eb.pdf",
+    "static/media/CV_Nicolas_Bonder_en.pdf": "/webdevportfolio/static/media/CV_Nicolas_Bonder_en.2802e85f98da5654fb47.pdf",
     "static/media/nicobonder_img.png": "/webdevportfolio/static/media/nicobonder_img.37f805e9a435e011ebb1.png",
     "static/media/pokeLogo.png": "/webdevportfolio/static/media/pokeLogo.66fb325eab0f717210cd.png",
     "static/media/memotest.png": "/webdevportfolio/static/media/memotest.91c91f94d753417a201c.png",
@@ -15,11 +15,11 @@
     "static/media/logo_1.png": "/webdevportfolio/static/media/logo_1.5fcf2e2abb9273c6f1f9.png",
     "index.html": "/webdevportfolio/index.html",
     "main.0842ca53.css.map": "/webdevportfolio/static/css/main.0842ca53.css.map",
-    "main.1f2d4252.js.map": "/webdevportfolio/static/js/main.1f2d4252.js.map",
+    "main.1928752b.js.map": "/webdevportfolio/static/js/main.1928752b.js.map",
     "651.6dc1b76f.chunk.js.map": "/webdevportfolio/static/js/651.6dc1b76f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0842ca53.css",
-    "static/js/main.1f2d4252.js"
+    "static/js/main.1928752b.js"
   ]
 }

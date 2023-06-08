@@ -26,7 +26,7 @@ const projects = [
   {
     id: 3,
     clase: "pokemon",
-    link: "https://pokemonfront-17cp.onrender.com/",
+    link: "https://pokemonfront.up.railway.app/",
     title: "Click para ver el proyecto",
     name: "Pokemon App",
     description:

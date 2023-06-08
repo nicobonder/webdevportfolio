@@ -2,7 +2,7 @@ import React from "react";
 import shape from "../../Images/shape.png";
 import { motion } from "framer-motion"
 
-import myPDF from "../../Images/CV_NicolasBonder_wd.pdf";
+import myPDF from "../../Images/CV_Nicolas_Bonder_en.pdf";
 
 // import ParticleBackground from "../particleBackground";
 
@@ -108,7 +108,7 @@ export default function About() {
 
       <div className="cvEn">
         <h3>
-          <a href={myPDF} download="CV_NicolasBonder_wd.pdf">
+          <a href={myPDF} download="CV_Nicolas_Bonder_en.pdf">
             Download my Resume
           </a>
         </h3>

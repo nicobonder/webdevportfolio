@@ -86,14 +86,17 @@ export default function Acerca() {
           <div className="tech_Skills">
             <h3>Tecnologías que manejo</h3>
             <ul className="skills_list">
-              <li>JavaScript</li>
+            <li>JavaScript</li>
               <li>React.js</li>
               <li>Redux</li>
+              <li>Node</li>
               <li>HTML</li>
               <li>CSS</li>
+              <li>Tailwind</li>
+              <li>Framer Motion</li>
               <li>Sequelize</li>
               <li>PostgreSQL</li>
-              <li>Material UI</li>
+              <li>Git</li>
             </ul>
           </div>
         </div>

@@ -7,7 +7,7 @@ import "./Navbar.css";
 
 export default function Navbar({ language, toggleLanguage }) {
   const [isOpen, setIsOpen] = useState(false);
-  const location = useLocation();
+  //const location = useLocation();
   const navRef = useRef(null);
 
   //To swap languages

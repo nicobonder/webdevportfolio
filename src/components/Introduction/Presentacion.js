@@ -3,7 +3,7 @@ import nicobonder from "../../Images/nicobonder_img.png";
 import { motion } from "framer-motion"
 
 export default function Introduction(props){
-    const [english, setEnglish] = React.useState(props.english)
+    const [/*english*/, setEnglish] = React.useState(props.english)
 
     function changeLanguage(){
       setEnglish(prevSetEnglish => !prevSetEnglish)

@@ -6,7 +6,7 @@ import './Projects.css'
 
 export default function Project(){
 
-    const [english, setEnglish] = React.useState()
+    //const [english, setEnglish] = React.useState()
 
     return(
         <section className="projectSection">

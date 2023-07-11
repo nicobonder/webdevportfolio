@@ -1,68 +1,84 @@
 // Make sure to run npm install @formspree/react
 // For more help visit https://formspr.ee/react-help
-import React from 'react';
-import { useForm, ValidationError } from '@formspree/react';
-import { Link } from 'react-router-dom';
-import { motion } from "framer-motion"
+import React from "react";
+import { useForm, ValidationError } from "@formspree/react";
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 // import ParticleBackground from "../particleBackground";
 
 import "./Contact.css";
-import { useState } from 'react';
- 
+import { useState } from "react";
+
 const validation = (input) => {
-    let errors = {};
-    if (!input.name) {
-      errors.name = "Please, enter your name.";
-    } else if (input.name.length < 3) {
-      errors.name = "The name must have a minimum of 3 characters.";
-    } else if (!/^[a-zA-ZÀ-ÿ\u00f1\u00d1\s]+$/.test(input.name)) {
-      errors.name = "Letters only, please.";
-    } if(!input.email){
-      errors.email="Please, enter your email."
-  } else if(!/\S+@\S+\.\S+/.test(input.email)){
-      errors.email="It should be a valid email."
-  }else if (!input.text) {
-      errors.text = "Please, leave a message.";
-    } else if (input.text.length < 20) {
-      errors.text = "The message must have a minimum of 20 characters.";
-    }
-    return errors;
-  };
+  let errors = {};
+  if (!input.name) {
+    errors.name = "Please, enter your name.";
+  } else if (input.name.length < 3) {
+    errors.name = "The name must have a minimum of 3 characters.";
+  } else if (!/^[a-zA-ZÀ-ÿ\u00f1\u00d1\s]+$/.test(input.name)) {
+    errors.name = "Letters only, please.";
+  }
+  if (!input.email) {
+    errors.email = "Please, enter your email.";
+  } else if (!/\S+@\S+\.\S+/.test(input.email)) {
+    errors.email = "It should be a valid email.";
+  } else if (!input.text) {
+    errors.text = "Please, leave a message.";
+  } else if (input.text.length < 20) {
+    errors.text = "The message must have a minimum of 20 characters.";
+  }
+  return errors;
+};
 
 export default function Contact() {
-    const [errors, setErrors] = useState({ e: "" });
-    const [input, setInput] = useState({
-      name: "",
-      email: "",
-    });
+  const [errors, setErrors] = useState({ e: "" });
+  const [input, setInput] = useState({
+    name: "",
+    email: "",
+  });
   const [state, handleSubmit] = useForm("mqknqpqg");
-  
+
   if (state.succeeded) {
-      return(
-        <div className='thanks_page'>
-          <p className='thanksContact_text'>Thanks for your message!</p>
-          {/* <Link to='/webdevportfolio' className='back_btn_thanks'>Back to Home</Link> */}
-          <div className='findMe_section'>
-            <h2>You can also find me at:</h2>
-            <div className="findMe_div">
-          <a
-            href="https://www.linkedin.com/in/nicobonder/"
-            alt="link to Linkedin"
-          >
-            <svg id="linkedin_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-              <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 
+    return (
+      <div className='thanks_page'>
+        <p className='thanksContact_text'>Thanks for your message!</p>
+        {/* <Link to='/webdevportfolio' className='back_btn_thanks'>Back to Home</Link> */}
+        <div className='findMe_section'>
+          <h2>You can also find me at:</h2>
+          <div className='findMe_div'>
+            <a
+              href='https://www.linkedin.com/in/nicobonder/'
+              alt='link to Linkedin'
+              target='_blank'
+            >
+              <svg
+                id='linkedin_icon'
+                xmlns='http://www.w3.org/2000/svg'
+                viewBox='0 0 448 512'
+              >
+                <path
+                  d='M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 
                 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3
                 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 
                 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 
                 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 
-                101.9V416z" />
-            </svg>
-          </a>
-          <a href="https://github.com/nicobonder/" alt="link to github">
-            <svg id="github_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
-              <path
-                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 
+                101.9V416z'
+                />
+              </svg>
+            </a>
+            <a
+              href='https://github.com/nicobonder/'
+              alt='link to github'
+              target='_blank'
+            >
+              <svg
+                id='github_icon'
+                xmlns='http://www.w3.org/2000/svg'
+                viewBox='0 0 496 512'
+              >
+                <path
+                  d='M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 
                         5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0
                         6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 
                         2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 
@@ -78,14 +94,14 @@ export default function Contact() {
                             1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 
                             3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 
                             6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 
-                            1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
-              />
-            </svg>
-          </a>
+                            1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z'
+                />
+              </svg>
+            </a>
+          </div>
         </div>
-        </div>
-        </div>
-      ) 
+      </div>
+    );
   }
 
   const handleChange = (e) => {
@@ -102,98 +118,110 @@ export default function Contact() {
   };
 
   return (
-      <section className='myForm'>
-  {/* <ParticleBackground /> */}
+    <section className='myForm'>
+      {/* <ParticleBackground /> */}
 
-  <motion.h2
-       initial={{ scale: 1.25, y: -200, opacity: 0 }}
-       whileInView={{ scale: 1, y: 0, opacity: 1 }}
-       transition={{ duration: 0.8, type: "tween" }}
-       viewport={{ once: true }}
-      >Contact Me</motion.h2>
-        <form className='form_data' onSubmit={handleSubmit}>
-            <div className="data">  
-            <div className="input_wrapper">
-            <label htmlFor="name"></label>
+      <motion.h2
+        initial={{ scale: 1.25, y: -200, opacity: 0 }}
+        whileInView={{ scale: 1, y: 0, opacity: 1 }}
+        transition={{ duration: 0.8, type: "tween" }}
+        viewport={{ once: true }}
+      >
+        Contact Me
+      </motion.h2>
+      <form className='form_data' onSubmit={handleSubmit}>
+        <div className='data'>
+          <div className='input_wrapper'>
+            <label htmlFor='name'></label>
             <input
-              id="name"
-              type="name"
-              name="name"
-              placeholder="Name"
+              id='name'
+              type='name'
+              name='name'
+              placeholder='Name'
               value={input.name}
               onChange={handleChange}
               required={true}
-              minLength="3"
+              minLength='3'
             />
-            {errors.name && (
-              <p className="error_message">{errors.name}</p>
-            )}
+            {errors.name && <p className='error_message'>{errors.name}</p>}
           </div>
-          <div className="input_wrapper">
-            <label htmlFor="email"></label>
+          <div className='input_wrapper'>
+            <label htmlFor='email'></label>
             <input
-              id="email"
-              type="email"
-              name="email"
-              placeholder="Email"
+              id='email'
+              type='email'
+              name='email'
+              placeholder='Email'
               value={input.email}
               onChange={handleChange}
               required={true}
             />
-            {errors.email && (<p className="error_message">{errors.email}</p>)}
+            {errors.email && <p className='error_message'>{errors.email}</p>}
           </div>
         </div>
 
-        <div className="input_wrapper">
+        <div className='input_wrapper'>
           <textarea
-            id="text"
-            name="text"
-            placeholder="Leave your message"
+            id='text'
+            name='text'
+            placeholder='Leave your message'
             value={input.text}
-              onChange={handleChange}
+            onChange={handleChange}
             required={true}
-            minLength="20"
+            minLength='20'
           />
-          {errors.text && (<p className="error_message">{errors.text}</p>)}
-        </div>
-           
-        <div>
-            {
-            Object.keys(errors).length ?
-            <button className="contact_btn_notSubmit" type='submit' disabled>
-                Complete the form</button> :
-            <button type="submit" disabled={state.submitting}>
-                Send
-            </button>
-            }
+          {errors.text && <p className='error_message'>{errors.text}</p>}
         </div>
 
-        </form>
-        <div className='findMe_section'>
-            <motion.h2
-              initial={{ scale: 1.05, y: -200, opacity: 0 }}
-              whileInView={{ scale: 1, y: 0, opacity: 1 }}
-              transition={{ duration: 0.8, delay: 0.3, type: "tween" }}
-              viewport={{ once: true }}
-            >You can also find me at:</motion.h2>
-            <div className="findMe_div">
+        <div>
+          {Object.keys(errors).length ? (
+            <button className='contact_btn_notSubmit' type='submit' disabled>
+              Complete the form
+            </button>
+          ) : (
+            <button type='submit' disabled={state.submitting}>
+              Send
+            </button>
+          )}
+        </div>
+      </form>
+      <div className='findMe_section'>
+        <motion.h2
+          initial={{ scale: 1.05, y: -200, opacity: 0 }}
+          whileInView={{ scale: 1, y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.3, type: "tween" }}
+          viewport={{ once: true }}
+        >
+          You can also find me at:
+        </motion.h2>
+        <div className='findMe_div'>
           <a
-            href="https://www.linkedin.com/in/nicobonder/"
-            alt="link to Linkedin"
+            href='https://www.linkedin.com/in/nicobonder/'
+            alt='link to Linkedin'
           >
-            <svg id="linkedin_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-              <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 
+            <svg
+              id='linkedin_icon'
+              xmlns='http://www.w3.org/2000/svg'
+              viewBox='0 0 448 512'
+            >
+              <path
+                d='M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 
                 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3
                 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 
                 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 
                 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 
-                101.9V416z" />
+                101.9V416z'
+              />
             </svg>
           </a>
-          <a href="https://github.com/nicobonder/" alt="link to github">
-            <svg id="github_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+          <a href='https://github.com/nicobonder/' alt='link to github'>
+            <svg
+              id='github_icon'
+              xmlns='http://www.w3.org/2000/svg'
+              viewBox='0 0 496 512'
+            >
               <path
-                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 
+                d='M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 
                         5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0
                         6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 
                         2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 
@@ -209,12 +237,12 @@ export default function Contact() {
                             1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 
                             3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 
                             6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 
-                            1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                            1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z'
               />
             </svg>
           </a>
         </div>
-        </div>
+      </div>
     </section>
   );
 }

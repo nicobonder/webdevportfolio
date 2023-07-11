@@ -106,7 +106,6 @@ export default function Contacto() {
 
   return (
     <section className="myForm">
-       {/* <ParticleBackground /> */}
       <motion.h2
      initial={{ scale: 1.25, y: 200, opacity: 0 }}
      whileInView={{ scale: 1, y: 0, opacity: 1 }}
@@ -147,17 +146,12 @@ export default function Contacto() {
             {errors.email && (<p className="error_message">{errors.email}</p>)}
           </div>
         </div>
-        {/* <ValidationError
-          className="validationError"
-          prefix=""
-          field="email"
-          errors={state.errors}
-        /> */}
+       
         <div className="input_wrapper">
           <textarea
             id="text"
             name="text"
-            placeholder="Deja tu mensaja"
+            placeholder="Deja tu mensaje"
             value={input.text}
               onChange={handleChange}
             required={true}
@@ -188,6 +182,7 @@ export default function Contacto() {
           <a
             href="https://www.linkedin.com/in/nicobonder/"
             alt="link a Linkedin"
+            target="_blank"
           >
             <svg
               id="linkedin_icon"
@@ -202,6 +197,7 @@ export default function Contacto() {
               id="github_icon"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 496 512"
+              target="_blank"
             >
               <path
                 d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 
@@ -229,8 +225,3 @@ export default function Contacto() {
     </section>
   );
 }
-// function App() {
-//   return (
-//     <Contacto />
-//   );
-// }

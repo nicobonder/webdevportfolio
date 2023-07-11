@@ -1,9 +1,8 @@
 import React from "react";
 import shape from "../../Images/shape.png";
 import myPDF from "../../Images/CV_Nicolas_Bonder_es.pdf";
-import { motion } from "framer-motion"
 
-import ParticleBackground from "../particleBackground";
+import { motion } from "framer-motion"
 
 import "./About.css";
 

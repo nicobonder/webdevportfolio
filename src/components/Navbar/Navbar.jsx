@@ -36,6 +36,30 @@ export default function Navbar({ language, toggleLanguage }) {
     }
   };
 
+  
+const addBlurToNavbar = () => {
+  // Añadimos la clase blur
+  document.querySelector(".navbar").classList.add("blur");
+};
+
+const removeBlurFromNavbar = () => {
+  // Eliminamos la clase blur
+  document.querySelector(".navbar").classList.remove("blur");
+};
+
+const handleScroll = () => {
+  // Comprobamos si el usuario ha scrolleado la misma altura que la navbar
+  const scrollTop = window.scrollY;
+  const navbarHeight = navRef.current.offsetHeight;
+  if (scrollTop >= navbarHeight) {
+    addBlurToNavbar();
+  } else {
+    removeBlurFromNavbar();
+  }
+};
+
+window.addEventListener("scroll", handleScroll);
+
   return (
     <div className='navbar' ref={navRef}>
       <div className='nav_logo'>

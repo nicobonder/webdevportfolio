@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/webdevportfolio/static/css/main.0842ca53.css",
-    "main.js": "/webdevportfolio/static/js/main.d95c31ef.js",
+    "main.css": "/webdevportfolio/static/css/main.2b860603.css",
+    "main.js": "/webdevportfolio/static/js/main.9155424c.js",
     "static/js/651.6dc1b76f.chunk.js": "/webdevportfolio/static/js/651.6dc1b76f.chunk.js",
     "static/media/gt.png": "/webdevportfolio/static/media/gt.4eae54f8ed9663bbd3c6.png",
     "static/media/CV_Nicolas_Bonder_es.pdf": "/webdevportfolio/static/media/CV_Nicolas_Bonder_es.bc840a408bd41cde14eb.pdf",
@@ -11,15 +11,15 @@
     "static/media/memotest.png": "/webdevportfolio/static/media/memotest.91c91f94d753417a201c.png",
     "static/media/sentado.png": "/webdevportfolio/static/media/sentado.814331998567579daa4f.png",
     "static/media/logoConuntry.png": "/webdevportfolio/static/media/logoConuntry.4c3ceab27feba13875a9.png",
+    "static/media/logo_1.png": "/webdevportfolio/static/media/logo_1.20a5804a5d93968f6f9b.png",
     "static/media/shape.png": "/webdevportfolio/static/media/shape.7fd86ca3e128ef615e15.png",
-    "static/media/logo_1.png": "/webdevportfolio/static/media/logo_1.5fcf2e2abb9273c6f1f9.png",
     "index.html": "/webdevportfolio/index.html",
-    "main.0842ca53.css.map": "/webdevportfolio/static/css/main.0842ca53.css.map",
-    "main.d95c31ef.js.map": "/webdevportfolio/static/js/main.d95c31ef.js.map",
+    "main.2b860603.css.map": "/webdevportfolio/static/css/main.2b860603.css.map",
+    "main.9155424c.js.map": "/webdevportfolio/static/js/main.9155424c.js.map",
     "651.6dc1b76f.chunk.js.map": "/webdevportfolio/static/js/651.6dc1b76f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0842ca53.css",
-    "static/js/main.d95c31ef.js"
+    "static/css/main.2b860603.css",
+    "static/js/main.9155424c.js"
   ]
 }

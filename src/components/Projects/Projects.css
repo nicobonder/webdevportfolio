@@ -98,6 +98,7 @@
 .memo {
   background-image: url(../../Images/memotest.png);
   background-size: 100%;
+  margin-top: -1.5rem;
 }
 
 .linksDiv {
@@ -105,6 +106,14 @@
   justify-content: space-evenly;
   align-content: flex-end;
   margin-top: auto;
+}
+
+.randomTrip .linksDiv, .HolidayApp .linksDiv, .apiCountries .linksDiv, .memo {
+  margin-top: -2rem;
+}
+
+.memo .linksDiv {
+  margin-top: -4rem;
 }
 
 .linksDiv a {
@@ -117,6 +126,15 @@
 .linksDiv a:hover {
   cursor: pointer;
   color: #f5af31;
+}
+
+.projectCard:nth-child(7){
+  height: auto;
+  margin-bottom: 0;
+}
+
+.projectCard:nth-child(7) p{
+  min-height: 5rem;
 }
 
 /*Entre 1200 y 900*/
@@ -154,16 +172,6 @@
   .jazz, .randomTrip, .memo {
     width: 5.5rem;
     height: 5.5rem;
-  }
-
-  .HolidayApp {
-    background-position-x: -0.9rem;
-    background-position-y: -0.9rem;
-  }
-
-  .randomTrip {
-    background-position-x: 0.1rem;
-    background-position-y: 0.9rem;
   }
 }
 
@@ -241,12 +249,6 @@
   .jazz, .randomTrip, .memo {
     width: 6rem;
     height: 6rem;
-  }
-
-  .HolidayApp {
-    background-size: 140%;
-    background-position-x: -0.95rem;
-    background-position-y: -0.9rem;
   }
   
   .linksDiv {

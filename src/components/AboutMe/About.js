@@ -92,12 +92,12 @@ export default function About() {
             <ul className="skills_list">
               <li>JavaScript</li>
               <li>React.js</li>
-              <li>Redux</li>
-              <li>Node</li>
+              <li>NodeJs</li>
+              <li>Java</li>
+              <li>Spring Boot</li>
               <li>HTML</li>
               <li>CSS</li>
               <li>Tailwind</li>
-              <li>Framer Motion</li>
               <li>Sequelize</li>
               <li>PostgreSQL</li>
               <li>Git</li>

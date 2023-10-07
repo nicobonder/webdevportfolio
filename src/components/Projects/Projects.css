@@ -45,14 +45,14 @@
   font-size: 0.5rem;
   width: 6.5rem;
   min-height: 6rem;
-  text-align: justify;
+  text-align: left;
 }
 
-.portfolioReact,
+.HolidayApp,
 .content,
 .pokemon,
 .apiCountries,
-.jazz, .memo {
+.jazz, .randomTrip, .memo {
   width: 6.5rem;
   height: 6.5rem;
   background-repeat: no-repeat;
@@ -63,11 +63,8 @@
   border: solid 2px #f5af31;
 }
 
-.portfolioReact {
-  background-image: url(../../Images/logo_1.png);
-  background-size: 140%;
-  background-position-x: -1.1rem;
-  background-position-y: -1.1rem;
+.HolidayApp {
+  background: linear-gradient(to bottom right, #75aadb 50%, white 50%);
 }
 
 .content {
@@ -89,6 +86,13 @@
 .jazz {
   background-image: url(../../Images/gt.png);
   background-size: 100%;
+}
+
+.randomTrip {
+  background-image: url(../../Images/logoRandom.png);
+  background-size: 100%;
+  background-position-x: -0.1rem;
+  background-position-y: 0.2rem;
 }
 
 .memo {
@@ -143,18 +147,23 @@
     min-height: 6rem;
   }
 
-  .portfolioReact,
+  .HolidayApp,
   .content,
   .pokemon,
   .apiCountries,
-  .jazz, .memo {
+  .jazz, .randomTrip, .memo {
     width: 5.5rem;
     height: 5.5rem;
   }
 
-  .portfolioReact {
+  .HolidayApp {
     background-position-x: -0.9rem;
     background-position-y: -0.9rem;
+  }
+
+  .randomTrip {
+    background-position-x: 0.1rem;
+    background-position-y: 0.9rem;
   }
 }
 
@@ -225,16 +234,16 @@
     color: white;
   }
 
-  .portfolioReact,
+  .HolidayApp,
   .content,
   .pokemon,
   .apiCountries,
-  .jazz, .memo {
+  .jazz, .randomTrip, .memo {
     width: 6rem;
     height: 6rem;
   }
 
-  .portfolioReact {
+  .HolidayApp {
     background-size: 140%;
     background-position-x: -0.95rem;
     background-position-y: -0.9rem;
@@ -347,11 +356,11 @@
     margin: 1rem 0;
   }
   
-  .portfolioReact,
+  .HolidayApp,
   .content,
   .pokemon,
   .apiCountries,
-  .jazz, .memo{
+  .jazz, .randomTrip, .memo{
     align-items: center;
     justify-content: center;
     place-items: center;

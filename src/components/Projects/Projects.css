@@ -264,11 +264,21 @@
   }
 
   .memo .linksDiv {
-    margin-top: -3.5rem;
+    margin-top: -3rem;
   }
   
   .grid {
     margin-bottom: 2rem;
+  }
+
+  .projectCard:nth-child(7){
+    height: auto;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+  }
+  
+  .projectCard:nth-child(7) p{
+    min-height: 4rem;
   }
 }
 
@@ -290,16 +300,6 @@
     width: 13rem;
     height: 10rem;
     margin: 0.4rem 0;
-  }
-
-  .projectCard:nth-child(4){
-    margin-top: 0.9rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .projectCard:nth-child(5){
-    margin-top: -1.2rem;
-    margin-bottom: 1rem;
   }
 
   .projectSection h2 {
@@ -337,12 +337,20 @@
     margin-top: -1rem;
   } 
 
+  .apiCountries {
+    margin-top: -0.2rem;
+  }
+
   .apiCountries .linksDiv {
     margin-top: -2rem;
   }
 
+  .memo {
+      margin-top: -2.8rem;
+  }
+
   .memo .linksDiv {
-    margin-top: -2.5rem;
+    margin-top: -3rem;
   }
 
   .grid {
@@ -378,7 +386,7 @@
     text-align: justify;
   }
 
-  .projectCard:nth-child(4){
+  /* .projectCard:nth-child(4){
     margin-top: 1.2rem;
     margin-bottom: 0.8rem;
   }
@@ -386,7 +394,7 @@
   .projectCard:nth-child(5){
     margin-top: 0rem;
     margin-bottom: 1rem;
-  }
+  } */
 
   .pokemon .linksDiv {
     margin-top: -1rem;
@@ -396,6 +404,11 @@
     margin-top: -3rem;
   }
 
+  .memo {
+    margin-top: -3.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
   .memo .linksDiv {
     margin-top: -3rem;
   }

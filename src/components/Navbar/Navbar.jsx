@@ -49,12 +49,14 @@ const removeBlurFromNavbar = () => {
 
 const handleScroll = () => {
   // Comprobamos si el usuario ha scrolleado la misma altura que la navbar
-  const scrollTop = window.scrollY;
-  const navbarHeight = navRef.current.offsetHeight;
-  if (scrollTop >= navbarHeight) {
-    addBlurToNavbar();
-  } else {
-    removeBlurFromNavbar();
+  if (navRef.current) {
+    const scrollTop = window.scrollY;
+    const navbarHeight = navRef.current.offsetHeight;
+    if (scrollTop >= navbarHeight) {
+      addBlurToNavbar();
+    } else {
+      removeBlurFromNavbar();
+    }
   }
 };
 
@@ -115,7 +117,7 @@ window.addEventListener("scroll", handleScroll);
       </div>
 
       <div className='language_switch'>
-        <label className='button_switch' for='toggle_switch'>
+        <label className='button_switch' htmlFor='toggle_switch'>
           <input
             id='toggle_switch'
             type='checkbox'

@@ -28,21 +28,21 @@
 
 input {
   border: 1px solid #f5af31;
-    border-radius: 0.0125rem;
-    color: white;
-    background-color: transparent;
+  border-radius: 0.15rem;
+  color: white;
+  background-color: transparent;
   text-align: left;
   margin: 0rem 0 0.5rem 0;
   width: 7.5rem;
   height: 0.8rem;
   font-size: 0.5rem;
-  padding-left: 0.1rem;
+  padding: 0.2rem;
   font-size: 0.5rem;
 }
 
 input::placeholder {
   color: rgb(232, 226, 226);
-  font-size: 0.5rem;
+  font-size: 0.4rem;
   padding-left: 0.1rem;
 }
 
@@ -56,13 +56,13 @@ input::placeholder {
 
 textarea {
   border: 1px solid #f5af31;
-    border-radius: 0.0125rem;
-    color: white;
-    background-color: transparent;
+  border-radius: 0.15rem;
+  color: white;
+  background-color: transparent;
   display: block;
   margin-top: 0.3rem;
   margin-bottom: 0.3rem;
-  padding-left: 0.1rem;
+  padding: 0.2rem;
   text-align: left;
   font-size: 0.5rem;
   height: 3rem;
@@ -71,22 +71,22 @@ textarea {
 
 textarea::placeholder {
   color: rgb(232, 226, 226);
-  font-size: 0.5rem;
+  font-size: 0.4rem;
   padding-left: 0.1rem;
 }
 
 button {
   border: 1px solid #f5af31;
-    border-radius: 0.0125rem;
-    color: white;
-    background-color: transparent;
-    width: 5.5rem;
-    height: 1.2rem;
-    font-size: 0.8rem;
-    font-weight: 600;
-    text-align: center;
-    margin: 1rem auto;
-    padding: 0.1rem 0.2rem;
+  background-color: #f5af31;
+  border-radius: 0.2rem;
+  color: white;
+  width: 5.5rem;
+  height: 1.2rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 1rem auto;
+  padding: 0.1rem 0.2rem;
   transition: 0.2s all;
 }
 
@@ -149,6 +149,7 @@ button:hover {
   font-size: 0.5rem;
   z-index: 2;
   margin: -0.2rem auto 0.3rem auto;
+  text-align: center;
 }
 
 .thanks_page{
@@ -228,6 +229,10 @@ button:hover {
 
     .myForm h2, .findMe_section h2 {
         font-size: 0.65rem;
+    }
+
+    .error_message {
+      font-size: 0.4rem;
     }
     
 }

@@ -17,14 +17,14 @@
   }
 
   .nav_logo {
-    margin: 0 1.5rem 0 0.5rem;
+    margin: 0 1.5rem 0 0;
     width: 1.8rem;
     height: 1.8rem;
     display: flex;
   }
   
   .navbar_logo_img {
-    margin: auto 0.75rem;
+    margin: auto 0;
     color: white;
     position: relative;
     width: 1.8rem;
@@ -151,19 +151,16 @@
     
   /*Entre 1200 y 900*/
   @media screen and (max-width: 1200px) {
-    .navbar {
-        justify-content:center;        
-      }
-
+   
       .nav_items{
         display: flex;
         justify-content: space-around;
       }
 
       .nav_logo {
-        margin: 0 0.7rem 0 0.3rem;
-        width: 2.3rem;
-        height: 2.3rem;
+        margin: 0 0.7rem 0 0;
+        width: 1.6rem;
+        height: 1.6rem;
       }
       
       .navbar_logo_img {
@@ -195,17 +192,8 @@
 
   /*entre 900 y 750*/
   @media screen and (max-width: 900px) {
-    .navbar {
-        display: flex;
-        justify-content:space-evenly;       
-        align-items: center; 
-
-      }
-      
       .nav_logo {
         margin: 0 0.4rem 0 0;
-        width: 2rem;
-        height: 2rem;
       }
 
       .nav_items{
@@ -247,10 +235,11 @@
 
   }
 
-  /*entre 550 y 750*/
+  /*entre 750 y 550*/
   @media (max-width: 750px) {
     .navbar{
       height: 1.1rem;
+      justify-content: space-between;
     }
   
     .nav_logo {
@@ -288,7 +277,7 @@
       display: flex !important;
       flex-direction: column;
       z-index: 100;
-
+      margin-right: 0.5rem;
     }
   
     .nav_toggle span {
@@ -323,6 +312,7 @@
       border-radius: 0.79rem;
       cursor: pointer;
       padding: 0;
+      margin-left: 0.5rem;
      }
 
      

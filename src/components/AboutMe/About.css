@@ -64,6 +64,7 @@
     margin-left: 2.5rem;
     z-index: -300;
     width: 6rem;
+    opacity: 0.6;
 }
 
 /* .shape img{
@@ -139,8 +140,9 @@
 
 .cvEn {
     border: 1px solid #f5af31;
-    border-radius: 0.0125rem;
+    border-radius: 0.2rem;
     color: white;
+    background-color: #f5af31;
     width: 6rem;
     font-size: 0.6rem;
     text-align: center;
@@ -148,6 +150,13 @@
     padding: 0.1rem 0.2rem;
   }
   
+  .cvEn:hover {
+    border: 1px solid #fff;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px white;
+    scale: 1.02;
+  }
+
   .cvEn a {
     color: white;
   }
@@ -312,6 +321,15 @@
        margin-top: -5.5rem !important;
         margin-left: 1.5rem;
         width: 5.5rem;
+    }
+
+    .cvEn{
+        padding: 0.2rem;
+    }
+
+    .cvEn h3{
+        text-align: center;
+        font-size: 0.5rem;
     }
 }
 

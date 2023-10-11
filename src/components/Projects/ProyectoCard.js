@@ -13,8 +13,8 @@ export default function ProyectoCard({
             </a>
             <p>{description}</p>
             <div className="linksDiv">
-                <a href={link} target="_blank" rel="noreferrer">Live</a>
-                <a href={github} target="_blank" rel="noreferrer">GitHub</a>
+                <a className="liveBtn" href={link} target="_blank" rel="noreferrer">Live</a>
+                <a className="githubBtn" href={github} target="_blank" rel="noreferrer">GitHub</a>
             </div>
         </div>
     )

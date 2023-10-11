@@ -103,7 +103,7 @@
 
 .linksDiv {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-content: flex-end;
   margin-top: auto;
 }
@@ -135,6 +135,20 @@
 
 .projectCard:nth-child(7) p{
   min-height: 5rem;
+}
+
+.liveBtn, .githubBtn {
+  border-radius: 0.2rem;
+  padding: 0.1rem;
+}
+
+.liveBtn {
+  border: 1px solid #f5af31;
+  background-color: #f5af31;
+}
+
+.githubBtn {
+  border: 1px solid white;
 }
 
 /*Entre 1200 y 900*/
@@ -232,7 +246,7 @@
     font-size: 0.45rem;
     margin: 3rem -4rem 1rem -4rem;
     padding: 0 0.2rem;
-    text-align: justify;
+    text-align: left;
     min-height: auto;
     max-height: auto;
   }
@@ -325,7 +339,6 @@
     width: 12rem;
     margin: 3rem -3rem 0rem -3rem;
     padding: 0 0.2rem;
-    text-align: justify;
     min-height: auto;
   }
 
@@ -383,7 +396,6 @@
     min-height: auto;
     margin: 3rem 0 1rem -0.5rem;
     padding: 0 0.2rem;
-    text-align: justify;
   }
 
   /* .projectCard:nth-child(4){

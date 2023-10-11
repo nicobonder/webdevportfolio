@@ -44,7 +44,7 @@ export default function Acerca() {
           whileInView={{ scale: 1, x: 0, opacity: 1 }}
           transition={{ duration: 0.8, type: "spring" }}
           viewport={{ once: true }}
-        >Information</motion.h2>
+        >Información</motion.h2>
           <div className="info">
             <div className="column1">
               <p>Nombre:</p>

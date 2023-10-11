@@ -12,7 +12,6 @@
 }
 
 .right {
-  
   width: 40%;
   display: flex;
   justify-content: center;
@@ -21,16 +20,6 @@
   height: 55vh;
   position: relative;
 }
-/* 
-.introduction_svg_containter{
-  height: 55vh;
-  width: auto;
-}
-
-.introduction_svg_containter svg{
-  width: 100% !important;
-  height: 100% !important;
-} */
 
 .introduction img {
   height: 55vh;
@@ -56,10 +45,13 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 5.5rem;
+  width: 6rem;
   height: 1rem;
   border: #f5af31 1px solid;
+  border-radius: 0.2rem;
   color: white;
+  background-color: #f5af31;
+  padding: 0.8rem 0;
 }
 
 .left h3 {
@@ -128,7 +120,7 @@ h1 {
   }
 }
 
-/*entre 750 y 900*/
+/*entre 900 y 750*/
 @media screen and (max-width: 900px) {
   .introduction {
     height: 40vh;
@@ -149,6 +141,7 @@ h1 {
     width: auto;
   }
 
+
   h1 {
     font-size: 0.8rem;
   }
@@ -163,7 +156,7 @@ h1 {
   }
 }
 
-/*entre 550 y 750*/
+/*entre 750 y 550*/
 @media screen and (max-width: 750px) {
   .introduction {
     height: 40vh;
@@ -183,10 +176,14 @@ h1 {
     margin-left: 0;
   }
 
+  h1, .hello_text, .developer, h3 {
+    text-align: left;
+  }
+
   .left a {
     width: 4.5rem;
     height: 0.9rem;
-    margin: 0 auto;
+    padding: 0.6rem 0;
   }
 
   .left h3 {

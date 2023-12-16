@@ -54,8 +54,8 @@ export default function Acerca() {
             </div>
             <div className="column2">
               <p>Nicolás Bonder</p>
-              <p>Monte Cristo, Córdoba (Arg)</p>
-              <p>5125</p>
+              <p>Coimbra, Portugal</p>
+              <p>3000-182</p>
               <p>nicolasbonder@gmail.com</p>
             </div>
           </div>
